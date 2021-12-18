@@ -1,0 +1,59 @@
+{
+  "name": "lexington",
+  "homepage": "https://lexingtontech.us",
+  "version": "1.1.0",
+  "description": "",
+  "repository": "https://github.com/lexingtontechus/",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "7.16.0",
+    "@fleekhq/fleek-storage-js": "1.0.20",
+    "@formspree/react": "2.2.4",
+    "@fortawesome/fontawesome-free": "5.15.4",
+    "@popperjs/core": "2.11.0",
+    "@tailwindcss/forms": "0.4.0",
+    "announcekit-react": "2.1.7",
+    "chart.js": "3.6.2",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.9",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-gtm-module": "2.0.11",
+    "react-player": "2.9.0",
+    "react-scripts": "4.0.3",
+    "tailwindcss": "3.0.0",
+    "webpack": "5.65.0"
+  },
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev",
+    "export": "next export",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm run dev",
+    "build:tailwind": "tailwind build styles/index.css -o styles/tailwind.css"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "optionalDependencies": {
+    "typescript": "4.2.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.2.5",
+    "postcss": "8.2.14"
+  },
+  "keywords": []
+}

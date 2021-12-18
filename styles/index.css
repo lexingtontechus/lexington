@@ -1,0 +1,14 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.minymon {
+  position: relative;
+  z-index: 2147483647;
+}
+
+.bg-lxtgroup {
+  background-color: rgba(109, 146, 110, var(--tw-bg-opacity));
+}
