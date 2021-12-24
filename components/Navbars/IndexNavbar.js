@@ -3,7 +3,7 @@ import Link from "next/link";
 import AnnounceKit from "announcekit-react";
 
 //components
-import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
+//import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -38,7 +38,7 @@ export default function Navbar(props) {
           </div>
           <div
             className={
-              "lg:flex flex-grow items-center bg-indigo-500 lg:bg-opacity-0 lg:shadow-none" +
+              "lg:flex flex-grow items-center bg-indigo-900 lg:bg-opacity-0 lg:shadow-none" +
               (navbarOpen ? " block" : " hidden")
             }
             id="example-navbar-warning"
@@ -46,7 +46,7 @@ export default function Navbar(props) {
             <ul className="flex flex-col lg:flex-row list-none mr-auto">
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-300 text-blueGray-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="/ai"
                 >
                   AI
@@ -54,7 +54,7 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-300 text-blueGray-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="/blockchain"
                 >
                   Blockchain
@@ -62,100 +62,90 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-300 text-blueGray-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="/smartfx"
                 >
                   SmartX
                 </a>
               </li>
-              <li className="flex items-center">
-                <IndexDropdown />
-              </li>
-              {/*<li className="flex items-center">
-                <a
-                  className="hover:text-blueGray-300 text-blueGray-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/about"
-                >
-                  About
-                </a>
-          </li>*/}
-              {/*<li className="flex items-center">
-                <a
-                  className="hover:text-blueGray-300 text-blueGray-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/contact"
-                >
-                  Contact
-                </a>
-        </li>*/}
 
-              <li className="flex items-center">
-                <span className="hover:text-blueGray-300 text-blueGray-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+              {/*<li className="flex items-center">
+                <span className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
                   News{" "}
                   <AnnounceKit widget="https://announcekit.app/widgets/v2/30f3IA" />
                 </span>
-              </li>
+          </li>*/}
             </ul>
 
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              {/*<li className="flex items-center">
-                <IndexDropdown />
-          </li>*/}
-              <li className="flex items-center">
+              <li className="flex items-center hover:text-slate-800 text-slate-300 ">
+                <span
+                  className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  title="News"
+                >
+                  <AnnounceKit widget="https://announcekit.app/widgets/v2/30f3IA">
+                    <i className="hover:text-slate-800 text-slate-300 fas fa-rss text-lg leading-lg mr-2" />
+                    <span className="lg:hidden inline-block">News</span>
+                  </AnnounceKit>
+                </span>
+              </li>
+
+              <li className="flex items-center hover:text-slate-800 text-slate-300 ">
                 <a
-                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="/about"
                   rel="noreferrer"
                   title="About"
                 >
-                  <i className="text-blueGray-300 fas fa-info-circle text-lg leading-lg " />
+                  <i className="fas fa-info-circle text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">About</span>
                 </a>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center hover:text-slate-800 text-slate-300 ">
                 <a
-                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="/contact"
                   rel="noreferrer"
                   title="Contact"
                 >
-                  <i className="text-blueGray-300 fas fa-at text-lg leading-lg " />
+                  <i className="fas fa-at text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Contact</span>
                 </a>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center hover:text-slate-800 text-slate-300 ">
                 <a
-                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://www.linkedin.com/company/lxtgroup"
+                  className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href="https://www.linkedin.com/company/lexingtontech"
                   target="_blank"
                   rel="noreferrer"
                   title="LinkedIn"
                 >
-                  <i className="text-blueGray-300 fab fa-linkedin text-lg leading-lg " />
+                  <i className="fab fa-linkedin text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">LinkedIn</span>
                 </a>
               </li>
 
-              <li className="flex items-center">
+              <li className="flex items-center hover:text-slate-800 text-slate-300 ">
                 <a
-                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://angel.co/company/lxt-group/"
+                  className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href="https://angel.co/company/lexingtontech/"
                   target="_blank"
                   rel="noreferrer"
                   title="Angel"
                 >
-                  <i className="text-blueGray-300 fab fa-angellist text-lg leading-lg " />
+                  <i className="fab fa-angellist text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">AngelCo</span>
                 </a>
               </li>
-              <li className="flex items-center">
+              <li className="flex items-center hover:text-slate-800 text-slate-300 ">
                 <a
-                  className="hover:text-blueGray-300 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://discord.gg/8nZndQn6m6"
                   target="_blank"
                   rel="noreferrer"
                   title="Discord"
                 >
-                  <i className="text-blueGray-300 fab fa-discord text-lg leading-lg " />
+                  <i className="fab fa-discord text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Discord</span>
                 </a>
               </li>

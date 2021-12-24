@@ -19,7 +19,7 @@ const IndexDropdown = () => {
   return (
     <>
       <a
-        className="hover:text-blueGray-500 text-blueGray-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+        className="hover:text-slate-300 text-slate-500 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
         href="#pablo"
         ref={btnDropdownRef}
         onClick={(e) => {
@@ -33,37 +33,40 @@ const IndexDropdown = () => {
         ref={popoverDropdownRef}
         className={
           (dropdownPopoverShow ? "block " : "hidden ") +
-          "bg-indigo-500 text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
+          "bg-indigo-200 text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
         }
       >
-        <Link href="/admin/dashboard">
+        <Link href="/esports">
           <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-300 uppercase"
-            }
+            className="hover:text-slate-300 text-slate-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+            href="/esports"
+            rel="noreferrer"
+            title="eSports"
           >
-            eSports
+            <i className="text-slate-500 fas fa-gamepad text-lg leading-lg " />
+            <span className="inline-block ml-2 text-slate-500">eSports</span>
           </a>
         </Link>
-        <Link href="/admin/dashboard">
+        <Link href="/nonprofit">
           <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-300 uppercase"
-            }
+            className="hover:text-slate-300 text-slate-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+            href="/nonprofit"
+            rel="noreferrer"
+            title="Non-Profit"
           >
-            Non-Profit
+            <i className="text-slate-500 fas fa-people-arrows text-lg leading-lg " />
+            <span className="inline-block ml-2 text-slate-500">Non-Profit</span>
           </a>
         </Link>
-        <Link href="/admin/settings">
+        <Link href="/services">
           <a
-            href="#pablo"
-            className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-300 uppercase"
-            }
+            className="hover:text-slate-300 text-slate-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+            href="/services"
+            rel="noreferrer"
+            title="Services"
           >
-            Services
+            <i className="text-slate-500 fas fa-universal-access text-lg leading-lg " />
+            <span className="inline-block ml-2 text-slate-500">Services</span>
           </a>
         </Link>
       </div>

@@ -86,7 +86,7 @@ export default function Startups() {
           </div>
         </div>
 
-        <section className="pb-20 bg-blueGray-200 -mt-24">
+        <section className="pb-20 bg-blueGray-200 -mt-16">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -192,7 +192,7 @@ export default function Startups() {
               </div>
             </div>
             {/*Delivery Food*/}
-            <div className="flex flex-wrap items-center mt-32">
+            <div className="flex flex-wrap items-center mt-16">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
                   The Future Of Local Business

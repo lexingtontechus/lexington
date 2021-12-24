@@ -34,6 +34,7 @@ AI, Smart FX, Blockchain, Hyper-Local Microservices.  Web 3.0 Blockchain domain 
           />
           <link rel="shortcut icon" href="/ico_logo_lxt.svg" />
           <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon.png" />
+          <script src="https://cdn.tailwindcss.com"></script>
           <script
             id="convertful-api"
             src="https://app.convertful.com/Convertful.js?owner=6615"
@@ -49,7 +50,7 @@ AI, Smart FX, Blockchain, Hyper-Local Microservices.  Web 3.0 Blockchain domain 
             type="text/javascript"
           ></script>
         </Head>
-        <body className="text-indigo-900 antialiased">
+        <body className="text-slate-700 antialiased">
           <div id="page-transition"></div>
           <Main />
           <NextScript />

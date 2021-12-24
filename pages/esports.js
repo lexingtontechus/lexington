@@ -8,15 +8,15 @@ import Head from "next/head";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
-export default function AI() {
+export default function esports() {
   //const [isPlaying, setIsPlaying] = useState(true);
   return (
     <>
       <Head>
-        <title>Lexington | AI</title>
+        <title>Lexington | eSports</title>
         <meta
           property="og:title"
-          content="Lexington Tech - AI Innovations in startups"
+          content="Lexington Tech - eSports Technology."
           key="title"
         />
       </Head>
@@ -39,13 +39,12 @@ export default function AI() {
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
                 <div className="p-2">
                   <h1 className="text-white font-semibold text-5xl text-center pb-4 uppercase">
-                    AI Innovations
+                    eSports Technology
                   </h1>
 
                   <div className="pt-2 w-full h-4/12">
                     <p className="mt-2 mb-4 text-slate-400 text-center">
-                      AI technologies today represent the driving force in the
-                      economy across all activities & industries.
+                      AI Powered Algorithmic Trading
                     </p>
                   </div>
                 </div>
@@ -84,14 +83,16 @@ export default function AI() {
                     </div>
                     <h6 className="text-xl font-semibold">Our Mission</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Rapid AI SaaS solutions deployment.
+                      Investing in the sustainable future of food & medical
+                      advances.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Scaling AI technologies for industry applications.
+                      Sustainable & high yield foodtech products & water
+                      sources.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Train new models focused on service delivery &
-                      manufacturing.
+                      Future of eCommerce powered by virtual & augmented
+                      reality.
                     </p>
                   </div>
                 </div>
@@ -100,71 +101,23 @@ export default function AI() {
               <div className="w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-slate-400">
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
                       <i className="fas fa-power-off"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Our Technologies</h6>
+                    <h6 className="text-xl font-semibold">Our Investments</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Leverage industry leading solutions for your business.
+                      We invest in plant-based & cell-based innovations. If you
+                      are a start-ups that fits our missionInvesting in the
+                      sustainable future of food & medical advances.
                     </p>
-                    <ul className="list-none">
-                      <li className="py-1">
-                        <div className="flex items-center">
-                          <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                              <i className="fas fa-industry"></i>
-                            </span>
-                          </div>
-                          <div>
-                            <h4 className="text-blueGray-500 text-left">
-                              Computer vision
-                            </h4>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-1">
-                        <div className="flex items-center">
-                          <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                              <i className="fas fa-chalkboard-teacher"></i>
-                            </span>
-                          </div>
-                          <div>
-                            <h4 className="text-blueGray-500 text-left">
-                              Machine learning
-                            </h4>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-1">
-                        <div className="flex items-center">
-                          <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                              <i className="fas fa-chart-bar"></i>
-                            </span>
-                          </div>
-                          <div>
-                            <h4 className="text-blueGray-500 text-left">
-                              Predictive analytics
-                            </h4>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-1">
-                        <div className="flex items-center">
-                          <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                              <i className="fas fa-object-group"></i>
-                            </span>
-                          </div>
-                          <div>
-                            <h4 className="text-blueGray-500 text-left">
-                              Classification tools
-                            </h4>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
+                    <p className="mt-2 mb-4 text-slate-500">
+                      Sustainable & high yield foodtech products & water
+                      sources.
+                    </p>
+                    <p className="mt-2 mb-4 text-slate-500">
+                      Future of eCommerce powered by virtual & augmented
+                      reality.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -175,50 +128,60 @@ export default function AI() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
                       <i className="fas fa-laptop-code"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Our Approach</h6>
+                    <h6 className="text-xl font-semibold">Our Growth</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Accelerate adoption of AI innovation.
+                      Accelerating innovation and action for sustainable growth.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Automation to power sustainable transformation.
+                      Embracing technology to power sustainable food systems
+                      transformation.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Embrace technology & leverage AI and Machine Learning.
+                      Embracing technology & leveraging AI and Machine Learning.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="flex flex-wrap items-center mt-8">
+            <div className="flex flex-wrap items-center mt-16">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <h3 className="text-3xl mb-2 font-semibold leading-normal uppercase">
-                  eCommerce & Marketing
+                  Quant Algorithm Trading
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-                  AdTech & Marketing solutions solving business problems in
-                  demand management, supply chain optimization, predictive
-                  maintenance, and sales activation, among others. Personalized
-                  recommendation search engines serving AI driven results.
+                  eSports Management
                 </p>
-                <h3 className="text-3xl mb-2 font-semibold leading-normal uppercase">
-                  Industry Experience
-                </h3>
+                <ul className="list-none mr-auto">
+                  <li className="flex items-center">
+                    Fan engagement & loyalty
+                  </li>
+                  <li className="flex items-center">Digital revenue streams</li>
+                  <li className="flex items-center">Digital live streaming</li>
+                  <li className="flex items-center">
+                    eCommerce & merchandising
+                  </li>
+                  <li className="flex items-center">Mobile app development</li>
+                  <li className="flex items-center">
+                    Equipment & inventory management
+                  </li>
+                  <li className="flex items-center">League management</li>
+                  <li className="flex items-center">Stadium operations</li>
+                </ul>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-                  Use predictive analytics, ML and computer vision technologies
-                  to gain actionable insights into consumer purchasing
-                  behaviors, product placement/assortment, and store-level
-                  performance.
+                  There are various sub categories of quantitative trading to
+                  include High Frequency Trading (HFT), Statistical Arbitrage
+                  and Market Prediction Analysis.
                 </p>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-slate-700">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                   <img
-                    alt="Artificial Intelligence"
+                    alt="Food Loves Tech"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
-                    src="/artificial_intelligence.jpg"
+                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/foodlovestech.png"
                   />
                   <blockquote className="relative p-8 mb-4">
                     <svg
@@ -229,16 +192,17 @@ export default function AI() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="fill-islate-700 fill-current"
+                        className="fill-slate-700 fill-current"
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-white">
-                      Artificial Intelligence
+                      Quant Algorithms
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      Enabling AI to identify patterns and behavior from
-                      operational data through machine learning, computer vision
-                      & deep learning.
+                      FoodTech is an ecosystem made of all the agrifood
+                      entrepreneurs and startups (from production to
+                      distribution) innovating on the products, distribution,
+                      marketing or business model.
                     </p>
                   </blockquote>
                 </div>
@@ -262,7 +226,7 @@ export default function AI() {
               y="0"
             >
               <polygon
-                className="text-white fill-current"
+                className="text-slate-400 fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -273,8 +237,8 @@ export default function AI() {
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                   <img
-                    alt="AI Solutions"
-                    src="/ai_solutions.png"
+                    alt="BioTech"
+                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/biotech.png"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
@@ -290,12 +254,11 @@ export default function AI() {
                         className="text-slate-700 fill-current"
                       ></polygon>
                     </svg>
-                    <h4 className="text-xl font-bold text-white">
-                      AI Solutions
-                    </h4>
+                    <h4 className="text-xl font-bold text-white">BioTech</h4>
                     <p className="text-md font-light mt-2 text-white">
-                      Partner with industry leading startups or develop custom
-                      AI tools for your use case.
+                      BioTech is the use of living organisms & synthetic
+                      alternatives to produce sustainable & affordable bio &
+                      pharma applications.
                     </p>
                   </blockquote>
                 </div>
@@ -307,20 +270,16 @@ export default function AI() {
                     AI Powered Solutions
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-slate-500">
-                    Transformative opportunity to respond to business challenges
-                    and drive profitablity and growth.
+                    Lexington’s risk based trading strategies with a statistical
+                    hedge allows for a positive equity curve with very low
+                    draw-downs. While we offer many algorithmic strategies, with
+                    different risk parameters, our core strategies are non
+                    directional and trades based on real time market data and
+                    not any lagging statistical driven indicators.
                   </p>
-                  <p className="mt-4 mb-4 text-lg leading-relaxed text-slate-500">
-                    Applied AI technologies: Machine Learning, Natural Language
-                    Processing, Computer Vision, Deep Learning, Autonomy
-                    Solutions, RPA, Intelligent IoT, and Virtual Agents.
-                  </p>
-                  <h3 className="text-3xl font-semibold uppercase">
-                    Rapid Adoption
-                  </h3>
                   <p className="mt-4 text-lg leading-relaxed text-slate-500">
-                    Rapid AI & ML adoption through an accelerated program
-                    integrating matching technology to your business & industry.
+                    Applied AI technologies: Machine Learning, Natural Language
+                    Processing, Sentiment Analysis & Deep Learning.
                   </p>
                 </div>
               </div>

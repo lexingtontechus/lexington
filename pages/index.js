@@ -11,10 +11,11 @@ export default function Index() {
     <>
       <Head>
         <title>Lexington | Home</title>
+        <meta property="og:title" content="Lexington Tech LLC" key="title" />
       </Head>
       <IndexNavbar fixed />
       <main>
-        <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
+        <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-50">
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
@@ -30,11 +31,11 @@ export default function Index() {
             <div className="items-center flex flex-wrap">
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center justify-center">
                 <div className="p-2">
-                  <h1 className="text-white font-semibold text-5xl text-center uppercase pb-4">
+                  <h1 className="text-white font-semibold text-3xl text-center uppercase pb-4">
                     Transforming Business With AI Technologies
                   </h1>
 
-                  <div className="pt-2 w-8/12 h-4/12">
+                  <div className="pt-2 w-full h-4/12">
                     <p className="mt-2 mb-4 text-slate-400 text-center">
                       AI-Driven strategy integrating new technologies seamlessly
                       across retail, healthcare, pharmaceuticals, supply &
@@ -60,14 +61,14 @@ export default function Index() {
               y="0"
             >
               <polygon
-                className="fill-indigo-200 fill-current"
+                className="text-slate-400 fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
           </div>
         </div>
 
-        <section className="mt-0 md:mt-0 pb-40 relative bg-slate-300">
+        <section className="mt-0 md:mt-0 pb-40 relative bg-slate-400">
           {/* Wholesale Warehouse */}
           <div className="container mx-auto px-4 pb-16 pt-16">
             <div className="items-center flex flex-wrap">
@@ -108,7 +109,7 @@ export default function Index() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="text-slate-700 fill-current"
+                        className="fill-slate-700 fill-current"
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-white uppercase">
@@ -146,7 +147,7 @@ export default function Index() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="text-slate-700 fill-current"
+                        className="fill-slate-700 fill-current"
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-white uppercase">
@@ -229,7 +230,7 @@ export default function Index() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="text-slate-700 fill-current"
+                        className="fill-slate-700 fill-current"
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-white uppercase">

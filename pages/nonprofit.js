@@ -1,5 +1,5 @@
 import React from "react";
-//import Link from "next/link";
+import Link from "next/link";
 //import { useState, useEffect } from "react";
 import Head from "next/head";
 //import Image from "next/image";
@@ -8,15 +8,15 @@ import Head from "next/head";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
-export default function AI() {
+export default function nonprofit() {
   //const [isPlaying, setIsPlaying] = useState(true);
   return (
     <>
       <Head>
-        <title>Lexington | AI</title>
+        <title>Lexington | Non-Profit</title>
         <meta
           property="og:title"
-          content="Lexington Tech - AI Innovations in startups"
+          content="Lexington Tech - Non-Profit"
           key="title"
         />
       </Head>
@@ -39,13 +39,12 @@ export default function AI() {
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
                 <div className="p-2">
                   <h1 className="text-white font-semibold text-5xl text-center pb-4 uppercase">
-                    AI Innovations
+                    Strategic Alliance for Veteran Integration (SAVI)
                   </h1>
 
                   <div className="pt-2 w-full h-4/12">
                     <p className="mt-2 mb-4 text-slate-400 text-center">
-                      AI technologies today represent the driving force in the
-                      economy across all activities & industries.
+                      “Getting Veterans The Benefits They Deserve”
                     </p>
                   </div>
                 </div>
@@ -66,7 +65,7 @@ export default function AI() {
               y="0"
             >
               <polygon
-                className="text-slate-400 fill-current"
+                className="fill-slate-400 fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -82,16 +81,14 @@ export default function AI() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                       <i className="fab fa-empire"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Our Mission</h6>
+                    <h6 className="text-xl font-semibold">The Mission</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Rapid AI SaaS solutions deployment.
+                      Clarify VA benefits and provide custom transition
+                      solutions to Veterans and the organizations that support
+                      them.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Scaling AI technologies for industry applications.
-                    </p>
-                    <p className="mt-2 mb-4 text-slate-500">
-                      Train new models focused on service delivery &
-                      manufacturing.
+                      Create technology solutions for SAVI.
                     </p>
                   </div>
                 </div>
@@ -100,71 +97,19 @@ export default function AI() {
               <div className="w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-slate-400">
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
                       <i className="fas fa-power-off"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Our Technologies</h6>
+                    <h6 className="text-xl font-semibold">The Program</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Leverage industry leading solutions for your business.
+                      10000 strong - outreach to the Veteran community.
                     </p>
-                    <ul className="list-none">
-                      <li className="py-1">
-                        <div className="flex items-center">
-                          <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                              <i className="fas fa-industry"></i>
-                            </span>
-                          </div>
-                          <div>
-                            <h4 className="text-blueGray-500 text-left">
-                              Computer vision
-                            </h4>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-1">
-                        <div className="flex items-center">
-                          <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                              <i className="fas fa-chalkboard-teacher"></i>
-                            </span>
-                          </div>
-                          <div>
-                            <h4 className="text-blueGray-500 text-left">
-                              Machine learning
-                            </h4>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-1">
-                        <div className="flex items-center">
-                          <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                              <i className="fas fa-chart-bar"></i>
-                            </span>
-                          </div>
-                          <div>
-                            <h4 className="text-blueGray-500 text-left">
-                              Predictive analytics
-                            </h4>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-1">
-                        <div className="flex items-center">
-                          <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                              <i className="fas fa-object-group"></i>
-                            </span>
-                          </div>
-                          <div>
-                            <h4 className="text-blueGray-500 text-left">
-                              Classification tools
-                            </h4>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
+                    <p className="mt-2 mb-4 text-slate-500">
+                      Expand SAVI's transition incubator.
+                    </p>
+                    <p className="mt-2 mb-4 text-slate-500">
+                      Education. Employment. Entrepreneurship. Retirement.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -175,53 +120,64 @@ export default function AI() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
                       <i className="fas fa-laptop-code"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Our Approach</h6>
+                    <h6 className="text-xl font-semibold">The Growth</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Accelerate adoption of AI innovation.
+                      Accelerate innovation to launch new services.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Automation to power sustainable transformation.
+                      Embrace technology to power employment opportunities.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Embrace technology & leverage AI and Machine Learning.
+                      Collaborations with our enterprise partners.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="flex flex-wrap items-center mt-8">
+            <div className="flex flex-wrap items-center mt-16">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <h3 className="text-3xl mb-2 font-semibold leading-normal uppercase">
-                  eCommerce & Marketing
+                  SAVI
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-                  AdTech & Marketing solutions solving business problems in
-                  demand management, supply chain optimization, predictive
-                  maintenance, and sales activation, among others. Personalized
-                  recommendation search engines serving AI driven results.
+                  SAVI is a national (US) nonprofit organization dedicated to
+                  providing knowledge and resources to military Veterans
+                  transitioning into civilian life and to the organizations that
+                  support them.
                 </p>
-                <h3 className="text-3xl mb-2 font-semibold leading-normal uppercase">
-                  Industry Experience
-                </h3>
+
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-                  Use predictive analytics, ML and computer vision technologies
-                  to gain actionable insights into consumer purchasing
-                  behaviors, product placement/assortment, and store-level
-                  performance.
+                  Founded in 2017 by a passionate military Veteran who has been
+                  through it all, SAVI believes in taking a whole-person
+                  approach to this transition.
                 </p>
+
+                <button
+                  className="bg-indigo-900 hover:bg-indigo-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
+                  type="button"
+                >
+                  <a
+                    href="/https://www.savivets.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                    title="SAVI"
+                  >
+                    Learn More
+                  </a>
+                </button>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                   <img
-                    alt="Artificial Intelligence"
+                    alt="SAVI"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
-                    src="/artificial_intelligence.jpg"
+                    src="/nonprofit_savi.png"
                   />
                   <blockquote className="relative p-8 mb-4">
-                    <svg
+                    {/*<svg
                       preserveAspectRatio="none"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 583 95"
@@ -229,16 +185,17 @@ export default function AI() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="fill-islate-700 fill-current"
+                        className="fill-slate-700 fill-current"
                       ></polygon>
-                    </svg>
+                   </svg>*/}
                     <h4 className="text-xl font-bold text-white">
-                      Artificial Intelligence
+                      SAVI Transition Incubator
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      Enabling AI to identify patterns and behavior from
-                      operational data through machine learning, computer vision
-                      & deep learning.
+                      SAVI focuses on the unique needs of the transitioning
+                      service-member. With a 360-degree understanding of these
+                      needs, we strive to make true for each Veteran the words
+                      in our tagline: Your whole life transition starts here.
                     </p>
                   </blockquote>
                 </div>
@@ -262,7 +219,7 @@ export default function AI() {
               y="0"
             >
               <polygon
-                className="text-white fill-current"
+                className="fill-slate-400 text-white fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -273,13 +230,13 @@ export default function AI() {
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                   <img
-                    alt="AI Solutions"
-                    src="/ai_solutions.png"
+                    alt="SAVI Premier Partner"
+                    src="/nonprofit_savipremierpartner.png"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
-                    <svg
+                    {/*<svg
                       preserveAspectRatio="none"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 583 95"
@@ -287,15 +244,16 @@ export default function AI() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="text-slate-700 fill-current"
+                        className="text-slate-700 fill-slate-700  fill-current"
                       ></polygon>
-                    </svg>
+                    </svg>*/}
                     <h4 className="text-xl font-bold text-white">
-                      AI Solutions
+                      SAVI Premier Partner
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      Partner with industry leading startups or develop custom
-                      AI tools for your use case.
+                      Each SAVI Partner will be recognized with a digital badge
+                      to share with their audience and proudly display across
+                      their digital channels.
                     </p>
                   </blockquote>
                 </div>
@@ -304,24 +262,32 @@ export default function AI() {
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
                   <h3 className="text-3xl font-semibold uppercase">
-                    AI Powered Solutions
+                    Partner with SAVI
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-slate-500">
-                    Transformative opportunity to respond to business challenges
-                    and drive profitablity and growth.
+                    Becoming a SAVI Partner, you stand out from your peers and
+                    display your commitment to exceptional service for Veterans
+                    on your website, social media pages, and other marketing
+                    materials.
                   </p>
-                  <p className="mt-4 mb-4 text-lg leading-relaxed text-slate-500">
-                    Applied AI technologies: Machine Learning, Natural Language
-                    Processing, Computer Vision, Deep Learning, Autonomy
-                    Solutions, RPA, Intelligent IoT, and Virtual Agents.
+                  <p className="mt-4 mb-4  text-lg leading-relaxed text-slate-500">
+                    You have the opportunity to establish a feedback process
+                    that acknowledges you provide the best experience to
+                    Veterans, based on real comments.
                   </p>
-                  <h3 className="text-3xl font-semibold uppercase">
-                    Rapid Adoption
-                  </h3>
-                  <p className="mt-4 text-lg leading-relaxed text-slate-500">
-                    Rapid AI & ML adoption through an accelerated program
-                    integrating matching technology to your business & industry.
-                  </p>
+                  <button
+                    className="bg-indigo-900 hover:bg-indigo-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
+                    type="button"
+                  >
+                    <a
+                      href="/https://www.savivets.org/our-partners"
+                      target="_blank"
+                      rel="noreferrer"
+                      title="SAVI"
+                    >
+                      Learn More
+                    </a>
+                  </button>
                 </div>
               </div>
             </div>

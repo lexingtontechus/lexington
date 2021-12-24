@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <footer className="relative bg-indigo-200 pt-8 pb-6">
+      <footer className="relative bg-indigo-900 pt-8 pb-6">
         <div
           className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
           style={{ transform: "translateZ(0)" }}
@@ -18,7 +18,7 @@ export default function Footer() {
             y="0"
           >
             <polygon
-              className="fill-current"
+              className="fill-indigo-900 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
@@ -26,48 +26,50 @@ export default function Footer() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl font-semibold">Let's keep in touch!</h4>
-              <h5 className="text-lg mt-0 mb-2 text-slate-600">
-                Find us on any of these platforms, we respond 1-2 business days.
+              <h4 className="text-3xl font-semibold text-slate-200">
+                Find out more!
+              </h4>
+              <h5 className="text-lg mt-0 mb-2 text-slate-300">
+                We are on these platforms, and we respond in 1-2 business days.
               </h5>
               <div className="mt-6 lg:mb-0 mb-6">
                 <a
-                  className="hover:text-slate-500 text-slate-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
-                  href="https://www.linkedin.com/company/lexingtontechusa"
+                  className="hover:text-slate-300 text-slate-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
+                  href="https://www.linkedin.com/company/lexingtontech"
                   target="_blank"
                   rel="noreferrer"
                   title="LinkedIn"
                 >
                   <button
-                    className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    className="bg-white text-slate-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                     type="button"
                   >
                     <i className="fab fa-linkedin"></i>
                   </button>
                 </a>
                 <a
-                  className="hover:text-slate-500 text-slate-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
+                  className="hover:text-slate-300 text-slate-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
                   href="https://angel.co/company/lexingtontech/"
                   target="_blank"
                   rel="noreferrer"
                   title="Angel"
                 >
                   <button
-                    className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    className="bg-white text-slate-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                     type="button"
                   >
                     <i className="fab fa-angellist"></i>
                   </button>
                 </a>
                 <a
-                  className="hover:text-slate-500 text-slate-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
+                  className="hover:text-slate-300 text-slate-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
                   href="https://discord.gg/RcEeXkdGcQ"
                   target="_blank"
                   rel="noreferrer"
                   title="Discord"
                 >
                   <button
-                    className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    className="bg-white text-slate-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                     type="button"
                   >
                     <i className="fab fa-discord"></i>
@@ -84,7 +86,7 @@ export default function Footer() {
                   <ul className="list-unstyled">
                     <li>
                       <a
-                        className="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
+                        className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
                         href="/about"
                       >
                         About Us
@@ -92,10 +94,18 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
+                        className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
                         href="/contact"
                       >
                         Contact Us
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
+                        href="/nonprofit"
+                      >
+                        Non-Profit
                       </a>
                     </li>
                   </ul>
@@ -107,7 +117,7 @@ export default function Footer() {
                   <ul className="list-unstyled">
                     <li>
                       <a
-                        className="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
+                        className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
                         href="/terms"
                       >
                         Terms of Service
@@ -115,7 +125,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
+                        className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
                         href="/privacy"
                       >
                         Privacy Policy

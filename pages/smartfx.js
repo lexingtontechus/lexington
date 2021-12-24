@@ -15,14 +15,14 @@ export default function SmartFX() {
       <Head>
         <title>Lexington | SmartFX</title>
         <meta
-          property="description="
-          content="Investing in BioTech startups & technologies."
-          key="description"
+          property="og:title"
+          content="Lexington Tech - SmartFX Quant Algorithms."
+          key="title"
         />
       </Head>
       <IndexNavbar transparent />
       <main>
-        <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
+        <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-50">
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
@@ -39,13 +39,12 @@ export default function SmartFX() {
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
                 <div className="p-2">
                   <h1 className="text-white font-semibold text-5xl text-center pb-4 uppercase">
-                    AI Innovations
+                    SmartFX
                   </h1>
 
-                  <div className="pt-2 w-8/12 h-4/12">
+                  <div className="pt-2 w-full h-4/12">
                     <p className="mt-2 mb-4 text-slate-400 text-center">
-                      AI technologies today represent the driving force in the
-                      economy, having overtaken the tech giants.
+                      AI Powered Algorithmic Trading
                     </p>
                   </div>
                 </div>
@@ -66,14 +65,14 @@ export default function SmartFX() {
               y="0"
             >
               <polygon
-                className="fill-indigo-200 fill-current"
+                className="text-slate-400 fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
           </div>
         </div>
 
-        <section className="pb-20 bg-indigo-200 -mt-24">
+        <section className="pb-20 bg-slate-400 -mt-16">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -84,16 +83,14 @@ export default function SmartFX() {
                     </div>
                     <h6 className="text-xl font-semibold">Our Mission</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Investing in the sustainable future of food & medical
-                      advances.
+                      Develop & curate quant algorithms.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Sustainable & high yield foodtech products & water
-                      sources.
+                      Building next-gen quant trading technologies.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Future of eCommerce powered by virtual & augmented
-                      reality.
+                      Democratize access through social trading & signal copy
+                      subcriptions platforms.
                     </p>
                   </div>
                 </div>
@@ -107,13 +104,11 @@ export default function SmartFX() {
                     </div>
                     <h6 className="text-xl font-semibold">Our Investments</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      We invest in plant-based & cell-based innovations. If you
-                      are a start-ups that fits our missionInvesting in the
-                      sustainable future of food & medical advances.
+                      Partnered with an SEC approved crypto hedge fund.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Sustainable & high yield foodtech products & water
-                      sources.
+                      Sustained high yield trading accounts are powered by our
+                      own algorithms.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
                       Future of eCommerce powered by virtual & augmented
@@ -131,52 +126,48 @@ export default function SmartFX() {
                     </div>
                     <h6 className="text-xl font-semibold">Our Growth</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Accelerating innovation and action for sustainable growth.
+                      Apply deep learning across our continously growing
+                      dataset.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Embracing technology to power sustainable food systems
-                      transformation.
+                      Technology enabled decision making & prediction.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Embracing technology & leveraging AI and Machine Learning.
+                      Leveraging AI & ML for risk management.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="flex flex-wrap items-center mt-32">
+            <div className="flex flex-wrap items-center mt-20">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <h3 className="text-3xl mb-2 font-semibold leading-normal uppercase">
-                  eCommerce & Marketing
+                  Quant Algorithm Trading
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-                  AdTech & Marketing solutions solving business problems in
-                  demand management, supply chain optimization, predictive
-                  maintenance, and sales activation, among others. Personalized
-                  recommendation search engines serving AI driven results.
+                  Algorithmic Trading, also known as Quant Trading is a trading
+                  style which utilizes market prediction algorithms in order to
+                  find potential trades.
                 </p>
-                <h3 className="text-3xl mb-2 font-semibold leading-normal uppercase">
-                  Industry Experience
-                </h3>
+
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-                  Use predictive analytics, ML and computer vision technologies
-                  to gain actionable insights into consumer purchasing
-                  behaviors, product placement/assortment, and store-level
-                  performance.
+                  There are various sub categories of quantitative trading to
+                  include High Frequency Trading (HFT), Statistical Arbitrage
+                  and Market Prediction Analysis.
                 </p>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-indigo-700">
+                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                   <img
-                    alt="Food Loves Tech"
+                    alt="Quant Algorithmic Trading"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
-                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/foodlovestech.png"
+                    src="/quant_trading.jpg"
                   />
                   <blockquote className="relative p-8 mb-4">
-                    <svg
+                    {/*<svg
                       preserveAspectRatio="none"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 583 95"
@@ -184,10 +175,12 @@ export default function SmartFX() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="fill-indigo-700 fill-current"
+                        className="text-slate-700 fill-current"
                       ></polygon>
-                    </svg>
-                    <h4 className="text-xl font-bold text-white">FoodTech</h4>
+                    </svg>*/}
+                    <h4 className="text-xl font-bold text-white">
+                      Quant Algorithms
+                    </h4>
                     <p className="text-md font-light mt-2 text-white">
                       FoodTech is an ecosystem made of all the agrifood
                       entrepreneurs and startups (from production to
@@ -216,7 +209,7 @@ export default function SmartFX() {
               y="0"
             >
               <polygon
-                className="fill-indigo-200 text-white fill-current"
+                className="text-white fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -225,15 +218,15 @@ export default function SmartFX() {
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-indigo-700">
+                <div className="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                   <img
-                    alt="BioTech"
-                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxtgroup-images/biotech.png"
+                    alt="5 Steps of Quant"
+                    src="/5steps_quant.jpg"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
-                    <svg
+                    {/* <svg
                       preserveAspectRatio="none"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 583 95"
@@ -241,14 +234,17 @@ export default function SmartFX() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="text-slate-700 fill-indigo-700  fill-current"
+                        className="text-slate-700 fill-slate-700  fill-current"
                       ></polygon>
-                    </svg>
-                    <h4 className="text-xl font-bold text-white">BioTech</h4>
+                   </svg>*/}
+                    <h4 className="text-xl font-bold text-white">
+                      Quant Investing
+                    </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      BioTech is the use of living organisms & synthetic
-                      alternatives to produce sustainable & affordable bio &
-                      pharma applications.
+                      Getting the right data quickly and combining it with the
+                      knowledge and intuition that only people have still offers
+                      very unique advantages to developing and executing the
+                      right investment strategies.
                     </p>
                   </blockquote>
                 </div>
@@ -257,23 +253,19 @@ export default function SmartFX() {
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
                   <h3 className="text-3xl font-semibold uppercase">
-                    AI Powered Solutions
+                    AI Powered Investments
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-slate-500">
-                    Transformative opportunity to respond to business challenges
-                    and drive profitablity and growth.
+                    Lexington’s risk based trading strategies with a statistical
+                    hedge allows for a positive equity curve with very low
+                    draw-downs. While we offer many algorithmic strategies, with
+                    different risk parameters, our core strategies are non
+                    directional and trades based on real time market data and
+                    not any lagging statistical driven indicators.
                   </p>
                   <p className="mt-4 text-lg leading-relaxed text-slate-500">
                     Applied AI technologies: Machine Learning, Natural Language
-                    Processing, Computer Vision, Deep Learning, Autonomy
-                    Solutions, RPA, Intelligent IoT, and Virtual Agents.
-                  </p>
-                  <h3 className="text-3xl font-semibold uppercase">
-                    Rapid Adoption
-                  </h3>
-                  <p className="mt-4 text-lg leading-relaxed text-slate-500">
-                    Rapid AI & ML adoption through an accelerated program
-                    integrating matching technology to your business & industry.
+                    Processing, Sentiment Analysis & Deep Learning.
                   </p>
                 </div>
               </div>

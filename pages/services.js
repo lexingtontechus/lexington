@@ -8,12 +8,12 @@ import Head from "next/head";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
-export default function AI() {
+export default function Services() {
   //const [isPlaying, setIsPlaying] = useState(true);
   return (
     <>
       <Head>
-        <title>Lexington | AI</title>
+        <title>Lexington | Services</title>
         <meta
           property="og:title"
           content="Lexington Tech - AI Innovations in startups"
@@ -39,7 +39,7 @@ export default function AI() {
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
                 <div className="p-2">
                   <h1 className="text-white font-semibold text-5xl text-center pb-4 uppercase">
-                    AI Innovations
+                    Services
                   </h1>
 
                   <div className="pt-2 w-full h-4/12">
@@ -84,10 +84,10 @@ export default function AI() {
                     </div>
                     <h6 className="text-xl font-semibold">Our Mission</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Rapid AI SaaS solutions deployment.
+                      Develop nextgen eCommerce marketplace for Btab Group.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Scaling AI technologies for industry applications.
+                      Deploy Deep Learning & Neuro-networks to scale.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
                       Train new models focused on service delivery &
@@ -112,13 +112,11 @@ export default function AI() {
                         <div className="flex items-center">
                           <div>
                             <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                              <i className="fas fa-industry"></i>
+                              <i className="fas fa-aws"></i>
                             </span>
                           </div>
                           <div>
-                            <h4 className="text-blueGray-500 text-left">
-                              Computer vision
-                            </h4>
+                            <h4 className="text-blueGray-500 text-left">AWS</h4>
                           </div>
                         </div>
                       </li>
@@ -126,12 +124,12 @@ export default function AI() {
                         <div className="flex items-center">
                           <div>
                             <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                              <i className="fas fa-chalkboard-teacher"></i>
+                              <i className="fas fa-google"></i>
                             </span>
                           </div>
                           <div>
                             <h4 className="text-blueGray-500 text-left">
-                              Machine learning
+                              Google Cloud
                             </h4>
                           </div>
                         </div>
@@ -145,21 +143,7 @@ export default function AI() {
                           </div>
                           <div>
                             <h4 className="text-blueGray-500 text-left">
-                              Predictive analytics
-                            </h4>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="py-1">
-                        <div className="flex items-center">
-                          <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
-                              <i className="fas fa-object-group"></i>
-                            </span>
-                          </div>
-                          <div>
-                            <h4 className="text-blueGray-500 text-left">
-                              Classification tools
+                              Predictive Analytics
                             </h4>
                           </div>
                         </div>
@@ -177,13 +161,14 @@ export default function AI() {
                     </div>
                     <h6 className="text-xl font-semibold">Our Approach</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Accelerate adoption of AI innovation.
+                      Accelerating innovation and action for sustainable growth.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Automation to power sustainable transformation.
+                      Embracing technology to power sustainable food systems
+                      transformation.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Embrace technology & leverage AI and Machine Learning.
+                      Embracing technology & leveraging AI and Machine Learning.
                     </p>
                   </div>
                 </div>
@@ -193,35 +178,39 @@ export default function AI() {
             <div className="flex flex-wrap items-center mt-8">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <h3 className="text-3xl mb-2 font-semibold leading-normal uppercase">
-                  eCommerce & Marketing
+                  Artificial Intelligence
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-                  AdTech & Marketing solutions solving business problems in
-                  demand management, supply chain optimization, predictive
-                  maintenance, and sales activation, among others. Personalized
-                  recommendation search engines serving AI driven results.
+                  The simulation of human intelligence & behaviors in machines
+                  to mimic actions like decision making and prediction.
+                  Understand each person’s cognitive profile, add different
+                  behaviors according to stimulae, subject to a constant
+                  learning process. Our algorithms establish a base to enable
+                  communication, predicting people’s behavior and influence with
+                  personalized communicative stimulus.
                 </p>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal uppercase">
-                  Industry Experience
+                  Blockchain & Hyperledger
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-                  Use predictive analytics, ML and computer vision technologies
-                  to gain actionable insights into consumer purchasing
-                  behaviors, product placement/assortment, and store-level
-                  performance.
+                  Turnkey Blockchain solution development. Accelerate the
+                  deployment of your custom blockchain, hyper ledger, mint your
+                  token and launch our wallet. Rapid adoption of cryptographic
+                  technology, distributed ledgers, smart contracts, exchanges,
+                  wallets and digital asset tokenization.
                 </p>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                   <img
-                    alt="Artificial Intelligence"
+                    alt="AWS Partner Network"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
-                    src="/artificial_intelligence.jpg"
+                    src="/aws_header_logo.png"
                   />
                   <blockquote className="relative p-8 mb-4">
-                    <svg
+                    {/*<svg
                       preserveAspectRatio="none"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 583 95"
@@ -231,14 +220,17 @@ export default function AI() {
                         points="-30,95 583,95 583,65"
                         className="fill-islate-700 fill-current"
                       ></polygon>
-                    </svg>
+                    </svg>*/}
                     <h4 className="text-xl font-bold text-white">
-                      Artificial Intelligence
+                      AWS Partner Network
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      Enabling AI to identify patterns and behavior from
-                      operational data through machine learning, computer vision
-                      & deep learning.
+                      Lexington’s BlockChain technology & APIs are build on AWS.
+                      Custom built cloud functions in Lamba, Beanstalk,
+                      Kubernetes etc. AWS Accredited Partner Network member –
+                      our knowledge & experience offers our clients innovative
+                      solution across industries like healthcare, education &
+                      fintech.
                     </p>
                   </blockquote>
                 </div>
@@ -279,7 +271,7 @@ export default function AI() {
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
-                    <svg
+                    {/*<svg
                       preserveAspectRatio="none"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 583 95"
@@ -289,13 +281,13 @@ export default function AI() {
                         points="-30,95 583,95 583,65"
                         className="text-slate-700 fill-current"
                       ></polygon>
-                    </svg>
+                    </svg>*/}
                     <h4 className="text-xl font-bold text-white">
-                      AI Solutions
+                      Business Intelligence
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      Partner with industry leading startups or develop custom
-                      AI tools for your use case.
+                      Moneyball your business through analytics – using AI &
+                      data intelligence to improve all aspects of your business.
                     </p>
                   </blockquote>
                 </div>
@@ -304,23 +296,22 @@ export default function AI() {
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
                   <h3 className="text-3xl font-semibold uppercase">
-                    AI Powered Solutions
+                    Digital Automation
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-slate-500">
-                    Transformative opportunity to respond to business challenges
-                    and drive profitablity and growth.
+                    Digital marketing workflow automation. Personalized customer
+                    journey experiences. Clear understanding of customer
+                    segments. Data-driven approach to improve your customer
+                    onboarding.
                   </p>
-                  <p className="mt-4 mb-4 text-lg leading-relaxed text-slate-500">
-                    Applied AI technologies: Machine Learning, Natural Language
-                    Processing, Computer Vision, Deep Learning, Autonomy
-                    Solutions, RPA, Intelligent IoT, and Virtual Agents.
-                  </p>
-                  <h3 className="text-3xl font-semibold uppercase">
-                    Rapid Adoption
+
+                  <h3 className="text-3xl font-semibold uppercase mt-2">
+                    Market Expansion
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-slate-500">
-                    Rapid AI & ML adoption through an accelerated program
-                    integrating matching technology to your business & industry.
+                    Launch hyperlocal microservices and scale quickly. We
+                    understand your pain points, visual ideation & recommend
+                    solutions and business improvement strategies.
                   </p>
                 </div>
               </div>
