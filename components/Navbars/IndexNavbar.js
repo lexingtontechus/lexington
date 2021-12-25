@@ -45,28 +45,25 @@ export default function Navbar(props) {
           >
             <ul className="flex flex-col lg:flex-row list-none mr-auto">
               <li className="flex items-center">
-                <a
-                  className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/ai"
-                >
-                  AI
-                </a>
+                <Link href="/ai">
+                  <button className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                    AI
+                  </button>
+                </Link>
               </li>
               <li className="flex items-center">
-                <a
-                  className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/blockchain"
-                >
-                  Blockchain
-                </a>
+                <Link href="/blockchain">
+                  <button className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                    Blockchain
+                  </button>
+                </Link>
               </li>
               <li className="flex items-center">
-                <a
-                  className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/smartfx"
-                >
-                  SmartX
-                </a>
+                <Link href="/smartfx">
+                  <button className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                    SmartX
+                  </button>
+                </Link>
               </li>
 
               {/*<li className="flex items-center">
@@ -91,33 +88,33 @@ export default function Navbar(props) {
               </li>
 
               <li className="flex items-center hover:text-slate-800 text-slate-300 ">
-                <a
-                  className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/about"
-                  rel="noreferrer"
-                  title="About"
-                >
-                  <i className="fas fa-info-circle text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">About</span>
-                </a>
+                <Link href="/about">
+                  <button
+                    className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    title="About"
+                  >
+                    <i className="fas fa-info-circle text-lg leading-lg " />
+                    <span className="lg:hidden inline-block ml-2">About</span>
+                  </button>
+                </Link>
+              </li>
+              <li className="flex items-center hover:text-slate-800 text-slate-300 ">
+                <Link href="/contact">
+                  <button
+                    className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    title="Contact"
+                  >
+                    <i className="fas fa-at text-lg leading-lg " />
+                    <span className="lg:hidden inline-block ml-2">Contact</span>
+                  </button>
+                </Link>
               </li>
               <li className="flex items-center hover:text-slate-800 text-slate-300 ">
                 <a
-                  className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/contact"
-                  rel="noreferrer"
-                  title="Contact"
-                >
-                  <i className="fas fa-at text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Contact</span>
-                </a>
-              </li>
-              <li className="flex items-center hover:text-slate-800 text-slate-300 ">
-                <a
-                  className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://www.linkedin.com/company/lexingtontech"
                   target="_blank"
                   rel="noreferrer"
+                  className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   title="LinkedIn"
                 >
                   <i className="fab fa-linkedin text-lg leading-lg " />
@@ -130,7 +127,6 @@ export default function Navbar(props) {
                   className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://angel.co/company/lexingtontech/"
                   target="_blank"
-                  rel="noreferrer"
                   title="Angel"
                 >
                   <i className="fab fa-angellist text-lg leading-lg " />

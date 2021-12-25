@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -85,28 +86,25 @@ export default function Footer() {
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <a
-                        className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                        href="/about"
-                      >
-                        About Us
-                      </a>
+                      <Link href="/about">
+                        <button className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm">
+                          About Us
+                        </button>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                        href="/contact"
-                      >
-                        Contact Us
-                      </a>
+                      <Link href="/contact">
+                        <button className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm">
+                          Contact Us
+                        </button>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                        href="/nonprofit"
-                      >
-                        Non-Profit
-                      </a>
+                      <Link href="/nonprofit">
+                        <button className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm">
+                          Non-Profit
+                        </button>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -116,20 +114,18 @@ export default function Footer() {
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <a
-                        className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                        href="/terms"
-                      >
-                        Terms of Service
-                      </a>
+                      <Link href="/terms">
+                        <button className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm">
+                          Terms of Service
+                        </button>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                        href="/privacy"
-                      >
-                        Privacy Policy
-                      </a>
+                      <Link href="/privacy">
+                        <button className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm">
+                          Privacy Policy
+                        </button>
+                      </Link>
                     </li>
                   </ul>
                 </div>
