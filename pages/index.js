@@ -68,7 +68,7 @@ export default function Index() {
           </div>
         </div>
 
-        <section className="mt-0 md:mt-0 pb-40 relative bg-slate-400">
+        <section className="mt-0 md:mt-0 pb-20 relative bg-slate-400">
           {/* Wholesale Warehouse */}
           <div className="container mx-auto px-4 pb-16 pt-16">
             <div className="items-center flex flex-wrap">

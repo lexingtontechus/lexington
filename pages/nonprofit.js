@@ -125,7 +125,7 @@ export default function nonprofit() {
                       Accelerate innovation to launch new services.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Embrace technology to power employment opportunities.
+                      Technology powering employment opportunities.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
                       Collaborations with our enterprise partners.

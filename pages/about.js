@@ -148,7 +148,7 @@ export default function About() {
                           <li>Web 3.0 support</li>
                           <li>Defi Fintech payments</li>
                           <li>SmartFX</li>
-                          <li>Hyperlocal services</li>
+                          <li>Hyperlocal microservices</li>
                         </ul>
                       </p>
                     </div>

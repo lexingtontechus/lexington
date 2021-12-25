@@ -126,8 +126,7 @@ export default function SmartFX() {
                     </div>
                     <h6 className="text-xl font-semibold">Our Growth</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Apply deep learning across our continously growing
-                      dataset.
+                      Deep learning across our continously growing dataset.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
                       Technology enabled decision making & prediction.
@@ -182,10 +181,65 @@ export default function SmartFX() {
                       Quant Algorithms
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      FoodTech is an ecosystem made of all the agrifood
-                      entrepreneurs and startups (from production to
-                      distribution) innovating on the products, distribution,
-                      marketing or business model.
+                      Quantitative trading strategies leveraging,
+                      <ul className="list-none mt-6">
+                        <li className="py-2">
+                          <div className="flex items-center">
+                            <div>
+                              <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-indigo-100 mr-3">
+                                <i className="fab fa-hive"></i>
+                              </span>
+                            </div>
+                            <div>
+                              <h4 className="text-slate-500">
+                                Alternative Data
+                              </h4>
+                            </div>
+                          </div>
+                        </li>
+                        <li className="py-2">
+                          <div className="flex items-center">
+                            <div>
+                              <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-indigo-100 mr-3">
+                                <i className="fas fa-compress-arrows-alt"></i>
+                              </span>
+                            </div>
+                            <div>
+                              <h4 className="text-slate-500">
+                                Obscure and Small Markets
+                              </h4>
+                            </div>
+                          </div>
+                        </li>
+                        <li className="py-2">
+                          <div className="flex items-center">
+                            <div>
+                              <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-indigo-100 mr-3">
+                                <i className="fas fa-comments-dollar"></i>
+                              </span>
+                            </div>
+                            <div>
+                              <h4 className="text-slate-500">
+                                High-Frequency Trading
+                              </h4>
+                            </div>
+                          </div>
+                        </li>
+                        <li className="py-2">
+                          <div className="flex items-center">
+                            <div>
+                              <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-indigo-100 mr-3">
+                                <i className="fas fa-laptop-code"></i>
+                              </span>
+                            </div>
+                            <div>
+                              <h4 className="text-slate-500">
+                                Machine Learning
+                              </h4>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
                     </p>
                   </blockquote>
                 </div>

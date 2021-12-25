@@ -23,7 +23,7 @@ export default function Navbar(props) {
             <Link href="/">
               <a
                 className="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
-                href="#pablo"
+                href="#lxt"
               >
                 Lexington
               </a>
@@ -46,23 +46,32 @@ export default function Navbar(props) {
             <ul className="flex flex-col lg:flex-row list-none mr-auto">
               <li className="flex items-center">
                 <Link href="/ai">
-                  <button className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                  <a
+                    href="#lxt"
+                    className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  >
                     AI
-                  </button>
+                  </a>
                 </Link>
               </li>
               <li className="flex items-center">
                 <Link href="/blockchain">
-                  <button className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                  <a
+                    href="#lxt"
+                    className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  >
                     Blockchain
-                  </button>
+                  </a>
                 </Link>
               </li>
               <li className="flex items-center">
                 <Link href="/smartfx">
-                  <button className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                  <a
+                    href="#lxt"
+                    className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  >
                     SmartX
-                  </button>
+                  </a>
                 </Link>
               </li>
 
@@ -89,24 +98,26 @@ export default function Navbar(props) {
 
               <li className="flex items-center hover:text-slate-800 text-slate-300 ">
                 <Link href="/about">
-                  <button
+                  <a
+                    href="#lxt"
                     className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                     title="About"
                   >
                     <i className="fas fa-info-circle text-lg leading-lg " />
                     <span className="lg:hidden inline-block ml-2">About</span>
-                  </button>
+                  </a>
                 </Link>
               </li>
               <li className="flex items-center hover:text-slate-800 text-slate-300 ">
                 <Link href="/contact">
-                  <button
+                  <a
+                    href="#lxt"
                     className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                     title="Contact"
                   >
                     <i className="fas fa-at text-lg leading-lg " />
                     <span className="lg:hidden inline-block ml-2">Contact</span>
-                  </button>
+                  </a>
                 </Link>
               </li>
               <li className="flex items-center hover:text-slate-800 text-slate-300 ">

@@ -87,23 +87,32 @@ export default function Footer() {
                   <ul className="list-unstyled">
                     <li>
                       <Link href="/about">
-                        <button className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm">
+                        <a
+                          href="#lxt"
+                          className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
+                        >
                           About Us
-                        </button>
+                        </a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/contact">
-                        <button className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm">
+                        <a
+                          href="#lxt"
+                          className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
+                        >
                           Contact Us
-                        </button>
+                        </a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/nonprofit">
-                        <button className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm">
+                        <a
+                          href="#lxt"
+                          className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
+                        >
                           Non-Profit
-                        </button>
+                        </a>
                       </Link>
                     </li>
                   </ul>
@@ -115,16 +124,22 @@ export default function Footer() {
                   <ul className="list-unstyled">
                     <li>
                       <Link href="/terms">
-                        <button className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm">
+                        <a
+                          href="#lxt"
+                          className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
+                        >
                           Terms of Service
-                        </button>
+                        </a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/privacy">
-                        <button className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm">
+                        <a
+                          href="#lxt"
+                          className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
+                        >
                           Privacy Policy
-                        </button>
+                        </a>
                       </Link>
                     </li>
                   </ul>

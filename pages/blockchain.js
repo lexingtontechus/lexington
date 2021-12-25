@@ -88,11 +88,10 @@ export default function Blockchain() {
                     </div>
                     <h6 className="text-xl font-semibold">Our Mission</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Building blockchain eCommerce dApps.
+                      Build blockchain eCommerce dApps.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Sustainable & high yield foodtech products & water
-                      sources.
+                      Efficient & sustainable blockchain technologies.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
                       Future of eCommerce powered by Defi & crypto.
@@ -266,7 +265,7 @@ export default function Blockchain() {
                       <div className="flex items-center">
                         <div>
                           <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-indigo-100 mr-3">
-                            <i className="fas fa-money-alt"></i>
+                            <i className="fas fa-money-bill"></i>
                           </span>
                         </div>
                         <div>
@@ -280,7 +279,7 @@ export default function Blockchain() {
                       <div className="flex items-center">
                         <div>
                           <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-indigo-100 mr-3">
-                            <i className="fab fa-fingerprint"></i>
+                            <i className="fas fa-fingerprint"></i>
                           </span>
                         </div>
                         <div>
