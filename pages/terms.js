@@ -72,7 +72,7 @@ export default function Terms() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
               <div className="w-full lg:w-10/12 px-4">
-                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-indigo-00">
+                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-indigo-200">
                   <div className="flex-auto p-5 lg:p-10">
                     <h2 className="text-2xl font-semibold">
                       Last updated January 01, 2022

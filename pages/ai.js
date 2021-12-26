@@ -90,8 +90,7 @@ export default function AI() {
                       Scaling AI technologies for industry applications.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Train new models focused on service delivery &
-                      manufacturing.
+                      AI models focused on service delivery & manufacturing.
                     </p>
                   </div>
                 </div>
@@ -111,12 +110,12 @@ export default function AI() {
                       <li className="py-1">
                         <div className="flex items-center">
                           <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
+                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-slate-100 mr-3">
                               <i className="fas fa-industry"></i>
                             </span>
                           </div>
                           <div>
-                            <h4 className="text-blueGray-500 text-left">
+                            <h4 className="text-slate-500 text-left">
                               Computer vision
                             </h4>
                           </div>
@@ -125,12 +124,12 @@ export default function AI() {
                       <li className="py-1">
                         <div className="flex items-center">
                           <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
+                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-slate-100 mr-3">
                               <i className="fas fa-chalkboard-teacher"></i>
                             </span>
                           </div>
                           <div>
-                            <h4 className="text-blueGray-500 text-left">
+                            <h4 className="text-slate-500 text-left">
                               Machine learning
                             </h4>
                           </div>
@@ -139,12 +138,12 @@ export default function AI() {
                       <li className="py-1">
                         <div className="flex items-center">
                           <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
+                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-slate-100 mr-3">
                               <i className="fas fa-chart-bar"></i>
                             </span>
                           </div>
                           <div>
-                            <h4 className="text-blueGray-500 text-left">
+                            <h4 className="text-slate-500 text-left">
                               Predictive analytics
                             </h4>
                           </div>
@@ -153,12 +152,12 @@ export default function AI() {
                       <li className="py-1">
                         <div className="flex items-center">
                           <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
+                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-slate-100 mr-3">
                               <i className="fas fa-object-group"></i>
                             </span>
                           </div>
                           <div>
-                            <h4 className="text-blueGray-500 text-left">
+                            <h4 className="text-slate-500 text-left">
                               Classification tools
                             </h4>
                           </div>

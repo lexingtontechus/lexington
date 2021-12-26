@@ -83,13 +83,13 @@ export default function Services() {
                       <i className="fab fa-empire"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Mission</h6>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       Develop nextgen eCommerce marketplace for Btab Group.
                     </p>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       Deploy Deep Learning & Neuro-networks to scale.
                     </p>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       Train new models focused on service delivery &
                       manufacturing.
                     </p>
@@ -104,31 +104,31 @@ export default function Services() {
                       <i className="fas fa-power-off"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Technologies</h6>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       Leverage industry leading solutions for your business.
                     </p>
                     <ul className="list-none">
                       <li className="py-1">
                         <div className="flex items-center">
                           <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
+                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-300 bg-slate-100 mr-3">
                               <i className="fas fa-aws"></i>
                             </span>
                           </div>
                           <div>
-                            <h4 className="text-blueGray-500 text-left">AWS</h4>
+                            <h4 className="text-slate-300 text-left">AWS</h4>
                           </div>
                         </div>
                       </li>
                       <li className="py-1">
                         <div className="flex items-center">
                           <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
+                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-300 bg-slate-100 mr-3">
                               <i className="fas fa-google"></i>
                             </span>
                           </div>
                           <div>
-                            <h4 className="text-blueGray-500 text-left">
+                            <h4 className="text-slate-300 text-left">
                               Google Cloud
                             </h4>
                           </div>
@@ -137,12 +137,12 @@ export default function Services() {
                       <li className="py-1">
                         <div className="flex items-center">
                           <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-100 mr-3">
+                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-300 bg-slate-100 mr-3">
                               <i className="fas fa-chart-bar"></i>
                             </span>
                           </div>
                           <div>
-                            <h4 className="text-blueGray-500 text-left">
+                            <h4 className="text-slate-300 text-left">
                               Predictive Analytics
                             </h4>
                           </div>
@@ -160,14 +160,14 @@ export default function Services() {
                       <i className="fas fa-laptop-code"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Approach</h6>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       Accelerating innovation and action for sustainable growth.
                     </p>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       Embracing technology to power sustainable food systems
                       transformation.
                     </p>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       Embracing technology & leveraging AI and Machine Learning.
                     </p>
                   </div>
@@ -298,7 +298,7 @@ export default function Services() {
                   <h3 className="text-3xl font-semibold uppercase">
                     Digital Automation
                   </h3>
-                  <p className="mt-4 text-lg leading-relaxed text-slate-500">
+                  <p className="mt-4 text-lg leading-relaxed text-slate-300">
                     Digital marketing workflow automation. Personalized customer
                     journey experiences. Clear understanding of customer
                     segments. Data-driven approach to improve your customer
@@ -308,7 +308,7 @@ export default function Services() {
                   <h3 className="text-3xl font-semibold uppercase mt-2">
                     Market Expansion
                   </h3>
-                  <p className="mt-4 text-lg leading-relaxed text-slate-500">
+                  <p className="mt-4 text-lg leading-relaxed text-slate-300">
                     Launch hyperlocal microservices and scale quickly. We
                     understand your pain points, visual ideation & recommend
                     solutions and business improvement strategies.

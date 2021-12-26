@@ -82,15 +82,15 @@ export default function esports() {
                       <i className="fab fa-empire"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Mission</h6>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       Investing in the sustainable future of food & medical
                       advances.
                     </p>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       Sustainable & high yield foodtech products & water
                       sources.
                     </p>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       Future of eCommerce powered by virtual & augmented
                       reality.
                     </p>
@@ -101,20 +101,20 @@ export default function esports() {
               <div className="w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-sky-400">
                       <i className="fas fa-power-off"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Investments</h6>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       We invest in plant-based & cell-based innovations. If you
                       are a start-ups that fits our missionInvesting in the
                       sustainable future of food & medical advances.
                     </p>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       Sustainable & high yield foodtech products & water
                       sources.
                     </p>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       Future of eCommerce powered by virtual & augmented
                       reality.
                     </p>
@@ -129,14 +129,14 @@ export default function esports() {
                       <i className="fas fa-laptop-code"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Growth</h6>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       Accelerating innovation and action for sustainable growth.
                     </p>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       Embracing technology to power sustainable food systems
                       transformation.
                     </p>
-                    <p className="mt-2 mb-4 text-slate-500">
+                    <p className="mt-2 mb-4 text-slate-300">
                       Embracing technology & leveraging AI and Machine Learning.
                     </p>
                   </div>
@@ -269,7 +269,7 @@ export default function esports() {
                   <h3 className="text-3xl font-semibold uppercase">
                     AI Powered Solutions
                   </h3>
-                  <p className="mt-4 text-lg leading-relaxed text-slate-500">
+                  <p className="mt-4 text-lg leading-relaxed text-slate-300">
                     Lexington’s risk based trading strategies with a statistical
                     hedge allows for a positive equity curve with very low
                     draw-downs. While we offer many algorithmic strategies, with
@@ -277,7 +277,7 @@ export default function esports() {
                     directional and trades based on real time market data and
                     not any lagging statistical driven indicators.
                   </p>
-                  <p className="mt-4 text-lg leading-relaxed text-slate-500">
+                  <p className="mt-4 text-lg leading-relaxed text-slate-300">
                     Applied AI technologies: Machine Learning, Natural Language
                     Processing, Sentiment Analysis & Deep Learning.
                   </p>

@@ -136,7 +136,7 @@ export default function About() {
                     </p>
                   </div>
                 </div>
-                <div className="mt-8 py-10 border-t border-blueGray-200 text-center">
+                <div className="mt-8 py-10 border-t border-slate-200 text-center">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <h3 className="text-3xl font-semibold leading-normal mb-2 text-slate-700 mb-2">

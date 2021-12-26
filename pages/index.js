@@ -77,7 +77,7 @@ export default function Index() {
                   <h3 className="text-3xl font-semibold uppercase">
                     Wholesale Warehouse
                   </h3>
-                  <p className="mt-4 text-lg leading-relaxed text-slate-500">
+                  <p className="mt-4 text-lg leading-relaxed text-slate-300">
                     This is a model of a wholesale warehouse built using network
                     markup shapes. The warehouse is divided into several zones
                     and has several staff types. The zone utilization is
@@ -166,7 +166,7 @@ export default function Index() {
                   <h3 className="text-3xl font-semibold uppercase">
                     Flexible Manufacturing
                   </h3>
-                  <p className="mt-4 text-lg leading-relaxed text-slate-500">
+                  <p className="mt-4 text-lg leading-relaxed text-slate-300">
                     This is a concept model of a supply chain where each
                     producer makes some finished product from raw material
                     supplied by another producer. The production stops when the
@@ -188,7 +188,7 @@ export default function Index() {
                   <h3 className="text-3xl font-semibold uppercase">
                     User Satisfaction
                   </h3>
-                  <p className="mt-4 text-lg leading-relaxed text-slate-500">
+                  <p className="mt-4 text-lg leading-relaxed text-slate-300">
                     This model is based on an actual model built for a client.
                     The client offered a service that was subject to
                     interruption, downtime, and similar issues (e.g., an
@@ -199,7 +199,7 @@ export default function Index() {
                     level of satisfaction for the service based on the service’s
                     performance.
                   </p>
-                  <p className="mt-4 text-lg leading-relaxed text-slate-500">
+                  <p className="mt-4 text-lg leading-relaxed text-slate-300">
                     The users are modeled as agents. Each user has individual
                     behavior and attitude towards the service. The users
                     interact and share their experiences. The process of
