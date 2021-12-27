@@ -258,7 +258,9 @@ export default function Blockchain() {
                 <div className="md:pr-12">
                   <h3 className="text-3xl font-semibold">Wallets & dApps</h3>
                   <p className="mt-4 text-lg leading-relaxed text-slate-500">
-                    Synthetic & biotech inventions & startups.
+                    Gateway to the Ethereum Blockchain. Easy-to-use, open-source
+                    platform allows you to generate wallets, token swaps & smart
+                    contracts.
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">

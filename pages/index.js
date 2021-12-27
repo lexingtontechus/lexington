@@ -38,9 +38,11 @@ export default function Index() {
                   <div className="pt-2 w-full h-4/12">
                     <p className="mt-2 mb-4 text-slate-400 text-center">
                       AI-Driven strategy integrating new technologies seamlessly
-                      across retail, healthcare, pharmaceuticals, supply &
-                      logistics, manufacturing & warehousing, eCommerce &
-                      customer management.
+                      across retail, healthcare,
+                      <br />
+                      pharmaceuticals, supply & logistics, manufacturing &
+                      warehousing, <br />
+                      eCommerce & customer management.
                     </p>
                   </div>
                 </div>
@@ -101,23 +103,23 @@ export default function Index() {
                   />
 
                   <blockquote className="relative p-8 mb-4">
-                    <svg
+                    {/* <svg
                       preserveAspectRatio="none"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 583 95"
                       className="absolute left-0 w-full block h-95-px -top-94-px"
                     >
-                      <polygon
+                     <polygon
                         points="-30,95 583,95 583,65"
                         className="fill-slate-700 fill-current"
                       ></polygon>
-                    </svg>
+                    </svg>*/}
                     <h4 className="text-xl font-bold text-white uppercase">
                       Wholesale Warehouse
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      Investing in new local business opportunities in Los
-                      Angeles, CA & Orange County, CA.
+                      This simulation demonstrates the use case of applied AI
+                      optimizing resource utilization in a warehouse.
                     </p>
                   </blockquote>
                 </div>
@@ -139,7 +141,7 @@ export default function Index() {
                     title="Flexible Manufacturing"
                   />
                   <blockquote className="relative p-8 mb-4">
-                    <svg
+                    {/* <svg
                       preserveAspectRatio="none"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 583 95"
@@ -149,13 +151,13 @@ export default function Index() {
                         points="-30,95 583,95 583,65"
                         className="fill-slate-700 fill-current"
                       ></polygon>
-                    </svg>
+                   </svg>*/}
                     <h4 className="text-xl font-bold text-white uppercase">
                       Flexible Manufacturing
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      Investing in new local business opportunities in Los
-                      Angeles, CA & Orange County, CA.
+                      Thi simulation demonstrates supply chain efficiency of
+                      supply/demand availability through AI demand forecasting.
                     </p>
                   </blockquote>
                 </div>
@@ -222,7 +224,7 @@ export default function Index() {
                     title="User Satisfaction"
                   />
                   <blockquote className="relative p-8 mb-4">
-                    <svg
+                    {/* <svg
                       preserveAspectRatio="none"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 583 95"
@@ -232,13 +234,13 @@ export default function Index() {
                         points="-30,95 583,95 583,65"
                         className="fill-slate-700 fill-current"
                       ></polygon>
-                    </svg>
+                   </svg>*/}
                     <h4 className="text-xl font-bold text-white uppercase">
                       User Satisfaction
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      Investing in new local business opportunities in Los
-                      Angeles, CA & Orange County, CA.
+                      This simulation demonstrates service delivery optimization
+                      through AI processing of service requests.
                     </p>
                   </blockquote>
                 </div>

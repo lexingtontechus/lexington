@@ -101,10 +101,10 @@ export default function About() {
                       </div>
                       <div className="lg:mr-4 p-3 text-center">
                         <span className="text-xl font-bold block uppercase tracking-wide text-slate-600">
-                          30000
+                          10
                         </span>
                         <span className="text-sm text-slate-400">
-                          Retail Stores
+                          Manufacturing Facilities
                         </span>
                       </div>
                     </div>
