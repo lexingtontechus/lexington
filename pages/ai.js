@@ -99,7 +99,7 @@ export default function AI() {
               <div className="w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-slate-400">
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-sky-400">
                       <i className="fas fa-power-off"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Technologies</h6>
@@ -110,7 +110,7 @@ export default function AI() {
                       <li className="py-1">
                         <div className="flex items-center">
                           <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-slate-100 mr-3">
+                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-900 bg-slate-100 mr-3">
                               <i className="fas fa-industry"></i>
                             </span>
                           </div>
@@ -124,7 +124,7 @@ export default function AI() {
                       <li className="py-1">
                         <div className="flex items-center">
                           <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-slate-100 mr-3">
+                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-900 bg-slate-100 mr-3">
                               <i className="fas fa-chalkboard-teacher"></i>
                             </span>
                           </div>
@@ -138,7 +138,7 @@ export default function AI() {
                       <li className="py-1">
                         <div className="flex items-center">
                           <div>
-                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-slate-100 mr-3">
+                            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-900 bg-slate-100 mr-3">
                               <i className="fas fa-chart-bar"></i>
                             </span>
                           </div>

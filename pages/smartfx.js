@@ -185,7 +185,7 @@ export default function SmartFX() {
                         <li className="py-2">
                           <div className="flex items-center">
                             <div>
-                              <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-indigo-100 mr-3">
+                              <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-900 bg-indigo-200 mr-3">
                                 <i className="fab fa-hive"></i>
                               </span>
                             </div>
@@ -199,7 +199,7 @@ export default function SmartFX() {
                         <li className="py-2">
                           <div className="flex items-center">
                             <div>
-                              <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-indigo-100 mr-3">
+                              <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-900 bg-indigo-200 mr-3">
                                 <i className="fas fa-compress-arrows-alt"></i>
                               </span>
                             </div>
@@ -213,7 +213,7 @@ export default function SmartFX() {
                         <li className="py-2">
                           <div className="flex items-center">
                             <div>
-                              <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-indigo-100 mr-3">
+                              <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-900 bg-indigo-200 mr-3">
                                 <i className="fas fa-comments-dollar"></i>
                               </span>
                             </div>
@@ -227,7 +227,7 @@ export default function SmartFX() {
                         <li className="py-2">
                           <div className="flex items-center">
                             <div>
-                              <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-indigo-100 mr-3">
+                              <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-900 bg-indigo-200 mr-3">
                                 <i className="fas fa-laptop-code"></i>
                               </span>
                             </div>

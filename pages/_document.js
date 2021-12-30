@@ -34,7 +34,7 @@ AI, Smart FX, Blockchain, Hyper-Local Microservices.  Web 3.0 Blockchain domain 
           />
           <link rel="shortcut icon" href="/ico_logo_lxt.svg" />
           <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon.png" />
-          <script src="https://cdn.tailwindcss.com"></script>
+
           <script async src="https://cdn.announcekit.app/widget-v2.js"></script>
           <script
             src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie_svg.min.js"

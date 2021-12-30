@@ -87,7 +87,7 @@ export default function About() {
                         <span className="text-xl font-bold block uppercase tracking-wide text-slate-600">
                           19
                         </span>
-                        <span className="text-sm text-slate-400">
+                        <span className="text-sm text-slate-900">
                           Btab Group Companies
                         </span>
                       </div>
@@ -95,7 +95,7 @@ export default function About() {
                         <span className="text-xl font-bold block uppercase tracking-wide text-slate-600">
                           6
                         </span>
-                        <span className="text-sm text-slate-400">
+                        <span className="text-sm text-slate-900">
                           Countries
                         </span>
                       </div>
@@ -103,7 +103,7 @@ export default function About() {
                         <span className="text-xl font-bold block uppercase tracking-wide text-slate-600">
                           10
                         </span>
-                        <span className="text-sm text-slate-400">
+                        <span className="text-sm text-slate-900">
                           Manufacturing Facilities
                         </span>
                       </div>
@@ -121,7 +121,7 @@ export default function About() {
                   <div className="mt-2 mb-2 leading-relaxed text-slate-600">
                     Part of the publicly accessible Ethereum blockchain.
                   </div>
-                  <div className="text-lg leading-normal text-slate-400 font-normal text-slate-600 mt-10 mb-2 ">
+                  <div className="text-lg leading-normal text-slate-400 font-normal text-slate-600 mt-8 mb-2 ">
                     Subsidiary of Btab Group Inc.
                   </div>
                   <div className="text-slate-600 mt-2 mb-2">
@@ -140,14 +140,14 @@ export default function About() {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <h3 className="text-3xl font-semibold leading-normal mb-2 text-slate-700 mb-2">
-                        Our focus is to build Btab's infrastructure projects.
+                        Building Btab's infrastructure projects.
                       </h3>
                       <p className="mb-4 text-lg leading-relaxed text-slate-700">
                         <ul>
                           <li>MACH eCommerce</li>
-                          <li>Web 3.0 support</li>
+                          <li>Web 3.0</li>
                           <li>Defi Fintech payments</li>
-                          <li>SmartFX</li>
+                          <li>Supply chain logistics</li>
                           <li>Hyperlocal microservices</li>
                         </ul>
                       </p>

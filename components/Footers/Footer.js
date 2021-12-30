@@ -42,7 +42,7 @@ export default function Footer() {
                   title="LinkedIn"
                 >
                   <button
-                    className="bg-white text-slate-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    className="bg-indigo-200 text-slate-900 hover:text-slate-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                     type="button"
                   >
                     <i className="fab fa-linkedin"></i>
@@ -56,7 +56,7 @@ export default function Footer() {
                   title="Angel"
                 >
                   <button
-                    className="bg-white text-slate-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    className="bg-indigo-200 text-slate-900 hover:text-slate-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                     type="button"
                   >
                     <i className="fab fa-angellist"></i>
@@ -70,7 +70,7 @@ export default function Footer() {
                   title="Discord"
                 >
                   <button
-                    className="bg-white text-slate-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    className="bg-indigo-200 text-slate-900 hover:text-slate-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                     type="button"
                   >
                     <i className="fab fa-discord"></i>
@@ -154,7 +154,7 @@ export default function Footer() {
                 Copyright © {new Date().getFullYear()}{" "}
                 <a
                   href="https://lexingtontech.us"
-                  className="text-slate-500 hover:text-indgigo-300"
+                  className="text-slate-500 hover:text-slate-300"
                 >
                   Lexington Tech LLC
                 </a>
