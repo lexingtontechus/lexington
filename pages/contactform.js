@@ -61,15 +61,15 @@ export default function ContactForm() {
               <option value="Select" selected="" disabled="">
                 Select an inquiry type
               </option>
-              <option value="BioTech">BioTech</option>
-              <option value="FoodTech">FoodTech</option>
-              <option value="ETF">ETF</option>
-              <option value="Hyperlocal microservices">
-                Hyperlocal microservices
+              <option value="AI">AI & ML</option>
+              <option value="Blockchain">Blockchain</option>
+              <option value="SmartFX">SmartFX</option>
+              <option value="Metaverse development">
+                Metaverse development
               </option>
-              <option value="Startup pitch">Startup pitch</option>
-              <option value="Investment opportunity">
-                Investment opportunity
+              <option value="Web3IPFS">Web 3.0 + IPFS</option>
+              <option value="Working with Btab Group">
+                Working with Btab Group
               </option>
             </select>
           </label>

@@ -133,7 +133,7 @@ export default function Blockchain() {
                       Implement wallet & token technologies.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Transition businesses to decentralized technologies.
+                      Transition to decentralized technologies.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
                       Build DApps to power eCommmerce.

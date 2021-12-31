@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-import { useState, useEffect } from "react";
+//import { useState, useEffect } from "react";
 //import Link from "next/link";
 import Head from "next/head";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";

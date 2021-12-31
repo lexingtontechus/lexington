@@ -125,7 +125,7 @@ export default function SmartFX() {
                     </div>
                     <h6 className="text-xl font-semibold">Our Growth</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Deep learning across our continously growing dataset.
+                      Deep learning across continously growing datasets.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
                       Technology enabled decision making & prediction.

@@ -10,9 +10,10 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "styles/tailwind.css";
 
 //TagManager
-import Script from 'next/script';
-import { GTM_ID, pageview } from '../lib/gtm';
 
+import Script from "next/script";
+
+import GoogleTagManager from "components/Googletagmanager/Googletagmanager.js";
 //const tagManagerArgs = {
 //  id: "GTM-KFBK2N3"
 //};
@@ -36,25 +37,17 @@ Router.events.on("routeChangeError", () => {
 
 export default class MyApp extends App {
   componentDidMount() {
-    //TagManager.initialize(tagManagerArgs);
     let comment = document.createComment(`
-
 =========================================================
 * Notus NextJS - v1.1.0 based on Tailwind Starter Kit by Creative Tim
 =========================================================
-
 * Product Page: https://www.creative-tim.com/product/notus-nextjs
 * Copyright 2021 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md)
-
 * Tailwind Starter Kit Page: https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation
-
 * Coded by Creative Tim
-
 =========================================================
-
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 `);
     document.insertBefore(comment, document.documentElement);
   }
@@ -74,31 +67,32 @@ export default class MyApp extends App {
 
     return (
       <>
-      {/* Google Tag Manager - Global base code */}
-      <Script
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer', '${GTM_ID}');
-          `,
-        }}
-      />
-      <React.Fragment>
-        <Head>
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-          />
-          <title>LXT GROUP LLC</title>
-        </Head>
-        <Layout>
+        {/* Google Tag Manager - Global base code */}
+        <GoogleTagManager>
           <Component {...pageProps} />
-        </Layout>
-      </React.Fragment>
+        </GoogleTagManager>
+        <Script async src="https://cdn.announcekit.app/widget-v2.js" />
+        <Script
+          src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie_svg.min.js"
+          type="text/javascript"
+        />
+        <Script
+          src="https://api.minymon.com/minymon.js"
+          defer
+          type="text/javascript"
+        />
+        <React.Fragment>
+          <Head>
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no"
+            />
+            <title>LXT GROUP LLC</title>
+          </Head>
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </React.Fragment>
       </>
     );
   }
