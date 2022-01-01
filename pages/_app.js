@@ -68,9 +68,7 @@ export default class MyApp extends App {
     return (
       <>
         {/* Google Tag Manager - Global base code */}
-        <GoogleTagManager>
-          <Component {...pageProps} />
-        </GoogleTagManager>
+
         <Script async src="https://cdn.announcekit.app/widget-v2.js" />
         <Script
           src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie_svg.min.js"
@@ -90,7 +88,9 @@ export default class MyApp extends App {
             <title>LXT GROUP LLC</title>
           </Head>
           <Layout>
-            <Component {...pageProps} />
+            <GoogleTagManager>
+              <Component {...pageProps} />
+            </GoogleTagManager>
           </Layout>
         </React.Fragment>
       </>
