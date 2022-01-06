@@ -26,7 +26,7 @@ export default function AI() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('/ai_background.webp')"
+              backgroundImage: "url('https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_background.webp')"
             }}
           >
             <span
@@ -217,7 +217,7 @@ export default function AI() {
                     alt="Artificial Intelligence"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
-                    src="/artificial_intelligence.jpg"
+                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/artificial_intelligence.jpg"
                   />
                   <blockquote className="relative p-8 mb-4">
                     <svg
@@ -273,7 +273,7 @@ export default function AI() {
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                   <img
                     alt="AI Solutions"
-                    src="/ai_solutions.png"
+                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_solutions.png"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />

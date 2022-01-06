@@ -13,7 +13,7 @@ export default function Startups() {
   return (
     <>
       <Head>
-        <title>LXT GROUP | Startups</title>
+        <title>Lexington | Startups</title>
         <meta
           property="description="
           content="Accelerated Startup Investment of Hyperlocal Microservices"

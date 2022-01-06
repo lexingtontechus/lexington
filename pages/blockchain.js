@@ -170,7 +170,7 @@ export default function Blockchain() {
                     alt="IPFS"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
-                    src="/ipfs5.svg"
+                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ipfs5.svg"
                   />
                   <blockquote className="relative p-8 mb-4">
                     <svg
@@ -227,7 +227,7 @@ export default function Blockchain() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                   <img
                     alt="IPFS"
-                    src="/ipfs6.svg"
+                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ipfs6.svg"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />

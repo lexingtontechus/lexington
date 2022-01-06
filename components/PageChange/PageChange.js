@@ -11,7 +11,8 @@ export default function PageChange(props) {
       <div
         className="bg-cover fixed z-40 w-full h-full top-0 left-0"
         style={{
-          backgroundImage: "url('/pagechange.jpg')"
+          backgroundImage:
+            "url('https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/pagechange.jpg')"
         }}
       ></div>
       <div className="top-0 left-0 w-full h-full block z-50 absolute bg-black bg-opacity-50"></div>

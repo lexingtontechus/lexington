@@ -26,7 +26,7 @@ export default function SmartFX() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('/ai_background.webp')"
+              backgroundImage: "url('https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_background.webp')"
             }}
           >
             <span
@@ -162,7 +162,7 @@ export default function SmartFX() {
                     alt="Quant Algorithmic Trading"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
-                    src="/quant_trading.jpg"
+                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/quant_trading.jpg"
                   />
                   <blockquote className="relative p-8 mb-4">
                     {/*<svg
@@ -274,7 +274,7 @@ export default function SmartFX() {
                 <div className="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                   <img
                     alt="5 Steps of Quant"
-                    src="/5steps_quant.jpg"
+                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/5steps_quant.jpg"
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
                   />
