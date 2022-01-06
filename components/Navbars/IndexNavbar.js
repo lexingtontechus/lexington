@@ -138,6 +138,7 @@ export default function Navbar(props) {
                   className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://angel.co/company/lexingtontech/"
                   target="_blank"
+                  rel="noreferrer"
                   title="Angel"
                 >
                   <i className="fab fa-angellist text-lg leading-lg " />
