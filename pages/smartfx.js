@@ -26,7 +26,8 @@ export default function SmartFX() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_background.webp')"
+              backgroundImage:
+                "url('https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_background.webp')"
             }}
           >
             <span
@@ -125,7 +126,11 @@ export default function SmartFX() {
                     </div>
                     <h6 className="text-xl font-semibold">Our Growth</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Deep learning across continously growing datasets.
+                      Deep learning{" "}
+                      <span>
+                        <i class="fas fa-exchange-alt"></i>
+                      </span>{" "}
+                      continously growing datasets.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
                       Technology enabled decision making & prediction.

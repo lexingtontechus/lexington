@@ -11,7 +11,7 @@ import "styles/tailwind.css";
 
 //TagManager
 
-import Script from "next/script";
+//import Script from "next/script";
 
 import GoogleTagManager from "components/Googletagmanager/Googletagmanager.js";
 //const tagManagerArgs = {
@@ -67,18 +67,6 @@ export default class MyApp extends App {
 
     return (
       <>
-        {/* Google Tag Manager - Global base code */}
-
-        <Script async src="https://cdn.announcekit.app/widget-v2.js" />
-        <Script
-          src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie_svg.min.js"
-          type="text/javascript"
-        />
-        <Script
-          src="https://api.minymon.com/minymon.js"
-          defer
-          type="text/javascript"
-        />
         <React.Fragment>
           <Head>
             <meta
