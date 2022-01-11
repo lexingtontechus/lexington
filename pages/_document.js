@@ -8,13 +8,15 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <meta name="theme-color" content="#000000" />
+          <meta name="title" content="Lexington Tech | MANAGEMENT CONSULTING" />
           <meta
             name="description"
-            content="Investing in the future of FoodTech, PharmaTech,
-Crypto EFT & Hyper-Local Microservices."
+            content="Management Consulting | AI, Smart FX, Blockchain, Hyper-Local Microservices. Web 3.0 Blockchain domain IPFS."
             key="description"
           />
+
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://lexingtontech.us" />
           <meta
             property="og:title"
             content="Lexington | MANAGEMENT CONSULTING"
@@ -26,8 +28,25 @@ Crypto EFT & Hyper-Local Microservices."
 AI, Smart FX, Blockchain, Hyper-Local Microservices.  Web 3.0 Blockchain domain IPFS"
             key="description"
           />
-          <meta property="og:url" content="https://lexingtontech.us" />
-          <meta property="og:type" content="website" />
+          <meta
+            property="og:image"
+            content="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_solutions.png"
+          />
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://lexingtontech.us/" />
+          <meta
+            property="twitter:title"
+            content="Lexington Meta | MANAGEMENT CONSULTING"
+          />
+          <meta
+            property="twitter:description"
+            content="Management Consulting | AI, Smart FX, Blockchain, Hyper-Local Microservices. Web 3.0 Blockchain domain IPFS."
+          />
+          <meta
+            property="twitter:image"
+            content="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_solutions.png"
+          />
+
           <meta
             property="keywords"
             content="Management Consulting, AI, Artificial Intelligence, ML, Machine Learning, Web 3.0, Blockchain, domain, IPFS, Interplantary File System, IPFS, Fleek, Storj, Quantum Management, FoodTech, BioTech, Hyperlocal Microservices, Crypto, Forex, ETF, Pharmatech"
@@ -36,6 +55,7 @@ AI, Smart FX, Blockchain, Hyper-Local Microservices.  Web 3.0 Blockchain domain 
           <link rel="shortcut icon" href="/ico_logo_lxt.svg" />
           <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon.png" />
           <script async src="https://cdn.announcekit.app/widget-v2.js"></script>
+
           <script
             src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie_svg.min.js"
             type="text/javascript"

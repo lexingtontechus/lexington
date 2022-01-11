@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
-
+//import Script from "next/script";
 import PageChange from "components/PageChange/PageChange.js";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -11,12 +11,9 @@ import "styles/tailwind.css";
 
 //TagManager
 
-//import Script from "next/script";
-
 import GoogleTagManager from "components/Googletagmanager/Googletagmanager.js";
-//const tagManagerArgs = {
-//  id: "GTM-KFBK2N3"
-//};
+//Posthog
+import Posthog from "components/Posthog/posthog.js";
 
 Router.events.on("routeChangeStart", (url) => {
   console.log(`Loading: ${url}`);

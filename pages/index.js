@@ -33,7 +33,11 @@ export default function Index() {
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center justify-center">
                 <div className="p-2">
                   <h1 className="text-white font-semibold text-3xl text-center uppercase pb-4">
-                    Transforming Business With AI Technologies
+                    Business{" "}
+                    <span>
+                      <i class="fab fa-mixer"></i>
+                    </span>{" "}
+                    AI Technologies
                   </h1>
 
                   <div className="pt-2 w-full h-4/12">

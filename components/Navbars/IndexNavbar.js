@@ -1,22 +1,21 @@
 import React from "react";
 import Link from "next/link";
 import AnnounceKit from "announcekit-react";
-import PostHog from "posthog-node";
+
 //components
 //import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
-import Script from "next/script";
+//import Script from "next/script";
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
-  const client = new PostHog("process.env.POSTHOG_ID", {
-    host: "https://app.posthog.com"
-  });
-  client.capture({
-    distinctId: "navigation_id",
-    event: "navigation"
-  });
+
   return (
     <>
-      <Script async src="https://cdn.announcekit.app/widget-v2.js" />
+      {/*<Script
+        strategy="lazyOnload"
+        async
+        src="https://cdn.announcekit.app/widget-v2.js"
+      />*/}
+
       <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-indigo-900 shadow">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
