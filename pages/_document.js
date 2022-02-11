@@ -14,12 +14,12 @@ class MyDocument extends Document {
             content="Management Consulting | AI, Smart FX, Blockchain, Hyper-Local Microservices. Web 3.0 Blockchain domain IPFS."
             key="description"
           />
-
+          <meta name="copyright" content="Lexington Tech" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://lexingtontech.us" />
           <meta
             property="og:title"
-            content="Lexington | MANAGEMENT CONSULTING"
+            content="Lexington | Management Consulting"
             key="title"
           />
           <meta
@@ -30,13 +30,13 @@ AI, Smart FX, Blockchain, Hyper-Local Microservices.  Web 3.0 Blockchain domain 
           />
           <meta
             property="og:image"
-            content="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_solutions.png"
+            content="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_background.webp"
           />
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://lexingtontech.us/" />
           <meta
             property="twitter:title"
-            content="Lexington Meta | MANAGEMENT CONSULTING"
+            content="Lexington Tech | Management Consulting"
           />
           <meta
             property="twitter:description"
@@ -44,7 +44,7 @@ AI, Smart FX, Blockchain, Hyper-Local Microservices.  Web 3.0 Blockchain domain 
           />
           <meta
             property="twitter:image"
-            content="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_solutions.png"
+            content="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_background.webp"
           />
 
           <meta
@@ -54,6 +54,11 @@ AI, Smart FX, Blockchain, Hyper-Local Microservices.  Web 3.0 Blockchain domain 
           />
           <link rel="shortcut icon" href="/ico_logo_lxt.svg" />
           <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon.png" />
+          <link
+            rel="stylesheet"
+            href="https://lexingtontech.us/_next/static/css/d54c642cbd6088e8.css"
+            data-n-g=""
+          />
           <script async src="https://cdn.announcekit.app/widget-v2.js"></script>
 
           <script

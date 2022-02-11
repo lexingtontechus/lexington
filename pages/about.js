@@ -85,7 +85,7 @@ export default function About() {
                     <div className="flex justify-center py-4 lg:pt-4 pt-8">
                       <div className="mr-4 p-3 text-center">
                         <span className="text-xl font-bold block uppercase tracking-wide text-slate-600">
-                          19
+                          18
                         </span>
                         <span className="text-sm text-slate-900">
                           Btab Group Companies
@@ -101,7 +101,7 @@ export default function About() {
                       </div>
                       <div className="lg:mr-4 p-3 text-center">
                         <span className="text-xl font-bold block uppercase tracking-wide text-slate-600">
-                          10
+                          3
                         </span>
                         <span className="text-sm text-slate-900">
                           Manufacturing Facilities
