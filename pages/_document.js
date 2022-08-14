@@ -56,7 +56,8 @@ AI, Smart FX, Blockchain, Hyper-Local Microservices.  Web 3.0 Blockchain domain 
           <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon.png" />
           <link
             rel="stylesheet"
-            href="https://lexingtontech.us/_next/static/css/d54c642cbd6088e8.css"
+            type="text/css"
+            href="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/styles/tailwind.css"
             data-n-g=""
           />
 
