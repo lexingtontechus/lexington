@@ -71,14 +71,14 @@ export default function Privacy({ color }) {
           </div>
         </div>
 
-        <section className="relative block py-24 lg:pt-0 bg-indigo-800">
+        <section className="relative block py-24 lg:pt-0 bg-slate-400">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-              <div className="w-full lg:w-10/12 px-4">
+              <div className="w-full lg:w-10/12 px-4 mt-8">
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-indigo-200">
                   <div className="flex-auto p-5 lg:p-10">
                     <h2 className="text-2xl font-semibold">
-                      Last updated January 01, 2022
+                      Last updated January 01, {new Date().getFullYear()}{" "}
                     </h2>
                     <div className="relative w-full mb-3 mt-8">
                       <h4 className="text-xl font-semibold">
@@ -1150,7 +1150,7 @@ export default function Privacy({ color }) {
                       <ul className="list-none mr-auto">
                         <li className="flex items-center">
                           <img
-                            src="/logo_lxt.svg"
+                            src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/logo_lxt.svg"
                             alt="Lexington LLC"
                             height="16"
                             width="16"

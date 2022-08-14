@@ -12,3 +12,9 @@
 .bg-lexington {
   background-color: rgba(109, 146, 110, var(--tw-bg-opacity));
 }
+
+@layer base {
+  html {
+    font-family: Roboto Mono;
+  }
+}

@@ -59,7 +59,6 @@ AI, Smart FX, Blockchain, Hyper-Local Microservices.  Web 3.0 Blockchain domain 
             href="https://lexingtontech.us/_next/static/css/d54c642cbd6088e8.css"
             data-n-g=""
           />
-          <script async src="https://cdn.announcekit.app/widget-v2.js"></script>
 
           <script
             src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie_svg.min.js"

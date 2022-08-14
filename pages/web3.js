@@ -9,17 +9,13 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 //Images
 
-export default function Blockchain() {
+export default function Web3() {
   //const [isPlaying, setIsPlaying] = useState(true);
   return (
     <>
       <Head>
-        <title>Lexington | Blockchain</title>
-        <meta
-          property="og:title"
-          content="Lexington Tech -  Blockchain-Powered dApps"
-          key="title"
-        />
+        <title>Lexington | WEB3</title>
+        <meta property="og:title" content="Lexington Tech - WEB3" key="title" />
       </Head>
       <IndexNavbar transparent />
       <main>
@@ -28,7 +24,7 @@ export default function Blockchain() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1559445368-b8a993676d7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80')"
+                "url('https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/meta_banner2.png')"
             }}
           >
             <span
@@ -40,17 +36,20 @@ export default function Blockchain() {
             <div className="items-center flex flex-wrap">
               <div className="pt-24 w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
                 <div className="p-2">
-                  <h1 className="text-white font-semibold text-5xl text-center pb-4 uppercase">
-                    Blockchain-Powered DA
-                    <span className="normal-case">pps</span>
+                  <h1 className="text-slate-100 font-semibold text-5xl text-center pb-4 uppercase">
+                    <i className="fa-solid fa-w"></i>
+                    {"  "}
+                    <i className="fa-solid fa-e"></i>
+                    {"  "}
+                    <i className="fa-solid fa-b"></i>
+                    {"  "}
+                    <i className="fa-solid fa-3"></i>
                   </h1>
 
                   <div className="pt-2 w-full h-4/12">
                     <p className="mt-2 mb-4 text-slate-400 text-center">
-                      Launch Web 3.0 blockchain domains or your own layer-2
-                      Ethereum-based in-app currency. Blockchain technology is
-                      live and ready to use today.
-                    </p>
+                      Get ready for WEB3.
+                    </p>{" "}
                   </div>
                 </div>
               </div>
@@ -83,18 +82,19 @@ export default function Blockchain() {
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                    <div className="text-slate-100 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                       <i className="fab fa-empire"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Mission</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Build blockchain eCommerce dApps.
+                      Readiness assessment.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Efficient & sustainable blockchain technologies.
+                      Web 2.0 <i className="fa-solid fa-angles-right"></i> WEB3
                     </p>
+
                     <p className="mt-2 mb-4 text-slate-500">
-                      Future of eCommerce powered by Defi & crypto.
+                      Launch WEB3 services.
                     </p>
                   </div>
                 </div>
@@ -103,20 +103,23 @@ export default function Blockchain() {
               <div className="w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-sky-400">
+                    <div className="text-slate-100 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-sky-400">
                       <i className="fab fa-bitcoin"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Our Technologies</h6>
+                    <h6 className="text-xl font-semibold">Our Methodology</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Polygon - building and connecting Ethereum-compatible
-                      blockchain networks
+                      Tech stack <i className="fa-solid fa-plus"></i> privacy{" "}
+                      <i className="fa-solid fa-plus"></i>
+                      security.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      IPFS (Interplantary File System) powering the Distributed
-                      Web.
+                      Workflow & automation integration.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      DeFi payments apps, protocols and solutions.
+                      Payments solutions (on-ramp/off-ramp).
+                    </p>
+                    <p className="mt-2 mb-4 text-slate-500">
+                      Business scaling.
                     </p>
                   </div>
                 </div>
@@ -125,55 +128,119 @@ export default function Blockchain() {
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
+                    <div className="text-slate-100 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
                       <i className="fas fa-seedling"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Our Approach</h6>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Implement wallet & token technologies.
+                      Resolve business & technology issues.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Transition to decentralized technologies.
+                      Transition to secure technology.
                     </p>
                     <p className="mt-2 mb-4 text-slate-500">
-                      Build DApps to power eCommmerce.
+                      Build towards WEB3.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
+            {/* Main Section */}
             <div className="flex flex-wrap items-center mt-16">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  IPFS + Hyperledger
+                  WEB 2.0 To WEB3
                 </h3>
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-100">
-                  IPFS (Interplantary File System) powers the Distributed Web
+                <p className="text-lg font-light leading-relaxed mt-4 mb-0 text-slate-100">
+                  Business fundamentals do not change in the pursuit of WEB3.
+                  The new business points of emphasis on content, communities &
+                  inclusion reinforces -
+                </p>
+                <ul className="list-none mt-4">
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-900 bg-indigo-200 mr-3">
+                          <i className="fa-brands fa-searchengin"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-slate-100">
+                          Technology assessment & adoption.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-900 bg-indigo-200 mr-3">
+                          <i className="fa-solid fa-diagram-project"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-slate-100">Project management.</h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-900 bg-indigo-200 mr-3">
+                          <i className="fa-solid fa-icons"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-slate-100">
+                          Importance of community.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <p className="text-lg font-light leading-relaxed mt-2 mb-4 text-slate-100">
+                  Learn more about business evolution through technology
+                  innovation.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-slate-100">
-                  A peer-to-peer hypermedia protocol designed to preserve and
-                  grow humanity's knowledge by making the web upgradeable,
-                  resilient, and more open.
+                  Subscribe to our{" "}
+                  <span className="text-orange-500 font-bold">Substack</span>{" "}
+                  newsletter or <br />
+                  follow us on{" "}
+                  <span className="text-white font-bold">Medium</span>.
                 </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-slate-100">
-                  Peer-to-peer IPFS retrieves pieces from multiple nodes at
-                  once, enabling substantial bandwidth savings. With up to 60%
-                  savings for video, IPFS makes it possible to efficiently
-                  distribute high volumes of data without duplication.
-                </p>
+                <div className="sm:block flex flex-col mt-10">
+                  <a
+                    href="https://lexingtontech.substack.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-center text-slate-100 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-indigo-900 active:bg-indigo-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  >
+                    Substack
+                  </a>
+
+                  <a
+                    href="https://medium.com/@lexingtontech"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-center text-slate-100 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-indigo-900 active:bg-indigo-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  >
+                    Medium
+                  </a>
+                </div>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
-                  <img
-                    alt="IPFS"
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-800">
+                  {/*<img
+                    alt=""
                     layout="responsive"
                     className="w-full align-middle rounded-t-lg"
-                    src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ipfs5.svg"
-                  />
+                    src=""
+                  />*/}
                   <blockquote className="relative p-8 mb-4">
-                    <svg
+                    {/*<svg
                       preserveAspectRatio="none"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 583 95"
@@ -181,18 +248,22 @@ export default function Blockchain() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="text-slate-700 fill-current"
+                        className="text-slate-800 fill-current"
                       ></polygon>
-                    </svg>
-                    <h4 className="text-xl font-bold text-white">Web 3.0</h4>
-                    <p className="text-md font-light mt-2 text-white">
-                      IPFS makes it simple to set up resilient networks for
-                      mirroring data, and thanks to content addressing, files
-                      stored using IPFS are automatically versioned. IPFS powers
-                      the creation of diversely resilient networks that enable
-                      persistent availability — with or without internet
-                      backbone connectivity.
-                    </p>
+                    </svg>*/}
+                    {/*<h4 className="text-xl font-bold text-slate-100">
+                      Web 3.0
+                  </h4>*/}
+
+                    <iframe
+                      className="text-md font-light mt-2 text-slate-100"
+                      title="Substack"
+                      src="https://lexingtontech.substack.com/embed"
+                      width="100%"
+                      height="400"
+                      frameBorder="0"
+                      scrolling="no"
+                    ></iframe>
                   </blockquote>
                 </div>
               </div>
@@ -224,7 +295,7 @@ export default function Blockchain() {
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-800">
                   <img
                     alt="IPFS"
                     src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ipfs6.svg"
@@ -240,15 +311,14 @@ export default function Blockchain() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="text-slate-700 fill-current"
+                        className="text-slate-800 fill-current"
                       ></polygon>
                     </svg>
-                    <h4 className="text-xl font-bold text-white">Defi</h4>
-                    <p className="text-md font-light mt-2 text-white">
-                      Decentralized Finance (DeFi) is the movement that
-                      leverages decentralized networks to transform old
-                      financial products into trustless and transparent
-                      protocols that run without intermediaries.
+                    <h4 className="text-xl font-bold text-slate-100">
+                      WEB3 <i className="fa-solid fa-circle-question"></i>
+                    </h4>
+                    <p className="text-md font-light mt-2 text-slate-100">
+                      Innovations like AI/ML, Metaverse platforms and Digital ID create new business markets and products.
                     </p>
                   </blockquote>
                 </div>
@@ -256,13 +326,27 @@ export default function Blockchain() {
 
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
-                  <h3 className="text-3xl font-semibold">Wallets & dApps</h3>
+                  <h3 className="text-3xl font-semibold">
+                    Challenges & Opportunities
+                  </h3>
                   <p className="mt-4 text-lg leading-relaxed text-slate-500">
-                    Gateway to the Ethereum Blockchain. Easy-to-use, open-source
-                    platform allows you to generate wallets, token swaps & smart
-                    contracts.
+                    WEB3 is a challenge & opportunity to address infrastructure
+                    requirements/issues and take onwership of security,
+                    compliance & the protection of data & privacy.
                   </p>
                   <ul className="list-none mt-6">
+                    <li className="py-2">
+                      <div className="flex items-center">
+                        <div>
+                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-900 bg-indigo-200 mr-3">
+                            <i className="fa-solid fa-user-shield"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="text-slate-500">Security</h4>
+                        </div>
+                      </div>
+                    </li>
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
@@ -272,7 +356,7 @@ export default function Blockchain() {
                         </div>
                         <div>
                           <h4 className="text-slate-500">
-                            Lending & Borrowing
+                            Payments - Onramp & Offramp Transactions
                           </h4>
                         </div>
                       </div>
@@ -285,7 +369,9 @@ export default function Blockchain() {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-slate-500">KYC & Identity</h4>
+                          <h4 className="text-slate-500">
+                            Digital ID - KYC & Privacy
+                          </h4>
                         </div>
                       </div>
                     </li>
@@ -297,9 +383,7 @@ export default function Blockchain() {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-slate-500">
-                            Asset management tools
-                          </h4>
+                          <h4 className="text-slate-500">Data Protection</h4>
                         </div>
                       </div>
                     </li>

@@ -128,7 +128,7 @@ export default function SmartFX() {
                     <p className="mt-2 mb-4 text-slate-500">
                       Deep learning{" "}
                       <span>
-                        <i class="fas fa-exchange-alt"></i>
+                        <i className="fas fa-exchange-alt"></i>
                       </span>{" "}
                       continously growing datasets.
                     </p>
@@ -148,13 +148,13 @@ export default function SmartFX() {
                 <h3 className="text-3xl mb-2 font-semibold leading-normal uppercase">
                   Quant Algorithm Trading
                 </h3>
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-100">
                   Algorithmic Trading, also known as Quant Trading is a trading
                   style which utilizes market prediction algorithms in order to
                   find potential trades.
                 </p>
 
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-100">
                   There are various sub categories of quantitative trading to
                   include High Frequency Trading (HFT), Statistical Arbitrage
                   and Market Prediction Analysis.

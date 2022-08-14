@@ -26,7 +26,8 @@ export default function AI() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: "url('https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_background.webp')"
+              backgroundImage:
+                "url('https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_background.webp')"
             }}
           >
             <span
@@ -194,7 +195,7 @@ export default function AI() {
                 <h3 className="text-3xl mb-2 font-semibold leading-normal uppercase">
                   eCommerce & Marketing
                 </h3>
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-100">
                   AdTech & Marketing solutions solving business problems in
                   demand management, supply chain optimization, predictive
                   maintenance, and sales activation, among others. Personalized
@@ -203,7 +204,7 @@ export default function AI() {
                 <h3 className="text-3xl mb-2 font-semibold leading-normal uppercase">
                   Industry Experience
                 </h3>
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-100">
                   Use predictive analytics, ML and computer vision technologies
                   to gain actionable insights into consumer purchasing
                   behaviors, product placement/assortment, and store-level

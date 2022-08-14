@@ -1,19 +1,37 @@
 import React from "react";
 import Link from "next/link";
 import AnnounceKit from "announcekit-react";
+//import Script from "next/script";
 
 //components
 //import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
-//import Script from "next/script";
+
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
   return (
     <>
-      {/*<Script
+      {/* <Script
         strategy="lazyOnload"
         async
         src="https://cdn.announcekit.app/widget-v2.js"
+        onLoad={() => {
+          window.announcekit = window.announcekit || {
+            queue: [],
+            on: function (n, x) {
+              window.announcekit.queue.push([n, x]);
+            },
+            push: function (x) {
+              window.announcekit.queue.push(x);
+            }
+          };
+
+          window.announcekit.push({
+            widget: "https://announcekit.app/widgets/v2/30f3IA",
+            selector: ".announcekit-widget",
+            lang: "en"
+          });
+        }}
       />*/}
 
       <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-indigo-900 shadow">
@@ -80,6 +98,16 @@ export default function Navbar(props) {
                   </a>
                 </Link>
               </li>
+              <li className="flex items-center">
+                <Link href="/web3">
+                  <a
+                    href="#lxt"
+                    className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  >
+                    WEB3
+                  </a>
+                </Link>
+              </li>
 
               {/*<li className="flex items-center">
                 <span className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
@@ -90,18 +118,6 @@ export default function Navbar(props) {
             </ul>
 
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li className="flex items-center hover:text-slate-800 text-slate-300 ">
-                <span
-                  className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  title="News"
-                >
-                  <AnnounceKit widget="https://announcekit.app/widgets/v2/30f3IA">
-                    <i className="hover:text-slate-800 text-slate-300 fas fa-rss text-lg leading-lg mr-2" />
-                    <span className="lg:hidden inline-block">News</span>
-                  </AnnounceKit>
-                </span>
-              </li>
-
               <li className="flex items-center hover:text-slate-800 text-slate-300 ">
                 <Link href="/about">
                   <a
@@ -126,42 +142,53 @@ export default function Navbar(props) {
                   </a>
                 </Link>
               </li>
+
               <li className="flex items-center hover:text-slate-800 text-slate-300 ">
-                <a
-                  href="https://www.linkedin.com/company/lexingtontech"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  title="LinkedIn"
-                >
-                  <i className="fab fa-linkedin text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">LinkedIn</span>
-                </a>
+                <Link href="https://lexingtontech.substack.com/">
+                  <a
+                    href="https://lexingtontech.substack.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="px-1 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    title="Substack"
+                  >
+                    <img
+                      src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/substack.png"
+                      alt="Substack"
+                      height="18"
+                      width="28"
+                    />
+                    <span className="lg:hidden inline-block ml-2">
+                      Substack
+                    </span>
+                  </a>
+                </Link>
+              </li>
+              <li className="flex items-center hover:text-slate-800 text-slate-300 ">
+                <Link href="https://medium.com/@lexingtontech">
+                  <a
+                    href="https://medium.com/@lexingtontech"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="px-2 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    title="Medium"
+                  >
+                    <i className="fa-brands fa-medium text-lg leading-lg" />
+                    <span className="lg:hidden inline-block ml-2">Medium</span>
+                  </a>
+                </Link>
               </li>
 
               <li className="flex items-center hover:text-slate-800 text-slate-300 ">
-                <a
+                <span
                   className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://angel.co/company/lexingtontech/"
-                  target="_blank"
-                  rel="noreferrer"
-                  title="Angel"
+                  title="News"
                 >
-                  <i className="fab fa-angellist text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">AngelCo</span>
-                </a>
-              </li>
-              <li className="flex items-center hover:text-slate-800 text-slate-300 ">
-                <a
-                  className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://discord.gg/8nZndQn6m6"
-                  target="_blank"
-                  rel="noreferrer"
-                  title="Discord"
-                >
-                  <i className="fab fa-discord text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Discord</span>
-                </a>
+                  <AnnounceKit widget="https://announcekit.app/widgets/v2/30f3IA">
+                    <i className="hover:text-slate-800 text-slate-300 fas fa-rss text-lg leading-lg mr-2" />
+                    <span className="lg:hidden inline-block">News</span>
+                  </AnnounceKit>
+                </span>
               </li>
             </ul>
           </div>

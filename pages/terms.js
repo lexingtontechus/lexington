@@ -71,19 +71,19 @@ export default function Terms() {
         <section className="relative block py-24 lg:pt-0 bg-slate-400">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-              <div className="w-full lg:w-10/12 px-4">
+              <div className="w-full lg:w-10/12 px-4 mt-8">
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-indigo-200">
                   <div className="flex-auto p-5 lg:p-10">
                     <h2 className="text-2xl font-semibold">
-                      Last updated January 01, 2022
+                      Last updated January 01, {new Date().getFullYear()}{" "}
                     </h2>
                     <div className="relative w-full mb-3 mt-8">
                       <p className="leading-relaxed mt-1 mb-4 text-slate-700">
                         These Terms of Use constitute a legally binding
                         agreement made between you, whether personally or on
                         behalf of an entity (“you”) and Lexington LLC, doing
-                        business as Lexington (“LXT GROUP“, “we”, “us”, or
-                        “our”), concerning your access to and use of the
+                        business as Lexington (“LXT“, “we”, “us”, or “our”),
+                        concerning your access to and use of the
                         http://www.lexingtontech.us website as well as any other
                         media form, media channel, mobile website or mobile
                         application related, linked, or otherwise connected
