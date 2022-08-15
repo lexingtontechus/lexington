@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 //import { useState, useEffect } from "react";
-//import Link from "next/link";
+import Link from "next/link";
 import Head from "next/head";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
@@ -201,13 +201,14 @@ export default function Index() {
                 </div>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-slate-600"></p>
                 <div className="sm:block flex flex-col mt-10">
-                  <a
-                    href="/web3"
-                    target="_parent"
-                    className="text-center text-slate-100 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-indigo-900 active:bg-indigo-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-                  >
-                    Learn More
-                  </a>
+                  <Link href="/web3">
+                    <a
+                      href="#lxt"
+                      className="text-center text-slate-100 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-indigo-900 active:bg-indigo-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    >
+                      Learn More
+                    </a>
+                  </Link>
                 </div>
               </div>
 
@@ -354,13 +355,14 @@ export default function Index() {
                   </ul>
                 </div>
                 <div className="sm:block flex flex-col mt-10">
-                  <a
-                    href="/ai"
-                    target="_parent"
-                    className="text-center text-slate-100 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-indigo-900 active:bg-indigo-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
-                  >
-                    Learn More
-                  </a>
+                  <Link href="/ai">
+                    <a
+                      href="#lxt"
+                      className="text-center text-slate-100 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-indigo-900 active:bg-indigo-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                    >
+                      Learn More
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
