@@ -88,7 +88,7 @@ export default function Footer() {
                     <li>
                       <Link href="/about">
                         <a
-                          href="#lxt"
+                          href="/about"
                           className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
                         >
                           About Us
@@ -98,7 +98,7 @@ export default function Footer() {
                     <li>
                       <Link href="/contact">
                         <a
-                          href="#lxt"
+                          href="/contact"
                           className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
                         >
                           Contact Us
@@ -108,7 +108,7 @@ export default function Footer() {
                     <li>
                       <Link href="/nonprofit">
                         <a
-                          href="#lxt"
+                          href="/nonprofit"
                           className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
                         >
                           Non-Profit
@@ -125,7 +125,7 @@ export default function Footer() {
                     <li>
                       <Link href="/terms">
                         <a
-                          href="#lxt"
+                          href="/terms"
                           className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
                         >
                           Terms of Service
@@ -135,7 +135,7 @@ export default function Footer() {
                     <li>
                       <Link href="/privacy">
                         <a
-                          href="#lxt"
+                          href="/privacy"
                           className="text-slate-300 hover:text-slate-800 font-semibold block pb-2 text-sm"
                         >
                           Privacy Policy
@@ -153,7 +153,7 @@ export default function Footer() {
               <div className="text-sm text-slate-500 font-semibold py-1">
                 Copyright © {new Date().getFullYear()}{" "}
                 <a
-                  href="https://lexingtontech.us"
+                  href="https://lexingtontech.us/"
                   className="text-slate-500 hover:text-slate-300"
                 >
                   Lexington Tech LLC
