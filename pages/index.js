@@ -203,7 +203,7 @@ export default function Index() {
                 <div className="sm:block flex flex-col mt-10">
                   <Link href="/web3">
                     <a
-                      href="#lxt"
+                      href="/web3"
                       className="text-center text-slate-100 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-indigo-900 active:bg-indigo-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                     >
                       Learn More
@@ -357,7 +357,7 @@ export default function Index() {
                 <div className="sm:block flex flex-col mt-10">
                   <Link href="/ai">
                     <a
-                      href="#lxt"
+                      href="/ai"
                       className="text-center text-slate-100 font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-indigo-900 active:bg-indigo-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                     >
                       Learn More

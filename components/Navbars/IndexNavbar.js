@@ -45,10 +45,7 @@ export default function Navbar(props) {
               src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/logo_lxt.svg"
             />{" "}
             <Link href="/">
-              <a
-                className="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
-                href="#lxt"
-              >
+              <a  className="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase" href="/">
                 Lexington
               </a>
             </Link>
@@ -70,9 +67,9 @@ export default function Navbar(props) {
             <ul className="flex flex-col lg:flex-row list-none mr-auto">
               <li className="flex items-center">
                 <Link href="/ai">
-                  <a
-                    href="#lxt"
-                    className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  <a className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    href="/ai"
+
                   >
                     AI
                   </a>
@@ -81,7 +78,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <Link href="/blockchain">
                   <a
-                    href="#lxt"
+                    href="/blockchain"
                     className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   >
                     Blockchain
@@ -91,7 +88,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <Link href="/smartfx">
                   <a
-                    href="#lxt"
+                    href="smartfx"
                     className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   >
                     SmartX
@@ -101,7 +98,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <Link href="/web3">
                   <a
-                    href="#lxt"
+                    href="/web3"
                     className="hover:text-slate-800 text-slate-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   >
                     WEB3
@@ -121,7 +118,7 @@ export default function Navbar(props) {
               <li className="flex items-center hover:text-slate-800 text-slate-300 ">
                 <Link href="/about">
                   <a
-                    href="#lxt"
+                    href="/about"
                     className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                     title="About"
                   >
@@ -133,7 +130,7 @@ export default function Navbar(props) {
               <li className="flex items-center hover:text-slate-800 text-slate-300 ">
                 <Link href="/contact">
                   <a
-                    href="#lxt"
+                    href="/contact"
                     className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                     title="Contact"
                   >
