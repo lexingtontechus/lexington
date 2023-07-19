@@ -4,12 +4,7 @@ import { useEffect } from "react";
 import Link from "next/link";
 import { Player } from "@lottiefiles/react-lottie-player";
 
-export default function NotFound({ error, reset }) {
-  useEffect(() => {
-    // Log the error to an error reporting service
-    console.error(error);
-  }, [error]);
-
+export default function NotFound() {
   return (
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content text-center">
@@ -23,7 +18,7 @@ export default function NotFound({ error, reset }) {
             className="m-8"
           ></Player>
 
-          <button className="btn-error btn uppercase text-base-content">
+          <button className="btn-error btn uppercase font-bold">
             <Link href="/">HOME</Link>
           </button>
         </div>

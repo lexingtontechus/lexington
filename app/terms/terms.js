@@ -20,7 +20,7 @@ export default function Terms() {
       </div>
 
       <section className="relative block bg-base-100">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto">
           <div className="flex flex-wrap justify-center">
             <div className="w-full lg:w-10/12 px-4">
               <div className="relative flex flex-col min-w-0 break-words w-full mt-8 mb-6 shadow-lg rounded-lg bg-base-100">
@@ -1183,4 +1183,3 @@ export default function Terms() {
     </main>
   );
 }
-
