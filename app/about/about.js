@@ -31,28 +31,41 @@ export default function About() {
             <ul className="menu menu-horizontal bg-base-200 rounded-box">
               <li>
                 <Link
-                  href="https://linkedin.com/company/lexingtontech"
+                  href="https://ud.me/lexingtontechus.nft"
                   target="_blank"
+                  className="tooltip"
+                  data-tip="Unstoppable Domains"
                 >
-                  <LinkedIn />
+                  <Polygon />
                 </Link>
               </li>
               <li>
                 <Link
                   href="https://btabcorp.com/portfolio/lexington-tech/"
                   target="_blank"
-                  className="font-black text-xl text-lime-500"
+                  className="font-black text-xl text-lime-500 tooltip"
+                  data-tip="BTAB ECOMMERCE GROUP INC."
                 >
                   B
                 </Link>
               </li>
               <li>
-                <Link href="https://ud.me/lexingtontechus.nft" target="_blank">
-                  <Polygon />
+                <Link
+                  href="https://linkedin.com/company/lexingtontech"
+                  target="_blank"
+                  className="tooltip"
+                  data-tip="LinkedIn"
+                >
+                  <LinkedIn />
                 </Link>
               </li>
               <li>
-                <Link href="https://medium.com/@lexingtontech" target="_blank">
+                <Link
+                  href="https://medium.com/@lexingtontech"
+                  target="_blank"
+                  className="tooltip"
+                  data-tip="Medium"
+                >
                   <Medium />
                 </Link>
               </li>
@@ -60,6 +73,8 @@ export default function About() {
                 <Link
                   href="https://lexingtontech.substack.com/"
                   target="_blank"
+                  className="tooltip"
+                  data-tip="Substack"
                 >
                   <Substack />
                 </Link>
@@ -78,7 +93,7 @@ export default function About() {
                 target="_blank"
                 className="hover:text-accent"
               >
-                Btab Group Inc.
+                BTAB ECOMMERCE GROUP, INC.
               </Link>
             </span>
           </div>
