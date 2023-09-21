@@ -1,101 +1,72 @@
 "use client";
-
-import Image from "next/image";
 import Link from "next/link";
-
-const logoImage = ({ src, width, quality }) => {
-  return `https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/${src}?w=${width}&q=${
-    quality || 75
-  }`;
-};
 
 export default function Navbar() {
   return (
-    <div className="navbar">
-      <div className="flex flex-1 items-start justify-start cursor-pointer">
-        <Link href="/" className="inline-flex h-content w-auto stroke-2">
+    <div className="navbar bg-base-100">
+      <div className="flex-1">
+        <Link href="/" className="inline-flex h-content w-auto stroke-2 my-2">
           <Logo />
         </Link>
         <Link
           href="/"
           id="Home"
           alt="Home"
-          className="hover:text-accent text-base font-bold leading-relaxed inline-block ml-2 my-1 whitespace-nowrap uppercase"
+          className="btn btn-ghost hover:text-secondary text-base font-bold ml-2 whitespace-nowrap uppercase"
         >
           Lexington Tech LLC
         </Link>
       </div>
-
       <div className="flex-none">
         <div className="dropdown dropdown-end">
-          <div className="drawer drawer-end ">
-            <input id="menu-drawer" type="checkbox" className="drawer-toggle" />
-            <div className="drawer-content">
-              {/* Page content here */}
-              <label htmlFor="menu-drawer" className="btn drawer-button">
-                <Menu />
-              </label>
-            </div>
-            <div className="drawer-side">
-              <label htmlFor="menu-drawer" className="drawer-overlay"></label>
-
-              <ul
-                tabIndex={0}
-                className="menu p-4 w-80 min-h-full bg-base-200 text-base-content"
+          <label
+            tabIndex={0}
+            className="btn btn-ghost mask mask-squircle avatar"
+          >
+            <Menu />
+          </label>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-xl bg-base-100 rounded-box w-52"
+          >
+            <li>
+              <Link href="/ai" className="px-4 py-2 text-sm">
+                AI
+              </Link>
+            </li>
+            <li>
+              <Link href="/blockchain" className="px-4 py-2 text-sm">
+                Blockchain
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/ecommerce"
+                className="hover:text-secondary-focus block px-4 py-2 text-sm"
               >
-                <li>
-                  <Link href="/ai" className="px-4 py-2 text-sm">
-                    AI
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blockchain" className="px-4 py-2 text-sm">
-                    Blockchain
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/ecommerce"
-                    className="hover:text-secondary-focus block px-4 py-2 text-sm"
-                  >
-                    eCommerce
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/web3"
-                    className="hover:text-secondary-focus block px-4 py-2 text-sm"
-                  >
-                    WEB3
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/nonprofit"
-                    className="hover:text-secondary-focus block px-4 py-2 text-sm"
-                  >
-                    NonProfit
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
+                eCommerce
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/web3"
+                className="hover:text-secondary-focus block px-4 py-2 text-sm"
+              >
+                WEB3
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/nonprofit"
+                className="hover:text-secondary-focus block px-4 py-2 text-sm"
+              >
+                NonProfit
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-  );
-}
-
-function Menu() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      height="1em"
-      viewBox="0 0 448 512"
-      className="fill-current hover:text-neutral"
-    >
-      <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
-    </svg>
   );
 }
 
@@ -141,28 +112,15 @@ function Logo() {
   );
 }
 
-function Info() {
+function Menu() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       height="1em"
-      className="fill-current hover:text-neutral"
-      viewBox="0 0 512 512"
+      viewBox="0 0 448 512"
+      className="fill-current hover:text-secondary"
     >
-      <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </svg>
-  );
-}
-
-function Contact() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      height="1em"
-      className="fill-current  hover:text-neutral"
-      viewBox="0 0 512 512"
-    >
-      <path d="M256 64C150 64 64 150 64 256s86 192 192 192c17.7 0 32 14.3 32 32s-14.3 32-32 32C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256v32c0 53-43 96-96 96c-29.3 0-55.6-13.2-73.2-33.9C320 371.1 289.5 384 256 384c-70.7 0-128-57.3-128-128s57.3-128 128-128c27.9 0 53.7 8.9 74.7 24.1c5.7-5 13.1-8.1 21.3-8.1c17.7 0 32 14.3 32 32v80 32c0 17.7 14.3 32 32 32s32-14.3 32-32V256c0-106-86-192-192-192zm64 192a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
+      <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
     </svg>
   );
 }
