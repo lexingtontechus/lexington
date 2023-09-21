@@ -8,8 +8,8 @@ export default function AI() {
               AI Innovations
             </h1>
             <p className="mb-5 text-2xl font-semibold">
-              AI technologies are the driving force in the economy
-              across innovations & industries growth.
+              AI technologies are the driving force in the economy across
+              innovations & industries growth.
             </p>
           </div>
         </div>
@@ -81,9 +81,7 @@ export default function AI() {
           </div>
 
           <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
-            <div
-              className="grow card card-compact w-full bg-neutral text-primary-content break-words shadow-lg"
-            >
+            <div className="grow card card-compact w-full bg-neutral text-primary-content break-words shadow-lg">
               <figure>
                 <img
                   src="/b2xecommerce.jpg"
@@ -105,11 +103,9 @@ export default function AI() {
       </section>
 
       <section className="my-8 px-8 container mx-auto">
-        <div className="flex flex-wrap items-center rounded-lg bg-accent">
+        <div className="flex flex-wrap items-center rounded-md bg-accent">
           <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
-            <div
-              className="grow card card-compact w-full bg-neutral text-primary-content break-words shadow-lg"
-            >
+            <div className="grow card card-compact w-full bg-neutral text-primary-content break-words shadow-lg">
               <figure>
                 <img src="/ai_solutions.png" alt="AI Powered Solutions" />
               </figure>

@@ -1,38 +1,33 @@
 "use client";
-
-import Image from "next/image";
 import Link from "next/link";
-
-const logoImage = ({ src, width, quality }) => {
-  return `https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/${src}?w=${width}&q=${
-    quality || 75
-  }`;
-};
 
 export default function Navbar() {
   return (
-    <div className="navbar">
-      <div className="flex flex-1 items-start justify-start cursor-pointer">
-        <Link href="/" className="inline-flex h-content w-auto stroke-2">
+    <div className="navbar bg-base-100">
+      <div className="flex-1">
+        <Link href="/" className="inline-flex h-content w-auto stroke-2 my-2">
           <Logo />
         </Link>
         <Link
-          href="/"
-          id="Home"
-          alt="Home"
-          className="hover:text-accent text-base font-bold leading-relaxed inline-block ml-2 my-1 whitespace-nowrap uppercase"
+          href="/about"
+          id="About"
+          alt="About"
+          className="btn btn-ghost hover:text-secondary text-base font-bold ml-2 whitespace-nowrap uppercase"
         >
           Lexington Tech LLC
         </Link>
       </div>
       <div className="flex-none">
         <div className="dropdown dropdown-end">
-          <label tabIndex={0} className="btn ">
+          <label
+            tabIndex={0}
+            className="btn btn-ghost mask mask-squircle avatar"
+          >
             <Menu />
           </label>
           <ul
             tabIndex={0}
-            className="mt-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-xl bg-base-100 rounded-box w-52"
           >
             <li>
               <Link href="/ai" className="px-4 py-2 text-sm">
@@ -68,22 +63,6 @@ export default function Navbar() {
                 NonProfit
               </Link>
             </li>
-            <li>
-              <Link
-                href="/about"
-                className="hover:text-secondary-focus block px-4 py-2 text-sm"
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/contact"
-                className="hover:text-secondary-focus block px-4 py-2 text-sm"
-              >
-                Contact
-              </Link>
-            </li>
           </ul>
         </div>
       </div>
@@ -91,24 +70,11 @@ export default function Navbar() {
   );
 }
 
-function Menu() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      height="2em"
-      viewBox="0 0 448 448"
-      className="fill-stone-200"
-    >
-      <path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z" />
-    </svg>
-  );
-}
-
 function Logo() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-8 w-8"
+      className="h-8 w-8 hover:text-accent"
       viewBox="0 0 312.5 312.5"
       preserveAspectRatio="xMidYMid meet"
       id="hfghagba"
@@ -142,6 +108,19 @@ function Logo() {
           fill="#1e293b"
         />
       </g>
+    </svg>
+  );
+}
+
+function Menu() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      height="1em"
+      viewBox="0 0 448 512"
+      className="fill-current hover:text-secondary"
+    >
+      <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
     </svg>
   );
 }

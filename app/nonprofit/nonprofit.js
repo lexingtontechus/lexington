@@ -123,7 +123,7 @@ export default function nonprofit() {
               through it all, SAVI believes in taking a whole-person approach to
               this transition.
             </p>
-            <button className="btn btn-neutral">
+            <button className="btn btn-neutral hover:text-accent">
               <Link href="https://www.savivets.org/" target="_blank">
                 Learn More
               </Link>
@@ -193,7 +193,7 @@ export default function nonprofit() {
             </p>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content"></p>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content"></p>
-            <button className="btn btn-neutral">
+            <button className="btn btn-neutral hover:text-accent">
               <Link
                 href="https://www.savivets.org/our-partners"
                 target="_blank"

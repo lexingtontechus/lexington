@@ -8,7 +8,7 @@ export default function eCommerce() {
         <div className="hero-content text-center">
           <div className="max-w-lg">
             <h1 className="mb-5 text-5xl font-bold uppercase text-accent">
-              B2X Marketplaces
+              B2X eCommerce
             </h1>
             <p className="mb-5 text-2xl font-semibold italic">
               "The nextgen eCommerce marketplace for every family in the world"
@@ -75,7 +75,7 @@ export default function eCommerce() {
               accelerate sales and repeat purchases.
             </p>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Future of eCommerce powered by Btab.
+              Future of eCommerce powered by Btab eCommerce Group Inc.
             </p>
           </div>
 

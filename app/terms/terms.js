@@ -1149,16 +1149,16 @@ export default function Terms() {
                           <img
                             src="/logo_lxt.svg"
                             alt="Lexington Tech LLC"
-                            height="16"
-                            width="16"
+                            height="20"
+                            width="20"
                           />
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-3">
                             Lexington Tech LLC
                           </span>
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-map-marker-alt"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-8">
                             16192 Coastal Highway
                             <br />
                             Lewes, DE 19958 <br />
@@ -1167,7 +1167,7 @@ export default function Terms() {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-at"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-8">
                             legal@lexingtontech.us
                           </span>
                         </li>
