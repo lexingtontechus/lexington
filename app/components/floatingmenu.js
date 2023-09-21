@@ -3,86 +3,71 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const logoImage = ({ src, width, quality }) => {
-  return `https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/${src}?w=${width}&q=${
-    quality || 75
-  }`;
-};
-
-export default function Navbar() {
+export default function FloatingMenu() {
   return (
-    <div className="navbar">
-      <div className="flex flex-1 items-start justify-start cursor-pointer">
-        <Link href="/" className="inline-flex h-content w-auto stroke-2">
-          <Logo />
-        </Link>
-        <Link
-          href="/"
-          id="Home"
-          alt="Home"
-          className="hover:text-accent text-base font-bold leading-relaxed inline-block ml-2 my-1 whitespace-nowrap uppercase"
-        >
-          Lexington Tech LLC
-        </Link>
-      </div>
+    <div className="btn mask mask-squircle fixed right-5 top-20">
+            <div className="dropdown dropdown-end">
+              <div className="drawer drawer-end ">
+                <input
+                  id="menu-drawer"
+                  type="checkbox"
+                  className="drawer-toggle"
+                />
+                <div className="drawer-content">
+                  {/* Page content here */}
+                  <label htmlFor="menu-drawer" className="drawer-button">
+                    <Menu />
+                  </label>
+                </div>
+                <div className="drawer-side">
+                  <label
+                    htmlFor="menu-drawer"
+                    className="drawer-overlay"
+                  ></label>
 
-      <div className="flex-none">
-        <div className="dropdown dropdown-end">
-          <div className="drawer drawer-end ">
-            <input id="menu-drawer" type="checkbox" className="drawer-toggle" />
-            <div className="drawer-content">
-              {/* Page content here */}
-              <label htmlFor="menu-drawer" className="btn drawer-button">
-                <Menu />
-              </label>
-            </div>
-            <div className="drawer-side">
-              <label htmlFor="menu-drawer" className="drawer-overlay"></label>
-
-              <ul
-                tabIndex={0}
-                className="menu p-4 w-80 min-h-full bg-base-200 text-base-content"
-              >
-                <li>
-                  <Link href="/ai" className="px-4 py-2 text-sm">
-                    AI
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blockchain" className="px-4 py-2 text-sm">
-                    Blockchain
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/ecommerce"
-                    className="hover:text-secondary-focus block px-4 py-2 text-sm"
+                  <ul
+                    tabIndex={0}
+                    className="menu p-4 w-80 min-h-full bg-base-200 text-base-content"
                   >
-                    eCommerce
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/web3"
-                    className="hover:text-secondary-focus block px-4 py-2 text-sm"
-                  >
-                    WEB3
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/nonprofit"
-                    className="hover:text-secondary-focus block px-4 py-2 text-sm"
-                  >
-                    NonProfit
-                  </Link>
-                </li>
-              </ul>
+                    <li>
+                      <Link href="/ai" className="px-4 py-2 text-sm">
+                        AI
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/blockchain" className="px-4 py-2 text-sm">
+                        Blockchain
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/ecommerce"
+                        className="hover:text-secondary-focus block px-4 py-2 text-sm"
+                      >
+                        eCommerce
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/web3"
+                        className="hover:text-secondary-focus block px-4 py-2 text-sm"
+                      >
+                        WEB3
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/nonprofit"
+                        className="hover:text-secondary-focus block px-4 py-2 text-sm"
+                      >
+                        NonProfit
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
   );
 }
 

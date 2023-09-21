@@ -54,9 +54,30 @@ const Home = () => {
             <h2 className="text-3xl font-bold uppercase my-8">
               Business & Technology Management Consulting
             </h2>
-            <button className="btn btn-neutral uppercase rounded-md">
-              <Link href="/contact">Contact</Link>
-            </button>
+            <div className="join">
+              <button
+                className="btn btn-accent uppercase rounded-md join-item hover:text-secondary tooltip"
+                data-tip="Lexington WEB3 & NextGen Demo"
+              >
+                <Link href="https://lexington-demo.vercel.app/" target="_blank">
+                  Demo
+                </Link>
+              </button>
+              <button
+                className="btn btn-accent uppercase rounded-md join-item hover:text-secondary tooltip"
+                data-tip="Artifical Intelligence Showcase"
+              >
+                <Link
+                  href="https://lexington-aimockinterviews.vercel.app/"
+                  target="_blank"
+                >
+                  AI Showcase
+                </Link>
+              </button>
+              <button className="btn btn-accent uppercase rounded-md join-item hover:text-secondary">
+                <Link href="/contact">Contact</Link>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -73,7 +94,7 @@ const Home = () => {
               <p>Personalized buying experience.</p>
               <p>eCommerce powered by virtual & augmented reality.</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-neutral">
+                <button className="btn btn-accent hover:text-secondary">
                   <Link href="/marketplace">More</Link>
                 </button>
               </div>
@@ -90,7 +111,7 @@ const Home = () => {
               <p>AI Infrastructure.</p>
               <p>Foundational Models.</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-neutral">
+                <button className="btn btn-accent hover:text-secondary">
                   <Link href="/ai">More</Link>
                 </button>
               </div>
@@ -109,7 +130,7 @@ const Home = () => {
               <p>Digital ID for privacy & data protection.</p>
               <p>Defi payments.</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-neutral">
+                <button className="btn btn-accent hover:text-secondary">
                   <Link href="/web3">More</Link>
                 </button>
               </div>
@@ -145,7 +166,7 @@ const Home = () => {
             </div>
           </div>
           <div className="lg:7/12 ml-auto mr-auto w-full px-8 md:w-6/12">
-            <h3 className="text-3xl font-semibold text-primary mb-2">
+            <h3 className="text-3xl font-semibold text-primary mb-2 uppercase">
               AI Automation
             </h3>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
@@ -155,8 +176,8 @@ const Home = () => {
               Discover the right GPT plugin for your business.
             </p>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Leverage LLM to customize a GPT model using your business data, documents &
-              knowledge-base.
+              Leverage LLM to customize a GPT model using your business data,
+              documents & knowledge-base.
             </p>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content"></p>
           </div>

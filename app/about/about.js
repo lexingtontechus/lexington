@@ -10,7 +10,7 @@ export default function About() {
               Lexington Tech
             </h1>
             <p className="my-8 text-2xl font-semibold">
-              Management & Technology Consulting
+              Business & Technology Management Consulting
             </p>
           </div>
         </div>
