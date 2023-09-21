@@ -9,9 +9,9 @@ export default function Navbar() {
           <Logo />
         </Link>
         <Link
-          href="/"
-          id="Home"
-          alt="Home"
+          href="/about"
+          id="About"
+          alt="About"
           className="btn btn-ghost hover:text-secondary text-base font-bold ml-2 whitespace-nowrap uppercase"
         >
           Lexington Tech LLC
