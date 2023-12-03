@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AI() {
   return (
     <main>
@@ -78,6 +80,12 @@ export default function AI() {
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
               Future of eCommerce powered by virtual & augmented reality.
             </p>
+            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
+              Learn more about our services.
+            </p>
+            <button className="btn btn-neutral hover:text-accent uppercase">
+              <Link href="/services">Services</Link>
+            </button>
           </div>
 
           <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
@@ -138,6 +146,12 @@ export default function AI() {
               Rapid AI & ML adoption through an accelerated program integrating
               matching technology to your business & industry.
             </p>
+            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
+              Learn more about our services.
+            </p>
+            <button className="btn btn-neutral hover:text-accent uppercase">
+              <Link href="/services">Services</Link>
+            </button>
           </div>
         </div>
       </section>

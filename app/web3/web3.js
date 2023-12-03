@@ -57,7 +57,7 @@ export default function Web3() {
 
       <section className="container mx-auto px-8">
         <div className="flex flex-wrap items-center bg-accent">
-          <div className="lg:7/12 mt-4 px-8 w-full md:w-6/12">
+          <div className="lg:7/12 mt-4 px-8 w-full md:w-6/12 pb-4">
             <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary">
               WEB 2.0 To WEB3
             </h3>
@@ -79,6 +79,12 @@ export default function Web3() {
               AI/ML, GPT platforms and Digital ID create new business markets
               and products.
             </p>
+            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
+              Learn more about our services.
+            </p>
+            <button className="btn btn-neutral hover:text-accent uppercase">
+              <Link href="/services">Services</Link>
+            </button>
           </div>
 
           <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">

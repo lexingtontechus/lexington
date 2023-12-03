@@ -75,8 +75,18 @@ export default function eCommerce() {
               accelerate sales and repeat purchases.
             </p>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Future of eCommerce powered by Btab eCommerce Group Inc.
+              Future of eCommerce powered by{" "}
+              <Link href="https://www.btabcorp.com" className="font-bold">
+                Btab
+              </Link>{" "}
+              eCommerce.
             </p>
+            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
+              Learn more about our services.
+            </p>
+            <button className="btn btn-neutral hover:text-accent uppercase">
+              <Link href="/services">Services</Link>
+            </button>
           </div>
 
           <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">

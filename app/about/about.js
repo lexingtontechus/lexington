@@ -33,27 +33,33 @@ export default function About() {
                 <Link
                   href="https://ud.me/lexingtontechus.nft"
                   target="_blank"
-                  className="tooltip"
-                  data-tip="Unstoppable Domains"
+                  className="tooltip hover:bg-accent"
+                  data-tip="Verify on Unstoppable Domains"
                 >
-                  <Polygon />
+                  <img
+                    src="data:image/png;base64,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"
+                    alt="unstoppable domains"
+                    height="25px"
+                    width="25px"
+                    className="py-0.5"
+                  />
                 </Link>
               </li>
               <li>
                 <Link
                   href="https://btabcorp.com/portfolio/lexington-tech/"
                   target="_blank"
-                  className="font-black text-xl text-lime-500 tooltip"
+                  className="font-black text-xl text-lime-500 tooltip hover:bg-accent"
                   data-tip="BTAB ECOMMERCE GROUP INC."
                 >
-                  B
+                  <span className="h-4 w-8">B</span>
                 </Link>
               </li>
               <li>
                 <Link
                   href="https://linkedin.com/company/lexingtontech"
                   target="_blank"
-                  className="tooltip"
+                  className="tooltip hover:bg-accent"
                   data-tip="LinkedIn"
                 >
                   <LinkedIn />
@@ -63,7 +69,7 @@ export default function About() {
                 <Link
                   href="https://medium.com/@lexingtontech"
                   target="_blank"
-                  className="tooltip"
+                  className="tooltip hover:bg-accent"
                   data-tip="Medium"
                 >
                   <Medium />
@@ -73,7 +79,7 @@ export default function About() {
                 <Link
                   href="https://lexingtontech.substack.com/"
                   target="_blank"
-                  className="tooltip"
+                  className="tooltip hover:bg-accent"
                   data-tip="Substack"
                 >
                   <Substack />
@@ -83,7 +89,8 @@ export default function About() {
           </div>
 
           <div className="mt-2 mb-2 leading-relaxed ">
-            Part of the publicly accessible Ethereum blockchain.
+            Part of the publicly accessible IPFS network on the Ethereum
+            blockchain.
           </div>
           <div className="text-xl leading-normal font-bold my-4">
             Subsidiary of{" "}
@@ -93,7 +100,7 @@ export default function About() {
                 target="_blank"
                 className="hover:text-accent"
               >
-                BTAB ECOMMERCE GROUP, INC.
+                BTAB GROUP, INC.
               </Link>
             </span>
           </div>
@@ -103,7 +110,7 @@ export default function About() {
               target="_blank"
               className="italic hover:text-accent"
             >
-              (OTC:BBTT)
+              Btab Ecommerce Group, Inc. (OTC:BBTT)
             </Link>
           </div>
           <div className="mt-2 mb-2">

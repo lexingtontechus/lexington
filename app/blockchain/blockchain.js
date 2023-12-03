@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Blockchain() {
   return (
     <main>
@@ -59,7 +60,7 @@ export default function Blockchain() {
 
       <section className="container mx-auto px-8">
         <div className="flex flex-wrap items-center bg-accent">
-          <div className="lg:7/12 mt-4 px-8 md:w-6/12">
+          <div className="lg:7/12 mt-4 px-8 pb-4 md:w-6/12">
             <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary">
               IPFS + Hyperledger
             </h3>
@@ -85,12 +86,18 @@ export default function Blockchain() {
               infrastructure requirements/issues and take onwership of security,
               compliance & the protection of data & privacy.
             </p>
+            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
+              Learn more about our services.
+            </p>
+            <button className="btn btn-neutral hover:text-accent uppercase">
+              <Link href="/services">Services</Link>
+            </button>
           </div>
 
           <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
-            <div className="grow card card-compact w-full bg-neutral text-primary-content shadow-lg">
+            <div className="grow card card-compact w-full bg-neutral text-primary-content shadow-lg max-h-[400px]">
               <figure>
-                <img src="/ipfs5.svg" alt="IPFS" />
+                <img src="/ipfs.jpg" alt="IPFS" />
               </figure>
               <div className="card-body p-4">
                 <h2 className="card-title font-bold uppercase">
