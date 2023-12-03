@@ -1,5 +1,5 @@
 module.exports = {
-  output: "export",
+  output: "standalone",
   trailingSlash: true,
   reactStrictMode: true,
   pageExtensions: ["js", "jsx", "ts", "tsx", "mdx"],
