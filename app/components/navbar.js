@@ -5,14 +5,19 @@ export default function Navbar() {
   return (
     <div className="navbar bg-base-100">
       <div className="flex-1">
-        <Link href="/" className="inline-flex h-content w-auto stroke-2 my-2">
+        <Link
+          href="/"
+          className="inline-flex h-content w-auto stroke-2 my-2 tooltip tooltip-bottom"
+          data-tip="Home"
+        >
           <Logo />
         </Link>
         <Link
           href="/about"
           id="About"
           alt="About"
-          className="btn btn-ghost hover:text-secondary text-base font-bold ml-2 whitespace-nowrap uppercase"
+          className="btn btn-ghost hover:text-secondary text-base font-bold ml-2 py-2 whitespace-nowrap uppercase tooltip tooltip-bottom"
+          data-tip="About"
         >
           Lexington Tech LLC
         </Link>
@@ -29,6 +34,15 @@ export default function Navbar() {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-xl bg-base-100 rounded-box w-52"
           >
+            <li>
+              <Link
+                href="/services"
+                className="hover:text-secondary-focus block px-4 py-2 text-sm"
+              >
+                Services
+              </Link>
+            </li>
+            <div className="divider divider-accent"></div>
             <li>
               <Link href="/ai" className="px-4 py-2 text-sm">
                 AI

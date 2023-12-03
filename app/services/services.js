@@ -1,176 +1,290 @@
+import Script from "next/script";
 import Link from "next/link";
 
-export default function Services() {
+export default function LemonSqueezy() {
   return (
     <main>
-      <div
-        className="hero min-h-screen"
-        style={{
-          backgroundImage:
-            "url('https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_background.webp')",
-        }}
-      >
-        <div className="hero-overlay"></div>
+      <div className="hero min-h-screen svg-blockchain">
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-lg">
-            <h1 className="mb-5 text-5xl font-bold uppercase">
-             Services
+            <h1 className="mb-5 text-5xl font-bold uppercase text-accent">
+              Lexington Business Management Services
             </h1>
-            <p className="my-8 text-2xl">
-              AI technologies today represent the driving force in the economy across all activities & industries.
-            </p>
+            <h3 className="text-xl py-4">
+              Lexington Management Consulting elevates your organization from a
+              StartUp to a thriving organization.
+            </h3>
+            <ul className="justify-center timeline timeline-vertical lg:timeline-horizontal mt-4">
+              <li>
+                <div className="timeline-start timeline-box">
+                  Free Consulting Session
+                </div>
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5 text-green-500"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <hr className="bg-gradient-to-r from-slate-50 to-lime-500" />
+              </li>
+              <li>
+                <hr className="bg-gradient-to-r from-lime-500 to-lime-700" />
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5 text-primary"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div className="timeline-end timeline-box">
+                  StartUp Accelerator Program
+                </div>
+                <hr className="bg-gradient-to-r from-lime-700 to-blue-500" />
+              </li>
+              <li>
+                <hr className="bg-gradient-to-r from-blue-500 to-blue-700" />
+                <div className="timeline-start timeline-box">
+                  Management Consulting
+                </div>
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5 text-primary"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <hr className="bg-gradient-to-r from-blue-700 to-violet-500" />
+              </li>
+              <li>
+                <hr className="bg-gradient-to-r from-violet-500 to-violet-700" />
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div className="timeline-end timeline-box">
+                  Project Management
+                </div>
+                <hr className="bg-gradient-to-r from-violet-700 to-amber-500" />
+              </li>
+              <li>
+                <hr className="bg-gradient-to-r from-amber-500 to-amber-700" />
+                <div className="timeline-start timeline-box">
+                  Business & Technology Elevation
+                </div>
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <hr className="bg-gradient-to-r from-amber-700 to-fuchsia-500" />
+              </li>
+              <li>
+                <hr className="bg-gradient-to-r from-fuchsia-500 to-fuchsia-700" />
+                <div className="timeline-middle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5 text-secondary"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div className="timeline-end timeline-box">WEB3 & AI</div>
+                <hr className="bg-gradient-to-r from-fuchsia-700 to-zinc-900" />
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-
       <section className="container mx-auto my-8 px-8">
-        <div className="flex flex-wrap gap-4 content-center justify-center">
-          <div className="grow card card-compact w-full md:w-3/12 bg-secondary text-primary-content">
+        <div className="flex flex-wrap flex-grow gap-8 content-center justify-center mx-auto">
+          <div className="card card-compact w-96 bg-base-200 shadow-xl">
             <figure>
               <img
-                src="https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/card_mission.jpg"
-                alt="Our Mission"
+                src="/FreeConsultingSession.png"
+                alt="Free Consulting"
+                className="image-full"
               />
             </figure>
-            <div className="card-body p-4">
-              <h2 className="card-title">Our Mission</h2>
+            <div className="card-body">
+              <h2 className="card-title">Free Consulting</h2>
               <p>
-                Develop nextgen eCommerce marketplace for Btab Group.
+                Introduction to Lexington Tech. Getting to know your business &
+                products. 30min session. Book now!
               </p>
-              <p>Deploy Deep Learning & Neuro-networks to scale.</p>
-              <p> Train new models focused on service delivery & manufacturing.</p>
-            </div>
-          </div>
-          <div className="grow card card-compact w-full md:w-3/12 bg-secondary text-primary-content">
-            <figure>
-              <img
-                src="https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/card_investment.jpg"
-                alt="Our Investments"
-              />
-            </figure>
-            <div className="card-body p-4">
-              <h2 className="card-title">Our Technologies</h2>
-              <p>Leverage industry leading solutions for your business.</p>
-              <p>Deploy Platform Kits</p>
-              <ul>
-                <li>AI & ML Solutions</li>
-                <li>GPT & Custom LLC</li>
-                <li>Marketplaces</li>
-              </ul>
-            </div>
-          </div>
-          <div className="grow card card-compact w-full md:w-3/12 bg-secondary text-primary-content">
-            <figure>
-              <img
-                src="https://storage.fleek-internal.com/68ec2807-8eea-4ac4-84f7-af2c0c153109-bucket/lxtgroup-images/card_growth.jpg"
-                alt="Our Growth"
-              />
-            </figure>
-            <div className="card-body p-4">
-              <h2 className="card-title">Our Approach</h2>
-              <p>Accelerating innovation and action for sustainable growth.</p>
-              <p>Embracing technology to power sustainable</p>
-              <p>Develop. Preview. Ship.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="container mx-auto px-8">
-        <div className="flex flex-wrap items-center rounded-lg bg-accent">
-          <div className="lg:7/12 ml-auto mr-auto w-full px-4 md:w-6/12">
-            <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary">
-              SAVI
-            </h3>
-            <p className="mb-4 mt-4 text-lg font-light leading-relaxed text-primary-content">
-              SAVI is a national (US) nonprofit organization dedicated to
-              providing knowledge and resources to military Veterans
-              transitioning into civilian life and to the organizations that
-              support them.
-            </p>
-            <p className="mb-4 mt-4 text-lg font-light leading-relaxed text-primary-content">
-              Founded in 2017 by a passionate military Veteran who has been
-              through it all, SAVI believes in taking a whole-person approach to
-              this transition.
-            </p>
-            <button className="btn btn-accent">
-              <Link href="https://www.savivets.org/" target="_blank">
-                Learn More
-              </Link>
-            </button>
-          </div>
-
-          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
-            <div className="grow card card-compact w-full bg-neutral text-primary-content shadow-lg">
-              <figure>
-                <img
-                  src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ipfs5.svg"
-                  alt="IPFS"
-                />
-              </figure>
-              <div className="card-body p-4">
-                <h2 className="card-title font-bold uppercase">
-                  SAVI Transition Incubator
-                </h2>
-                <p>
-                  SAVI focuses on the unique needs of the transitioning
-                  service-member. With a 360-degree understanding of these
-                  needs, we strive to make true for each Veteran the words in
-                  our tagline: Your whole life transition starts here.
-                </p>
+              <Script src="https://assets.lemonsqueezy.com/lemon.js" />
+              <div className="card-actions justify-end">
+                <button className="btn btn-accent">
+                  <Link
+                    href="https://lexington.lemonsqueezy.com/checkout/buy/fdaab53a-135b-4ecb-8db1-1810c2ae000e?embed=1"
+                    className="lemonsqueezy-button"
+                  >
+                    Book Now
+                  </Link>
+                </button>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className="my-8 px-8 container mx-auto">
-        <div className="flex flex-wrap items-center rounded-lg bg-accent">
-          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
-            <div
-              className="grow card card-compact w-full bg-neutral text-primary-content
- break-words shadow-lg"
-            >
-              <figure>
-                <img
-                  src="https://storageapi.fleek.co/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/nonprofit_savipremierpartner.png"
-                  alt="Blockchain & WEB3"
-                />
-              </figure>
-              <div className="card-body p-4">
-                <h2 className="card-title">SAVI Premier Partner</h2>
-                <p>
-                  Each SAVI Partner will be recognized with a digital badge to
-                  share with their audience and proudly display across their
-                  digital channels.
-                </p>
+          <div className="card card-compact w-96 bg-base-200 shadow-xl">
+            <figure>
+              <img
+                src="/StartUpAccelerator.png"
+                alt="StartUp Accelerator Program"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">StartUp Accelerator Program</h2>
+              <p>
+                Accelerator Program To Launch Your Company or Next Big Product!
+              </p>
+              <Script src="https://assets.lemonsqueezy.com/lemon.js" />
+              <div className="card-actions justify-end">
+                <button className="btn btn-accent">
+                  <Link
+                    href="https://lexington.lemonsqueezy.com/checkout/buy/30fe2f0d-5262-4c0e-ae15-baac7de9b0ec?embed=1"
+                    className="lemonsqueezy-button"
+                  >
+                    Start Trial
+                  </Link>
+                </button>
               </div>
             </div>
           </div>
-          <div className="lg:7/12 ml-auto mr-auto w-full px-4 md:w-6/12">
-            <h3 className="text-3xl font-semibold text-primary mb-2">
-              PARTNER WITH SAVI
-            </h3>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              Becoming a SAVI Partner, you stand out from your peers and display
-              your commitment to exceptional service for Veterans on your
-              website, social media pages, and other marketing materials.
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
-              You have the opportunity to establish a feedback process that
-              acknowledges you provide the best experience to Veterans, based on
-              real comments.
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content"></p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content"></p>
-            <button className="btn btn-accent">
-              <Link
-                href="https://www.savivets.org/our-partners"
-                target="_blank"
-              >
-                Learn More
-              </Link>
-            </button>
+          <div className="card card-compact w-96 bg-base-200 shadow-xl">
+            <figure>
+              <img
+                src="/ConsultingManagement.png"
+                alt="Consulting Management"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Consulting Management</h2>
+              <p>Consulting strategy & product management services.</p>
+              <Script src="https://assets.lemonsqueezy.com/lemon.js" />
+              <div className="card-actions justify-end">
+                <button className="btn btn-accent">
+                  <Link
+                    href="https://lexington.lemonsqueezy.com/checkout/buy/b9282da0-44db-42d8-98e4-1ce0b0934dd2?embed=1"
+                    className="lemonsqueezy-button"
+                  >
+                    Start Trial
+                  </Link>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="card card-compact w-96 bg-base-200 shadow-xl">
+            <figure>
+              <img src="/ProjectManagement.png" alt="Project Management" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Project Management</h2>
+              <p>
+                Project development & support of custom platforms for your
+                business. Integration with business critical systems like
+                Accounting, HR, Inventory etc
+              </p>
+              <Script src="https://assets.lemonsqueezy.com/lemon.js" />
+              <div className="card-actions justify-end">
+                <button className="btn btn-accent">
+                  <Link
+                    href="https://lexington.lemonsqueezy.com/checkout/buy/9e599f2a-4a56-4154-b267-d6e04a48e07a?embed=1"
+                    className="lemonsqueezy-button"
+                  >
+                    Start Trial
+                  </Link>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="card card-compact w-96 bg-base-200 shadow-xl">
+            <figure>
+              <img src="/BusinessElevation.png" alt="Business Elevation" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Business Elevation</h2>
+              <p>
+                Grow your business through our social eCommerce network
+                opportunities. Discover & establish new markets to elevate!
+              </p>
+              <Script src="https://assets.lemonsqueezy.com/lemon.js" />
+              <div className="card-actions justify-end">
+                <button className="btn btn-accent">
+                  <Link
+                    href="https://lexington.lemonsqueezy.com/checkout/buy/53cae681-adf9-4165-af48-4bc219bf4653?embed=1"
+                    className="lemonsqueezy-button"
+                  >
+                    Start Trial
+                  </Link>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="card card-compact w-96 bg-base-200 shadow-xl">
+            <figure>
+              <img src="/WEB3StarterKit.png" alt="WEB3 Starter Kit" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">WEB3 Starter Kit</h2>
+              <p>Upgrade your web technologies & presence to WEB3 standards.</p>
+              <Script src="https://assets.lemonsqueezy.com/lemon.js" />
+              <div className="card-actions justify-end">
+                <button className="btn btn-accent">
+                  <Link
+                    href="https://lexington.lemonsqueezy.com/checkout/buy/71e5a43d-2da4-4aba-b74b-9ecadf9dd9e8?embed=1"
+                    className="lemonsqueezy-button"
+                  >
+                    Start Trial
+                  </Link>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </section>

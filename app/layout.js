@@ -4,7 +4,7 @@ import "./index.css";
 import "./globals.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
-import Cal from "./components/cal";
+import PopUpCal from "./components/popupCal";
 export default function RootLayout({
   // Layouts must accept a children prop.
   // This will be populated with nested layouts or pages
@@ -17,7 +17,7 @@ export default function RootLayout({
           <Navbar />
           <div className="mb-8">{children}</div>
           <Footer />
-          <Cal className="btn rounded-md" />
+          <PopUpCal />
           <Analytics />
         </Providers>
       </body>

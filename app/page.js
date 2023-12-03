@@ -5,12 +5,8 @@ const loader = ({ src, width, quality }) => {
     quality || 75
   }`;
 };
+
 export const metadata = {
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-  },
   title: "Lexington Tech LLC",
   description:
     "Management & Technology Consulting | AI, Smart FX, Blockchain, Hyper-Local Microservices. Web 3.0 Blockchain Domain IPFS.",
@@ -59,7 +55,7 @@ const Home = () => {
                 className="btn btn-accent uppercase rounded-md join-item hover:text-secondary tooltip"
                 data-tip="Lexington WEB3 & NextGen Demo"
               >
-                <Link href="https://lexington-demo.vercel.app/" target="_blank">
+                <Link href="https://demo.lexington.us/" target="_blank">
                   Demo
                 </Link>
               </button>
@@ -68,11 +64,14 @@ const Home = () => {
                 data-tip="Artifical Intelligence Showcase"
               >
                 <Link
-                  href="https://lexington-aimockinterviews.vercel.app/"
+                  href="https://aimockinterviews.lexington.us/"
                   target="_blank"
                 >
                   AI Showcase
                 </Link>
+              </button>
+              <button className="btn btn-accent uppercase rounded-md join-item hover:text-secondary">
+                <Link href="/services">Services</Link>
               </button>
               <button className="btn btn-accent uppercase rounded-md join-item hover:text-secondary">
                 <Link href="/contact">Contact</Link>
