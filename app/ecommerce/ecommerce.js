@@ -7,7 +7,7 @@ export default function eCommerce() {
       <div className="hero min-h-screen svg-ecommerce">
         <div className="hero-content text-center">
           <div className="max-w-lg">
-            <h1 className="mb-5 text-5xl font-bold uppercase text-accent">
+            <h1 className="mb-5 text-5xl font-bold uppercase text-zinc-50">
               B2X eCommerce
             </h1>
             <p className="mb-5 text-2xl font-semibold italic">

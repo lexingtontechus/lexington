@@ -5,7 +5,7 @@ export default function Blockchain() {
       <div className="hero min-h-screen svg-blockchain">
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-lg">
-            <h1 className="mb-5 text-5xl font-bold uppercase text-accent">
+            <h1 className="mb-5 text-5xl font-bold uppercase text-zinc-50">
               Blockchain Powered DA<span className="normal-case">pps</span>
             </h1>
             <p className="my-8 text-2xl font-semibold">

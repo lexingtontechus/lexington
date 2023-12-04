@@ -7,7 +7,7 @@ export default function LemonSqueezy() {
       <div className="hero min-h-screen svg-blockchain">
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-lg">
-            <h1 className="mb-5 text-5xl font-bold uppercase text-accent">
+            <h1 className="mb-5 text-5xl font-bold uppercase text-zinc-50">
               Lexington Business Management Services
             </h1>
             <h3 className="text-xl py-4">

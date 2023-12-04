@@ -6,7 +6,7 @@ export default function AI() {
       <div className="hero min-h-screen svg-ai">
         <div className="hero-content text-center">
           <div className="max-w-lg">
-            <h1 className="mb-5 text-5xl font-bold uppercase text-accent">
+            <h1 className="mb-5 text-5xl font-bold uppercase text-zinc-50">
               AI Innovations
             </h1>
             <p className="mb-5 text-2xl font-semibold">
