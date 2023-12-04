@@ -6,7 +6,7 @@ export default function Web3() {
       <div className="hero min-h-screen svg-web3">
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-lg">
-            <h1 className="mb-5 text-5xl font-bold text-accent uppercase">
+            <h1 className="mb-5 text-5xl font-bold text-zinc-50 uppercase">
               WEB3
             </h1>
             <p className="my-8 text-2xl font-semibold">

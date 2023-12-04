@@ -44,7 +44,7 @@ const Home = () => {
       <div className="hero min-h-screen svg-home">
         <div className="hero-content text-center">
           <div className="max-w-lg">
-            <h1 className="text-5xl font-bold text-accent uppercase">
+            <h1 className="text-5xl font-bold text-zinc-50 uppercase">
               Lexington Tech
             </h1>
             <h2 className="text-3xl font-bold uppercase my-8">

@@ -20,7 +20,7 @@ export default function nonprofit() {
         <div className="hero-overlay"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-lg">
-            <h1 className="mb-5 text-5xl font-bold uppercase">
+            <h1 className="mb-5 text-5xl font-bold uppercase text-zinc-50">
               STRATEGIC ALLIANCE FOR VETERAN INTEGRATION (SAVI)
             </h1>
             <p className="my-8 text-2xl font-semibold">

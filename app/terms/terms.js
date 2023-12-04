@@ -8,7 +8,7 @@ export default function Terms() {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold text-accent uppercase">
+            <h1 className="mb-5 text-5xl font-bold text-zinc-50 uppercase">
               Terms of Service
             </h1>
             <p className="py-6 text-2xl font-semibold">
