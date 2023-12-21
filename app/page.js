@@ -61,7 +61,7 @@ const Home = () => {
               <p>Personalized buying experience.</p>
               <p>eCommerce powered by virtual & augmented reality.</p>
               <div className="card-actions justify-end">
-                <button className="glass btn btn-primary hover:text-accent uppercase">
+                <button className="glass btn btn-primary hover:text-accent uppercase font-bold">
                   <Link href="/marketplace">More</Link>
                 </button>
               </div>
@@ -78,7 +78,7 @@ const Home = () => {
               <p>AI Infrastructure.</p>
               <p>Foundational Models.</p>
               <div className="card-actions justify-end">
-                <button className="glass btn btn-primary hover:text-accent uppercase">
+                <button className="glass btn btn-primary hover:text-accent uppercase font-bold">
                   <Link href="/ai">More</Link>
                 </button>
               </div>
@@ -97,7 +97,7 @@ const Home = () => {
               <p>Digital ID for privacy & data protection.</p>
               <p>Defi payments.</p>
               <div className="card-actions justify-end">
-                <button className="glass btn btn-primary hover:text-accent uppercase">
+                <button className="glass btn btn-primary hover:text-accent uppercase font-bold">
                   <Link href="/web3">More</Link>
                 </button>
               </div>
