@@ -84,7 +84,7 @@ export default function eCommerce() {
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
               Learn more about our services.
             </p>
-            <button className="glass btn btn-primary hover:text-accent uppercase">
+            <button className="glass btn btn-primary hover:text-accent uppercase font-bold">
               <Link href="/services">Services</Link>
             </button>
           </div>

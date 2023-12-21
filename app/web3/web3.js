@@ -72,14 +72,12 @@ export default function Web3() {
             </figure>
             <div className="card-body p-4">
               <h2 className="card-title">Unstoppable Domains</h2>
-              <ul className="list-disc list-inside">
-                <li>Identity & data ownership + privacy.</li>
-                <li>Decentralized domain-to-domain E2E encrypted messaging.</li>
-                <li>WEB3 community segment.</li>
-                <li>Branded digital asset collections.</li>
-              </ul>
+              <p>Identity & data ownership + privacy.</p>
+              <p>Decentralized domain-to-domain E2E encrypted messaging.</p>
+              <p>WEB3 community segment.</p>
+              <p>Branded digital asset collections.</p>
               <div className="card-actions justify-end">
-                <button className="glass btn btn-primary hover:text-accent uppercase">
+                <button className="glass btn btn-primary hover:text-accent uppercase font-bold">
                   <Link
                     href="https://unstoppable.lexingtontech.us"
                     target="_blank"
@@ -102,14 +100,12 @@ export default function Web3() {
             </figure>
             <div className="card-body p-4">
               <h2 className="card-title">Web3Modal</h2>
-              <ul className="list-disc list-inside">
-                <li>Secure user onboarding.</li>
-                <li>Web3Wallet enables secure web3 exploration.</li>
-                <li>Web3Inbox communications with users and community.</li>
-                <li>Multiple chains support.</li>
-              </ul>
+              <p>Secure user onboarding.</p>
+              <p>Web3Wallet enables secure web3 exploration.</p>
+              <p>Web3Inbox communications with users and community.</p>
+              <p>Multiple chains support.</p>
               <div className="card-actions justify-end">
-                <button className="glass btn btn-primary hover:text-accent uppercase">
+                <button className="glass btn btn-primary hover:text-accent uppercase font-bold">
                   <Link
                     href="https://web3modal.lexingtontech.us"
                     target="_blank"
@@ -132,16 +128,14 @@ export default function Web3() {
             </figure>
             <div className="card-body p-4">
               <h2 className="card-title">WEB3 Onboard</h2>
-              <ul className="list-disc list-inside">
-                <li>Multi-wallet and multi-chain support.</li>
-                <li>35 unique hardware and software wallets.</li>
-                <li>
-                  Preview transactions to see net-balance changes and gas spent.
-                </li>
-                <li>Real-time transaction notifications.</li>
-              </ul>
+              <p>Multi-wallet and multi-chain support.</p>
+              <p>35 unique hardware and software wallets.</p>
+              <p>
+                Preview transactions to see net-balance changes and gas spent.
+              </p>
+              <p>Real-time transaction notifications.</p>
               <div className="card-actions justify-end">
-                <button className="glass btn btn-primary hover:text-accent uppercase">
+                <button className="glass btn btn-primary hover:text-accent uppercase font-bold">
                   <Link
                     href="https://blocknative.lexingtontech.us"
                     target="_blank"

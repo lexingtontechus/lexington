@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function AI() {
   return (
-    <main>
+    <main className="pb-4">
       <div className="hero min-h-screen svg-ai">
         <div className="hero-content text-center">
           <div className="max-w-lg">
@@ -17,7 +17,7 @@ export default function AI() {
         </div>
       </div>
 
-      <section className="container mx-auto my-8 px-8">
+      <section className="container mx-auto p-8">
         <div className="flex flex-wrap gap-4 content-center justify-center">
           <div className="grow card card-compact w-full md:w-3/12 bg-secondary text-primary-content">
             <figure>
@@ -57,7 +57,7 @@ export default function AI() {
         </div>
       </section>
 
-      <section className="container mx-auto px-8">
+      <section className="container mx-auto p-8">
         <div className="flex flex-wrap items-center rounded-lg bg-base-300">
           <div className="lg:7/12 mt-4 px-8 w-full md:w-6/12">
             <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary">
@@ -83,7 +83,7 @@ export default function AI() {
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
               Learn more about our services.
             </p>
-            <button className="glass btn btn-primary hover:text-accent uppercase">
+            <button className="glass btn btn-primary hover:text-accent uppercase font-bold">
               <Link href="/services">Services</Link>
             </button>
           </div>
@@ -110,7 +110,7 @@ export default function AI() {
         </div>
       </section>
 
-      <section className="my-8 px-8 container mx-auto">
+      <section className="container mx-auto p-8">
         <div className="flex flex-wrap items-center rounded-md bg-base-300">
           <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-base-300">
             <div className="grow card card-compact w-full bg-base-200 text-primary-content break-words shadow-lg">
@@ -126,7 +126,7 @@ export default function AI() {
               </div>
             </div>
           </div>
-          <div className="lg:7/12 w-full px-8 md:w-6/12">
+          <div className="lg:7/12 w-full p-8 md:w-6/12">
             <h3 className="text-3xl font-semibold text-primary mb-2">
               AI POWERED SOLUTIONS
             </h3>
@@ -149,7 +149,7 @@ export default function AI() {
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
               Learn more about our services.
             </p>
-            <button className="glass btn btn-primary hover:text-accent uppercase">
+            <button className="glass btn btn-primary hover:text-accent uppercase font-bold">
               <Link href="/services">Services</Link>
             </button>
           </div>

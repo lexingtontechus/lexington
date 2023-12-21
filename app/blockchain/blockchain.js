@@ -16,7 +16,7 @@ export default function Blockchain() {
         </div>
       </div>
 
-      <section className="container mx-auto my-8 px-8">
+      <section className="container mx-auto p-8">
         <div className="flex flex-wrap gap-4 content-center justify-center">
           <div className="grow card card-compact w-full md:w-3/12 bg-secondary text-primary-content">
             <figure>
@@ -58,7 +58,7 @@ export default function Blockchain() {
         </div>
       </section>
 
-      <section className="container mx-auto px-8">
+      <section className="container mx-auto p-8">
         <div className="flex flex-wrap items-center bg-base-300">
           <div className="lg:7/12 mt-4 px-8 pb-4 md:w-6/12">
             <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary">
@@ -89,7 +89,7 @@ export default function Blockchain() {
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
               Learn more about our services.
             </p>
-            <button className="btn btn-accent hover:text-secondary uppercase">
+            <button className="glass btn btn-primary hover:text-accent uppercase font-bold">
               <Link href="/services">Services</Link>
             </button>
           </div>
