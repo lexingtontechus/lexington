@@ -6,7 +6,7 @@ export default function LemonSqueezy() {
     <main>
       <div className="hero min-h-screen svg-blockchain">
         <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-lg">
+          <div className="max-w-2xl text-pretty">
             <h1 className="mb-5 text-5xl font-bold uppercase text-zinc-50">
               Lexington Business Management Services
             </h1>
@@ -160,7 +160,7 @@ export default function LemonSqueezy() {
               </p>
               <Script src="https://assets.lemonsqueezy.com/lemon.js" />
               <div className="card-actions justify-end">
-                <button className="btn btn-accent">
+                <button className="glass btn btn-primary hover:text-accent uppercase">
                   <Link
                     href="https://lexington.lemonsqueezy.com/checkout/buy/fdaab53a-135b-4ecb-8db1-1810c2ae000e?embed=1"
                     className="lemonsqueezy-button"
@@ -185,7 +185,7 @@ export default function LemonSqueezy() {
               </p>
               <Script src="https://assets.lemonsqueezy.com/lemon.js" />
               <div className="card-actions justify-end">
-                <button className="btn btn-accent">
+                <button className="glass btn btn-primary hover:text-accent uppercase">
                   <Link
                     href="https://lexington.lemonsqueezy.com/checkout/buy/30fe2f0d-5262-4c0e-ae15-baac7de9b0ec?embed=1"
                     className="lemonsqueezy-button"
@@ -208,7 +208,7 @@ export default function LemonSqueezy() {
               <p>Consulting strategy & product management services.</p>
               <Script src="https://assets.lemonsqueezy.com/lemon.js" />
               <div className="card-actions justify-end">
-                <button className="btn btn-accent">
+                <button className="glass btn btn-primary hover:text-accent uppercase">
                   <Link
                     href="https://lexington.lemonsqueezy.com/checkout/buy/b9282da0-44db-42d8-98e4-1ce0b0934dd2?embed=1"
                     className="lemonsqueezy-button"
@@ -232,7 +232,7 @@ export default function LemonSqueezy() {
               </p>
               <Script src="https://assets.lemonsqueezy.com/lemon.js" />
               <div className="card-actions justify-end">
-                <button className="btn btn-accent">
+                <button className="glass btn btn-primary hover:text-accent uppercase">
                   <Link
                     href="https://lexington.lemonsqueezy.com/checkout/buy/9e599f2a-4a56-4154-b267-d6e04a48e07a?embed=1"
                     className="lemonsqueezy-button"
@@ -255,7 +255,7 @@ export default function LemonSqueezy() {
               </p>
               <Script src="https://assets.lemonsqueezy.com/lemon.js" />
               <div className="card-actions justify-end">
-                <button className="btn btn-accent">
+                <button className="glass btn btn-primary hover:text-accent uppercase">
                   <Link
                     href="https://lexington.lemonsqueezy.com/checkout/buy/53cae681-adf9-4165-af48-4bc219bf4653?embed=1"
                     className="lemonsqueezy-button"
@@ -275,7 +275,7 @@ export default function LemonSqueezy() {
               <p>Upgrade your web technologies & presence to WEB3 standards.</p>
               <Script src="https://assets.lemonsqueezy.com/lemon.js" />
               <div className="card-actions justify-end">
-                <button className="btn btn-accent">
+                <button className="glass btn btn-primary hover:text-accent uppercase">
                   <Link
                     href="https://lexington.lemonsqueezy.com/checkout/buy/71e5a43d-2da4-4aba-b74b-9ecadf9dd9e8?embed=1"
                     className="lemonsqueezy-button"

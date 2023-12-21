@@ -100,7 +100,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={state.submitting}
-          className="btn btn-accent text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-2 w-full ease-linear transition-all duration-150"
+          className="glass btn btn-primary hover:text-accent uppercase text-sm font-bold px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-2 w-full ease-linear transition-all duration-150"
         >
           Submit
         </button>

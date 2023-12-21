@@ -7,7 +7,7 @@ export default function Terms() {
       <div className="hero min-h-screen svg-header-terms">
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
+          <div className="max-w-2xl text-pretty">
             <h1 className="mb-5 text-5xl font-bold text-zinc-50 uppercase">
               Terms of Service
             </h1>

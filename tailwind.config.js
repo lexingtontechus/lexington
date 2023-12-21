@@ -40,8 +40,8 @@ module.exports = {
           accent: "#3730a3", //indigo800
           neutral: "#64748b", //slate500
           "base-100": "#0f172a", //slate900
-          "base-200": "#1e293b", //slate800
-          "base-300": "#4f46e5", //indigo600
+          "base-200": "#334155", //slate700
+          "base-300": "#64748b", //slate500
           info: "#3730a3", //indigo800
           success: "#059669", //emerald600
           warning: "#ea580c", //orange600

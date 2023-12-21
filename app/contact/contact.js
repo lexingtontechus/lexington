@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="hero min-h-screen svg-contact">
         <div className="hero-overlay"></div>
         <div className="hero-content text-center">
-          <div className="max-w-lg">
+          <div className="max-w-2xl">
             <h1 className="mb-5 text-5xl font-bold text-zinc-50 uppercase">
               Contact Us
             </h1>

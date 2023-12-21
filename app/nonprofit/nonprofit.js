@@ -19,7 +19,7 @@ export default function nonprofit() {
       >
         <div className="hero-overlay"></div>
         <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-lg">
+          <div className="max-w-2xl text-pretty">
             <h1 className="mb-5 text-5xl font-bold uppercase text-zinc-50">
               STRATEGIC ALLIANCE FOR VETERAN INTEGRATION (SAVI)
             </h1>
@@ -107,7 +107,7 @@ export default function nonprofit() {
       </section>
 
       <section className="container mx-auto px-8">
-        <div className="flex flex-wrap items-center bg-accent">
+        <div className="flex flex-wrap items-center bg-base-300">
           <div className="lg:7/12 ml-auto mr-auto w-full px-8 md:w-6/12">
             <h3 className="mt-4 mb-2 text-3xl font-semibold leading-normal text-primary">
               SAVI
@@ -123,15 +123,15 @@ export default function nonprofit() {
               through it all, SAVI believes in taking a whole-person approach to
               this transition.
             </p>
-            <button className="btn btn-neutral hover:text-accent">
+            <button className="glass btn btn-primary hover:text-accent uppercase">
               <Link href="https://www.savivets.org/" target="_blank">
                 Learn More
               </Link>
             </button>
           </div>
 
-          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
-            <div className="grow card card-compact w-full bg-secondary text-primary-content shadow-lg">
+          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-base-300">
+            <div className="grow card card-compact w-full bg-base-200 text-primary-content shadow-lg">
               <figure>
                 <img
                   src="https://storage.fleek-internal.com/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/logo-savi-horizontal.png"
@@ -155,10 +155,10 @@ export default function nonprofit() {
       </section>
 
       <section className="my-8 px-8 container mx-auto">
-        <div className="flex flex-wrap items-center bg-accent">
-          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
+        <div className="flex flex-wrap items-center bg-base-300">
+          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-base-300">
             <div
-              className="grow card card-compact w-full bg-secondary text-primary-content
+              className="grow card card-compact w-full bg-base-200 text-primary-content
  break-words shadow-lg"
             >
               <figure>
@@ -193,7 +193,7 @@ export default function nonprofit() {
             </p>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content"></p>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content"></p>
-            <button className="btn btn-neutral hover:text-accent">
+            <button className="glass btn btn-primary hover:text-accent uppercase">
               <Link
                 href="https://www.savivets.org/our-partners"
                 target="_blank"
