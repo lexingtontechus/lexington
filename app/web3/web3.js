@@ -143,7 +143,7 @@ export default function Web3() {
               <div className="card-actions justify-end">
                 <button className="glass btn btn-primary hover:text-accent uppercase">
                   <Link
-                    href="https://web3onboard.lexingtontech.us"
+                    href="https://blocknative.lexingtontech.us"
                     target="_blank"
                   >
                     View Demo
