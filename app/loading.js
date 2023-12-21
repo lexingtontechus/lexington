@@ -4,7 +4,7 @@ export default function Loading() {
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content text-center">
         <div className="max-w-md">
-          <h1 className="text-5xl font-bold text-accent uppercase">
+          <h1 className="text-5xl font-bold text-primary uppercase">
             Generating AI
           </h1>
           <div className="py-4">

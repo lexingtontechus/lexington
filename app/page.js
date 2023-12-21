@@ -1,42 +1,10 @@
+"use client";
 import Link from "next/link";
 
 const loader = ({ src, width, quality }) => {
   return `https://storage.fleek-internal.com/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/${src}?w=${width}&q=${
     quality || 75
   }`;
-};
-
-export const metadata = {
-  title: "Lexington Tech LLC",
-  description:
-    "Management & Technology Consulting | AI, Smart FX, Blockchain, Hyper-Local Microservices. Web 3.0 Blockchain Domain IPFS.",
-  keywords: [
-    "Lexington",
-    "Lexington Tech",
-    "Unstoppable Domains",
-    "Web 3",
-    "WEB3",
-    "Blockchain",
-    "IPFS",
-    "Interplantary File System",
-    "Fleek",
-    "Storj",
-    "Quantum Management",
-    "Management Consulting",
-    "FoodTech",
-    "BioTech",
-    "Hyperlocal Microservices",
-    "Forex",
-    "SmartFX",
-    "Pharmatech",
-    "BTAB Group",
-    "BTAB Corp",
-  ],
-};
-export const openGraphImage = {
-  images: [
-    "https://storage.fleek-internal.com/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_background.webp",
-  ],
 };
 const Home = () => {
   return (
@@ -93,7 +61,7 @@ const Home = () => {
               <p>Personalized buying experience.</p>
               <p>eCommerce powered by virtual & augmented reality.</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-accent hover:text-secondary">
+                <button className="glass btn btn-primary hover:text-accent uppercase">
                   <Link href="/marketplace">More</Link>
                 </button>
               </div>
@@ -110,7 +78,7 @@ const Home = () => {
               <p>AI Infrastructure.</p>
               <p>Foundational Models.</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-accent hover:text-secondary">
+                <button className="glass btn btn-primary hover:text-accent uppercase">
                   <Link href="/ai">More</Link>
                 </button>
               </div>
@@ -129,7 +97,7 @@ const Home = () => {
               <p>Digital ID for privacy & data protection.</p>
               <p>Defi payments.</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-accent hover:text-secondary">
+                <button className="glass btn btn-primary hover:text-accent uppercase">
                   <Link href="/web3">More</Link>
                 </button>
               </div>
@@ -142,7 +110,7 @@ const Home = () => {
         <div className="flex flex-wrap items-center rounded-none bg-accent">
           <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
             <div
-              className="grow card card-compact w-full bg-neutral text-primary-content
+              className="grow card card-compact w-full bg-base-200 text-primary-content
  break-words shadow-lg"
             >
               <figure>
@@ -185,4 +153,5 @@ const Home = () => {
     </main>
   );
 };
+
 export default Home;

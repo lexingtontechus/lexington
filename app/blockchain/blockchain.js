@@ -59,7 +59,7 @@ export default function Blockchain() {
       </section>
 
       <section className="container mx-auto px-8">
-        <div className="flex flex-wrap items-center bg-accent">
+        <div className="flex flex-wrap items-center bg-base-300">
           <div className="lg:7/12 mt-4 px-8 pb-4 md:w-6/12">
             <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary">
               IPFS + Hyperledger
@@ -89,13 +89,13 @@ export default function Blockchain() {
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
               Learn more about our services.
             </p>
-            <button className="btn btn-neutral hover:text-accent uppercase">
+            <button className="btn btn-accent hover:text-secondary uppercase">
               <Link href="/services">Services</Link>
             </button>
           </div>
 
-          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
-            <div className="grow card card-compact w-full bg-neutral text-primary-content shadow-lg max-h-[400px]">
+          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-base-300">
+            <div className="grow card card-compact w-full bg-base-200 text-primary-content shadow-lg max-h-[400px]">
               <figure>
                 <img src="/ipfs.jpg" alt="IPFS" />
               </figure>

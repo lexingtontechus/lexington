@@ -58,7 +58,7 @@ export default function AI() {
       </section>
 
       <section className="container mx-auto px-8">
-        <div className="flex flex-wrap items-center rounded-lg bg-accent">
+        <div className="flex flex-wrap items-center rounded-lg bg-base-300">
           <div className="lg:7/12 mt-4 px-8 w-full md:w-6/12">
             <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary">
               ECOMMERCE & MARKETING
@@ -83,13 +83,13 @@ export default function AI() {
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
               Learn more about our services.
             </p>
-            <button className="btn btn-neutral hover:text-accent uppercase">
+            <button className="glass btn btn-primary hover:text-accent uppercase">
               <Link href="/services">Services</Link>
             </button>
           </div>
 
-          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
-            <div className="grow card card-compact w-full bg-neutral text-primary-content break-words shadow-lg">
+          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-base-300">
+            <div className="grow card card-compact w-full bg-base-200 text-primary-content break-words shadow-lg">
               <figure>
                 <img
                   src="/b2xecommerce.jpg"
@@ -111,9 +111,9 @@ export default function AI() {
       </section>
 
       <section className="my-8 px-8 container mx-auto">
-        <div className="flex flex-wrap items-center rounded-md bg-accent">
-          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-accent">
-            <div className="grow card card-compact w-full bg-neutral text-primary-content break-words shadow-lg">
+        <div className="flex flex-wrap items-center rounded-md bg-base-300">
+          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-base-300">
+            <div className="grow card card-compact w-full bg-base-200 text-primary-content break-words shadow-lg">
               <figure>
                 <img src="/ai_solutions.png" alt="AI Powered Solutions" />
               </figure>
@@ -149,7 +149,7 @@ export default function AI() {
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
               Learn more about our services.
             </p>
-            <button className="btn btn-neutral hover:text-accent uppercase">
+            <button className="glass btn btn-primary hover:text-accent uppercase">
               <Link href="/services">Services</Link>
             </button>
           </div>
