@@ -1,7 +1,7 @@
 import ContactPage from "./contact";
 
 export const metadata = {
-  title: "Contact | Lexington Tech LLC",
+  title: "Contact | LEXINGTON TECH LLC",
 };
 
 const Contact = () => <ContactPage />;

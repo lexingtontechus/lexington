@@ -20,7 +20,7 @@ const Home = () => {
             </h2>
             <div className="join">
               <button
-                className="btn btn-accent uppercase rounded-md join-item hover:text-base-100 tooltip"
+                className="btn btn-accent uppercase rounded-md join-item hover:bg-neutral hover:text-accent tooltip"
                 data-tip="Lexington WEB3 & NextGen Demo"
               >
                 <Link href="https://demo.lexington.us/" target="_blank">
@@ -28,7 +28,7 @@ const Home = () => {
                 </Link>
               </button>
               <button
-                className="btn btn-accent uppercase rounded-md join-item hover:text-base-100 tooltip"
+                className="btn btn-accent uppercase rounded-md join-item hover:bg-neutral hover:text-accent tooltip"
                 data-tip="Artifical Intelligence Showcase"
               >
                 <Link
@@ -38,10 +38,10 @@ const Home = () => {
                   AI Showcase
                 </Link>
               </button>
-              <button className="btn btn-accent uppercase rounded-md join-item hover:text-base-100">
+              <button className="btn btn-accent uppercase rounded-md join-item hover:bg-neutral hover:text-accent">
                 <Link href="/services">Services</Link>
               </button>
-              <button className="btn btn-accent uppercase rounded-md join-item hover:text-base-100">
+              <button className="btn btn-accent uppercase rounded-md join-item hover:bg-neutral hover:text-accent">
                 <Link href="/contact">Contact</Link>
               </button>
             </div>

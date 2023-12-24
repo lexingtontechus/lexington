@@ -1,7 +1,7 @@
 import TermsPage from "./terms";
 
 export const metadata = {
-  title: "Terms | Lexington Tech LLC",
+  title: "Terms | LEXINGTON TECH LLC",
 };
 
 const Terms = () => <TermsPage />;

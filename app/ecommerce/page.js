@@ -1,7 +1,7 @@
 import EcommercePage from "./ecommerce";
 
 export const metadata = {
-  title: "eCommerce | Lexington Tech LLC",
+  title: "eCommerce | LEXINGTON TECH LLC",
 };
 
 const eCommerce = () => <EcommercePage />;

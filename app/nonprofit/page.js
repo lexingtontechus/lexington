@@ -1,7 +1,7 @@
 import NonProfitPage from "./nonprofit";
 
 export const metadata = {
-  title: "NonProfit | Lexington Tech LLC",
+  title: "NonProfit | LEXINGTON TECH LLC",
 };
 
 const NonProfit = () => <NonProfitPage />;

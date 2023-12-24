@@ -5,11 +5,11 @@ export default function About() {
       <div className="hero min-h-screen svg-about">
         {/*<div className="hero-overlay"></div>*/}
         <div className="hero-content text-center">
-          <div className="max-w-lg">
+          <div className="max-w-2xl">
             <h1 className="mb-5 text-5xl font-bold text-zinc-50 uppercase">
               Lexington Tech
             </h1>
-            <p className="my-8 text-2xl font-semibold">
+            <p className="my-8 text-2xl font-semibold text-pretty">
               Business & Technology Management Consulting
             </p>
           </div>
@@ -28,12 +28,12 @@ export default function About() {
             Los Angeles, California
           </div>
           <div className="align-center my-4">
-            <ul className="menu menu-horizontal bg-base-200 rounded-box">
+            <ul className="menu menu-horizontal bg-accent rounded-box">
               <li>
                 <Link
                   href="https://ud.me/lexingtontechus.nft"
                   target="_blank"
-                  className="tooltip hover:bg-accent"
+                  className="tooltip hover:glass"
                   data-tip="Verify on Unstoppable Domains"
                 >
                   <img
@@ -49,7 +49,7 @@ export default function About() {
                 <Link
                   href="https://btabcorp.com/portfolio/lexington-tech/"
                   target="_blank"
-                  className="font-black text-xl text-lime-500 tooltip hover:bg-accent"
+                  className="font-black text-xl text-lime-500 tooltip hover:glass"
                   data-tip="BTAB ECOMMERCE GROUP INC."
                 >
                   <span className="h-4 w-8">B</span>
@@ -59,7 +59,7 @@ export default function About() {
                 <Link
                   href="https://linkedin.com/company/lexingtontech"
                   target="_blank"
-                  className="tooltip hover:bg-accent"
+                  className="tooltip hover:glass"
                   data-tip="LinkedIn"
                 >
                   <LinkedIn />
@@ -69,7 +69,7 @@ export default function About() {
                 <Link
                   href="https://medium.com/@lexingtontech"
                   target="_blank"
-                  className="tooltip hover:bg-accent"
+                  className="tooltip hover:glass"
                   data-tip="Medium"
                 >
                   <Medium />
@@ -79,7 +79,7 @@ export default function About() {
                 <Link
                   href="https://lexingtontech.substack.com/"
                   target="_blank"
-                  className="tooltip hover:bg-accent"
+                  className="tooltip hover:glass"
                   data-tip="Substack"
                 >
                   <Substack />

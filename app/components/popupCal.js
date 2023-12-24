@@ -47,7 +47,7 @@ export default function PopUpCal() {
   return (
     <div className="fixed z-40 right-5 bottom-10">
       <button
-        className="btn btn-secondary glass btn-square h-12 w-12 btn-outline"
+        className="btn btn-secondary hover:glass btn-square h-12 w-12 btn-outline"
         onClick={() => document.getElementById("popupcal_modal").showModal()}
       >
         <svg

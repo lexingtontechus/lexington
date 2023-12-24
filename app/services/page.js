@@ -1,7 +1,7 @@
 import ServicesPage from "./services";
 
 export const metadata = {
-  title: "Services | Lexington Tech LLC",
+  title: "Services | LEXINGTON TECH LLC",
 };
 
 const Services = () => <ServicesPage />;
