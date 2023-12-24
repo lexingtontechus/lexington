@@ -8,7 +8,7 @@ import PopUpCal from "./components/popupCal";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Lexington Tech LLC",
+  title: "LEXINGTON TECH LLC",
   description:
     "Management & Technology Consulting | AI, Smart FX, Blockchain, Hyper-Local Microservices. Web 3.0 Blockchain Domain IPFS.",
   keywords: [
