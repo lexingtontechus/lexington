@@ -6,6 +6,7 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import PopUpCal from "./components/popupCal";
 import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: "LEXINGTON TECH LLC",
@@ -58,6 +59,7 @@ export default function RootLayout({
           <Footer />
           <PopUpCal />
           <Analytics />
+          <SpeedInsights />
         </Providers>
       </body>
     </html>
