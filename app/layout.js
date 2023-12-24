@@ -6,9 +6,10 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import PopUpCal from "./components/popupCal";
 import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
-  title: "Lexington Tech LLC",
+  title: "LEXINGTON TECH LLC",
   description:
     "Management & Technology Consulting | AI, Smart FX, Blockchain, Hyper-Local Microservices. Web 3.0 Blockchain Domain IPFS.",
   keywords: [
@@ -58,6 +59,7 @@ export default function RootLayout({
           <Footer />
           <PopUpCal />
           <Analytics />
+          <SpeedInsights />
         </Providers>
       </body>
     </html>
