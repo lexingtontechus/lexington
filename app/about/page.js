@@ -1,7 +1,7 @@
 import AboutPage from "./about";
 
 export const metadata = {
-  title: "About | Lexington Tech LLC",
+  title: "About | LEXINGTON TECH LLC",
 };
 
 const About = () => <AboutPage />;

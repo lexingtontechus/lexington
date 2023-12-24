@@ -1,7 +1,7 @@
 import PrivacyPage from "./privacy";
 
 export const metadata = {
-  title: "Privacy | Lexington Tech LLC",
+  title: "Privacy | LEXINGTON TECH LLC",
 };
 
 const Privacy = () => <PrivacyPage />;

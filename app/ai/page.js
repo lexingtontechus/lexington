@@ -1,7 +1,7 @@
 import AIPage from "./ai";
 
 export const metadata = {
-  title: "AI | Lexington Tech LLC",
+  title: "AI | LEXINGTON TECH LLC",
 };
 
 const AI = () => <AIPage />;

@@ -1,7 +1,7 @@
 import BlockchainPage from "./blockchain";
 
 export const metadata = {
-  title: "Blockchain | Lexington Tech LLC",
+  title: "Blockchain | LEXINGTON TECH LLC",
 };
 
 const Blockchain = () => <BlockchainPage />;

@@ -1,7 +1,7 @@
 import SmartFXPage from "./smartfx";
 
 export const metadata = {
-  title: "SmartFX | Lexington Tech LLC",
+  title: "SmartFX | LEXINGTON TECH LLC",
 };
 
 const SmartFX = () => <SmartFXPage />;
