@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-
 export default function Terms() {
   return (
     <main>
@@ -1146,13 +1145,7 @@ export default function Terms() {
                       </p>
                       <ul className="list-none mr-auto">
                         <li className="flex items-center">
-                          <img
-                            src="/logo_lxt.svg"
-                            alt="Lexington Tech LLC"
-                            height="20"
-                            width="20"
-                          />
-                          <span className="inline-block ml-3">
+                          <span className="inline-block ml-8">
                             Lexington Tech LLC
                           </span>
                         </li>

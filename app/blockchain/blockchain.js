@@ -18,23 +18,25 @@ export default function Blockchain() {
 
       <section className="container mx-auto p-8">
         <div className="flex flex-wrap gap-4 content-center justify-center">
-          <div className="grow card card-compact w-full md:w-3/12 bg-secondary text-primary-content">
+          <div className="grow card card-compact w-full md:w-3/12 bg-base-300">
             <figure>
               <img src="/our-mission.jpg" alt="Our Mission" />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title">Our Mission</h2>
+              <h2 className="card-title font-bold text-primary">Our Mission</h2>
               <p>Build blockchain eCommerce DApps.</p>
               <p>Efficient & sustainable blockchain technologies.</p>
               <p>Future of eCommerce powered by Defi & crypto.</p>
             </div>
           </div>
-          <div className="grow card card-compact w-full md:w-3/12 bg-secondary text-primary-content">
+          <div className="grow card card-compact w-full md:w-3/12 bg-base-300">
             <figure>
               <img src="/our-technologies.jpg" alt="Our Technologies" />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title">Our Technologies</h2>
+              <h2 className="card-title font-bold text-primary">
+                Our Technologies
+              </h2>
               <p>
                 Building and integrating Ethereum-compatible blockchain networks
               </p>
@@ -44,12 +46,14 @@ export default function Blockchain() {
               <p>DeFi payments apps, protocols and solutions</p>
             </div>
           </div>
-          <div className="grow card card-compact w-full md:w-3/12 bg-secondary text-primary-content">
+          <div className="grow card card-compact w-full md:w-3/12 bg-base-300">
             <figure>
               <img src="/our-approach.jpg" alt="Our Approach" />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title">Our Approach</h2>
+              <h2 className="card-title font-bold text-primary">
+                Our Approach
+              </h2>
               <p>Implement wallet & token technologies.</p>
               <p>Transition to decentralized technologies.</p>
               <p>Build DApps to power eCommmerce.</p>
@@ -64,16 +68,16 @@ export default function Blockchain() {
             <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary">
               IPFS + Hyperledger
             </h3>
-            <p className="mb-4 mt-4 text-lg font-light leading-relaxed text-primary-content">
+            <p className="mb-4 mt-4 text-lg font-light leading-relaxed">
               IPFS (Interplantary File System) powers the Distributed Web
             </p>
-            <p className="mb-4 mt-4 text-lg font-light leading-relaxed text-primary-content">
+            <p className="mb-4 mt-4 text-lg font-light leading-relaxed">
               Peer-to-peer IPFS retrieves pieces from multiple nodes at once,
               enabling substantial bandwidth savings. With up to 60% savings for
               video, IPFS makes it possible to efficiently distribute high
               volumes of data without duplication
             </p>
-            <p className="mb-4 mt-4 text-lg font-light leading-relaxed text-primary-content">
+            <p className="mb-4 mt-4 text-lg font-light leading-relaxed">
               A peer-to-peer hypermedia protocol designed to preserve and grow
               humanity's knowledge by making the web upgradeable, resilient, and
               more open.
@@ -81,26 +85,26 @@ export default function Blockchain() {
             <h3 className="text-3xl font-semibold text-primary mb-2">
               Challenges & Opportunities
             </h3>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
+            <p className="mb-4 mt-0 text-lg font-light leading-relaxed">
               Blockchain adoption is a challenge & opportunity to address
               infrastructure requirements/issues and take onwership of security,
               compliance & the protection of data & privacy.
             </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
+            <p className="mb-4 mt-0 text-lg font-light leading-relaxed">
               Learn more about our services.
             </p>
-            <button className="glass btn btn-primary hover:text-accent uppercase font-bold">
+            <button className="hover:glass btn btn-accent uppercase font-bold">
               <Link href="/services">Services</Link>
             </button>
           </div>
 
           <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-base-300">
-            <div className="grow card card-compact w-full bg-base-200 text-primary-content shadow-lg max-h-[400px]">
-              <figure>
+            <div className="grow card card-compact w-full bg-base-200 shadow-lg ">
+              <figure className="max-h-[600px] image-full">
                 <img src="/ipfs.jpg" alt="IPFS" />
               </figure>
               <div className="card-body p-4">
-                <h2 className="card-title font-bold uppercase">
+                <h2 className="card-title font-bold uppercase text-primary">
                   Blockchain Technologies
                 </h2>
                 <p>

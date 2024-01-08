@@ -789,18 +789,11 @@ export default function Privacy() {
                       </p>
                       <ul className="list-none mr-auto">
                         <li className="flex items-center">
-                          <img
-                            src="/logo_lxt.svg"
-                            alt="Lexington Tech LLC"
-                            height="20"
-                            width="20"
-                          />
                           <span className="inline-block ml-8">
                             Lexington Tech LLC
                           </span>
                         </li>
                         <li className="flex items-center">
-                          <i className="fas fa-map-marker-alt"></i>
                           <span className="inline-block ml-8">
                             16192 Coastal Highway
                             <br />
@@ -811,16 +804,23 @@ export default function Privacy() {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-at"></i>
-                          <span className="inline-block ml-2">
+                          <span className="inline-block ml-8">
                             legal@lexingtontech.us
                           </span>
                         </li>
                       </ul>
                       <br />
-                      <h4 className="text-2xl font-semibold">
-                        13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE
-                        COLLECT FROM YOU?
-                      </h4>
+                    </div>
+                  </div>
+                  <div
+                    tabIndex={12}
+                    className="collapse collapse-arrow border border-base-300 bg-base-200 focus:bg-base-300 mt-2"
+                  >
+                    <div className="collapse-title text-xl font-medium">
+                      13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE
+                      COLLECT FROM YOU?
+                    </div>
+                    <div className="collapse-content">
                       <p className="leading-relaxed mt-1 mb-4">
                         Based on the applicable laws of your country, you may
                         have the right to request access to the personal

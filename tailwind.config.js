@@ -29,6 +29,7 @@ module.exports = {
   daisyui: {
     themes: [
       "dark",
+      "sunset",
       {
         lxt: {
           primary: "#cbd5e1", //slate300

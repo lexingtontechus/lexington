@@ -35,7 +35,7 @@ export default function nonprofit() {
 
       <section className="container mx-auto my-8 px-8">
         <div className="flex flex-wrap gap-10 content-center justify-center">
-          <div className="shrink card card-compact w-full md:w-4/12 bg-secondary text-primary-content">
+          <div className="shrink card card-compact w-full md:w-4/12 bg-base-300">
             <figure>
               <img
                 src="https://storage.fleek-internal.com/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/savi-education.jpg"
@@ -44,7 +44,7 @@ export default function nonprofit() {
               />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title">Education</h2>
+              <h2 className="card-title font-bold text-primary">Education</h2>
               <p>
                 SAVI Student Transition Incubator℠, Student Track Transition
                 Program℠
@@ -53,7 +53,7 @@ export default function nonprofit() {
               <p>Personalized career path determination assistance.</p>
             </div>
           </div>
-          <div className="shrink card card-compact w-full md:w-4/12 bg-secondary text-primary-content">
+          <div className="shrink card card-compact w-full md:w-4/12 bg-base-300">
             <figure>
               <img
                 src="https://storage.fleek-internal.com/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/savi-employment.jpg"
@@ -62,7 +62,7 @@ export default function nonprofit() {
               />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title">Employment</h2>
+              <h2 className="card-title font-bold text-primary">Employment</h2>
               <p>
                 Start-to-finish support to help Veterans navigate a new career.
               </p>
@@ -73,7 +73,7 @@ export default function nonprofit() {
               <p>Job retention & mentoring services.</p>
             </div>
           </div>
-          <div className="shrink card card-compact w-full md:w-4/12 bg-secondary text-primary-content">
+          <div className="shrink card card-compact w-full md:w-4/12 bg-base-300">
             <figure>
               <img
                 src="https://storage.fleek-internal.com/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/savi-entrepreneurship.jpg"
@@ -82,13 +82,15 @@ export default function nonprofit() {
               />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title">Entrepreneurship</h2>
+              <h2 className="card-title font-bold text-primary">
+                Entrepreneurship
+              </h2>
               <p>SAVI Entrepreneur Transition Incubator℠.</p>
               <p>Entrepreneur Benefit Assessment Service℠.</p>
               <p>Comprehensive tools for personal business success.</p>
             </div>
           </div>
-          <div className="shrink card card-compact w-full md:w-4/12 bg-secondary text-primary-content">
+          <div className="shrink card card-compact w-full md:w-4/12 bg-base-300">
             <figure>
               <img
                 src="https://storage.fleek-internal.com/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/savi-retirement.jpg"
@@ -97,7 +99,7 @@ export default function nonprofit() {
               />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title">Retirement</h2>
+              <h2 className="card-title font-bold text-primary">Retirement</h2>
               <p>Comprehensive tools for a successful retirement.</p>
               <p>One-on-one ongoing assistance and assessment services.</p>
               <p>Financial & healthcare support.</p>
@@ -112,18 +114,18 @@ export default function nonprofit() {
             <h3 className="mt-4 mb-2 text-3xl font-semibold leading-normal text-primary">
               SAVI
             </h3>
-            <p className="mb-4 mt-4 text-lg font-light leading-relaxed text-primary-content">
+            <p className="mb-4 mt-4 text-lg font-light leading-relaxed">
               SAVI is a national (US) nonprofit organization dedicated to
               providing knowledge and resources to military Veterans
               transitioning into civilian life and to the organizations that
               support them.
             </p>
-            <p className="mb-4 mt-4 text-lg font-light leading-relaxed text-primary-content">
+            <p className="mb-4 mt-4 text-lg font-light leading-relaxed">
               Founded in 2017 by a passionate military Veteran who has been
               through it all, SAVI believes in taking a whole-person approach to
               this transition.
             </p>
-            <button className="glass btn btn-primary hover:text-accent uppercase font-bold">
+            <button className="hover:glass btn btn-accent uppercase font-bold">
               <Link href="https://www.savivets.org/" target="_blank">
                 Learn More
               </Link>
@@ -131,7 +133,7 @@ export default function nonprofit() {
           </div>
 
           <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-base-300">
-            <div className="grow card card-compact w-full bg-base-200 text-primary-content shadow-lg">
+            <div className="grow card card-compact w-full bg-base-200 shadow-lg">
               <figure>
                 <img
                   src="https://storage.fleek-internal.com/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/logo-savi-horizontal.png"
@@ -139,7 +141,7 @@ export default function nonprofit() {
                 />
               </figure>
               <div className="card-body p-4">
-                <h2 className="card-title font-bold uppercase">
+                <h2 className="card-title font-bold text-primary uppercase">
                   SAVI Transition Incubator
                 </h2>
                 <p>
@@ -158,7 +160,7 @@ export default function nonprofit() {
         <div className="flex flex-wrap items-center bg-base-300">
           <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-base-300">
             <div
-              className="grow card card-compact w-full bg-base-200 text-primary-content
+              className="grow card card-compact w-full bg-base-200
  break-words shadow-lg"
             >
               <figure>
@@ -168,7 +170,9 @@ export default function nonprofit() {
                 />
               </figure>
               <div className="card-body p-4">
-                <h2 className="card-title">SAVI Premier Partner</h2>
+                <h2 className="card-title font-bold text-primary uppercase">
+                  SAVI Premier Partner
+                </h2>
                 <p>
                   Each SAVI Partner will be recognized with a digital badge to
                   share with their audience and proudly display across their
@@ -181,19 +185,19 @@ export default function nonprofit() {
             <h3 className="text-3xl font-semibold text-primary mb-2">
               PARTNER WITH SAVI
             </h3>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
+            <p className="mb-4 mt-0 text-lg font-light leading-relaxed">
               Becoming a SAVI Partner, you stand out from your peers and display
               your commitment to exceptional service for Veterans on your
               website, social media pages, and other marketing materials.
             </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content">
+            <p className="mb-4 mt-0 text-lg font-light leading-relaxed">
               You have the opportunity to establish a feedback process that
               acknowledges you provide the best experience to Veterans, based on
               real comments.
             </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content"></p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content"></p>
-            <button className="glass btn btn-primary hover:text-accent uppercase font-bold">
+            <p className="mb-4 mt-0 text-lg font-light leading-relaxed"></p>
+            <p className="mb-4 mt-0 text-lg font-light leading-relaxed"></p>
+            <button className="hover:glass btn btn-accent uppercase font-bold">
               <Link
                 href="https://www.savivets.org/our-partners"
                 target="_blank"
