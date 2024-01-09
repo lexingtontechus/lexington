@@ -16,7 +16,7 @@ export default function ContactForm() {
       <div className="relative mb-2 ">
         <label
           htmlFor="full-name"
-          className="block uppercase text-xs font-bold mb-2"
+          className="block uppercase text-xs font-bold mb-2 text-primary"
         >
           Full Name
         </label>
@@ -31,7 +31,7 @@ export default function ContactForm() {
 
         <label
           htmlFor="email"
-          className="block uppercase text-xs font-bold my-2"
+          className="block uppercase text-xs font-bold my-2 text-primary"
         >
           Email address
         </label>
@@ -50,7 +50,7 @@ export default function ContactForm() {
           placeholder="Email"
         />
         <fieldset id="fs-frm-selects">
-          <label className="block uppercase text-xs font-bold my-2">
+          <label className="block uppercase text-xs font-bold my-2 text-primary">
             Inquiry type
             <select
               className="block w-full mt-2 text-sm h-8 bg-neutral px-2"
@@ -76,7 +76,7 @@ export default function ContactForm() {
         </fieldset>
         <label
           htmlFor="message"
-          className="block uppercase text-xs font-bold mt-2 mb-2"
+          className="block uppercase text-xs font-bold mt-2 mb-2 text-primary"
         >
           Your message
         </label>
@@ -100,7 +100,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={state.submitting}
-          className="glass btn btn-primary hover:text-accent uppercase text-sm font-bold px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-2 w-full ease-linear transition-all duration-150"
+          className="hover:glass btn btn-accent uppercase text-sm font-bold px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-2 w-full ease-linear transition-all duration-150"
         >
           Submit
         </button>

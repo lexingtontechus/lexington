@@ -1,4 +1,6 @@
 import Link from "next/link";
+import LogoLXT from "../components/logo";
+
 export default function About() {
   return (
     <main>
@@ -17,7 +19,7 @@ export default function About() {
       </div>
       <section className="container mx-auto px-8">
         <div className="p-8">
-          <Logo />
+          <LogoLXT size={48} />
         </div>
         <div className="text-center pt-8">
           <h3 className="text-3xl font-semibold leading-normal mb-2 uppercase">
@@ -28,12 +30,15 @@ export default function About() {
             Los Angeles, California
           </div>
           <div className="align-center my-4">
-            <ul className="menu menu-horizontal bg-accent rounded-box">
-              <li>
+            <div className="join">
+              <button
+                className="btn btn-accent uppercase rounded-md join-item tooltip"
+                data-tip="Lexington WEB3 & NextGen Demo"
+              >
                 <Link
                   href="https://ud.me/lexingtontechus.nft"
                   target="_blank"
-                  className="tooltip hover:glass"
+                  className="tooltip"
                   data-tip="Verify on Unstoppable Domains"
                 >
                   <img
@@ -44,48 +49,60 @@ export default function About() {
                     className="py-0.5"
                   />
                 </Link>
-              </li>
-              <li>
+              </button>
+              <button
+                className="btn btn-accent uppercase rounded-md join-item tooltip"
+                data-tip="BTAB ECOMMERCE GROUP INC"
+              >
                 <Link
                   href="https://btabcorp.com/portfolio/lexington-tech/"
                   target="_blank"
-                  className="font-black text-xl text-lime-500 tooltip hover:glass"
+                  className="tooltip"
                   data-tip="BTAB ECOMMERCE GROUP INC."
                 >
-                  <span className="h-4 w-8">B</span>
+                  <span className="text-2xl text-lime-600 font-black">B</span>
                 </Link>
-              </li>
-              <li>
+              </button>
+              <button
+                className="btn btn-accent uppercase rounded-md join-item tooltip"
+                data-tip="Lexington WEB3 & NextGen Demo"
+              >
                 <Link
                   href="https://linkedin.com/company/lexingtontech"
                   target="_blank"
-                  className="tooltip hover:glass"
+                  className="tooltip"
                   data-tip="LinkedIn"
                 >
                   <LinkedIn />
                 </Link>
-              </li>
-              <li>
+              </button>
+              <button
+                className="btn btn-accent uppercase rounded-md join-item tooltip"
+                data-tip="Lexington WEB3 & NextGen Demo"
+              >
                 <Link
                   href="https://medium.com/@lexingtontech"
                   target="_blank"
-                  className="tooltip hover:glass"
+                  className="tooltip"
                   data-tip="Medium"
                 >
                   <Medium />
                 </Link>
-              </li>
-              <li>
+              </button>
+              <button
+                className="btn btn-accent uppercase rounded-md join-item tooltip"
+                data-tip="Lexington WEB3 & NextGen Demo"
+              >
                 <Link
                   href="https://lexingtontech.substack.com/"
                   target="_blank"
-                  className="tooltip hover:glass"
+                  className="tooltip"
                   data-tip="Substack"
                 >
                   <Substack />
                 </Link>
-              </li>
-            </ul>
+              </button>
+            </div>
           </div>
 
           <div className="mt-2 mb-2 leading-relaxed ">
@@ -247,7 +264,7 @@ function LinkedIn() {
       xmlns="http://www.w3.org/2000/svg"
       height="2em"
       viewBox="0 0 448 512"
-      fill="#e2e8f0"
+      fill="#1d4ed8"
     >
       <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
     </svg>
@@ -292,9 +309,9 @@ function Logo() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 312.5 211.83246657671296"
-      className="bg-slate-300 mask mask-hexagon p-4 stroke-2 mx-auto"
-      width="200px"
-      height="200px"
+      className="bg-slate-300 size-48 mask mask-hexagon p-4 stroke-2 mx-auto"
+      width="300px"
+      height="300px"
     >
       <g
         transform="matrix(4.288688776400825,0,0,4.288688776400825,47.42262244719835,-5.580061746098252)"
