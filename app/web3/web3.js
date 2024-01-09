@@ -59,7 +59,7 @@ export default function Web3() {
 
       <section className="container mx-auto my-8 px-8">
         <h1 className="py-4 text-5xl font-bold text-zinc-50 uppercase text-center text-pretty">
-          Explore our WEB3 demo projects & use cases.
+          Explore our WEB3 demo projects & use cases
         </h1>
         <p className="text-2xl font-semibold text-center py-4">
           Accelerating WEB3 onboarding solutions.

@@ -60,9 +60,7 @@ export default function About() {
                   className="tooltip"
                   data-tip="BTAB ECOMMERCE GROUP INC."
                 >
-                  <span className="text-xl bg-white text-lime-500 px-2 font-black">
-                    B
-                  </span>
+                  <span className="text-2xl text-lime-600 font-black">B</span>
                 </Link>
               </button>
               <button

@@ -29,14 +29,6 @@ const Home = () => {
               </button>
               <button
                 className="btn btn-accent uppercase rounded-md join-item tooltip"
-                data-tip="Lexington WEB3 Onboarding"
-              >
-                <Link href="/web3" target="_blank">
-                  WEB3
-                </Link>
-              </button>
-              <button
-                className="btn btn-accent uppercase rounded-md join-item tooltip"
                 data-tip="Artifical Intelligence Showcase"
               >
                 <Link
@@ -45,6 +37,12 @@ const Home = () => {
                 >
                   AI Showcase
                 </Link>
+              </button>
+              <button
+                className="btn btn-accent uppercase rounded-md join-item tooltip"
+                data-tip="Lexington WEB3 Onboarding"
+              >
+                <Link href="/web3">WEB3</Link>
               </button>
               <button className="btn btn-accent uppercase rounded-md join-item">
                 <Link href="/services">Services</Link>
