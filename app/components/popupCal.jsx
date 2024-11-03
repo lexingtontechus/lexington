@@ -1,7 +1,6 @@
 "use client";
 import Cal, { getCalApi } from "@calcom/embed-react";
 import { useEffect } from "react";
-import Image from "next/image";
 
 const calImage = ({ src, width, quality }) => {
   return `http://localhost:3000/${src}?w=${width}&q=${quality || 75}`;
@@ -36,7 +35,11 @@ export default function PopUpCal() {
   const d = new Date();
   useEffect(() => {
     (async function () {
-      const cal = await getCalApi();
+      const cal = await getCalApi({ namespace: "free-consulting" });
+      cal("floatingButton", {
+        calLink: "lexington/free-consulting",
+        config: { layout: "month_view" },
+      });
       cal("ui", {
         styles: { branding: { brandColor: "#000000" } },
         hideEventTypeDetails: false,

@@ -9,8 +9,8 @@ export default function Web3() {
             <h1 className="mb-5 text-5xl font-bold text-zinc-50 uppercase">
               WEB3
             </h1>
-            <p className="my-8 text-2xl font-semibold">
-              The Next Generation of Web Technologies.
+            <p className="my-8 text-2xl font-semibold capitalize">
+              Digital Identity & Privacy
             </p>
           </div>
         </div>
@@ -26,7 +26,8 @@ export default function Web3() {
               <h2 className="card-title font-bold text-primary">Our Mission</h2>
               <p>Readiness assessment.</p>
               <p>Web 2.0 {">>"} WEB3</p>
-              <p>Launch WEB3 services.</p>
+              <p>WEB3 domain names.</p>
+              <p>TLD ownership.</p>
             </div>
           </div>
           <div className="grow card card-compact w-full md:w-3/12 bg-base-300">
@@ -37,10 +38,10 @@ export default function Web3() {
               <h2 className="card-title font-bold text-primary">
                 Our Technologies
               </h2>
-              <p>Tech stack + Privacy + Security.</p>
-              <p>Workflow & automation integration.</p>
-              <p>Payments solutions (on-ramp/off-ramp).</p>
-              <p>Business scaling.</p>
+              <p>Digital Wallets {">>"} Privacy + Security.</p>
+
+              <p>DeFi Payments solutions (on-ramp/off-ramp).</p>
+              <p>DAO Community & Governane.</p>
             </div>
           </div>
           <div className="grow card card-compact w-full md:w-3/12 bg-base-300">
@@ -52,6 +53,7 @@ export default function Web3() {
               <p>Resolve business & technology issues.</p>
               <p>Transition to secure infrastructure & privacy.</p>
               <p>Build adoption of WEB3.</p>
+              <p>Community building.</p>
             </div>
           </div>
         </div>

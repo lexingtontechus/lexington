@@ -6,12 +6,11 @@
   "repository": "https://github.com/lexingtontechus/",
   "license": "MIT",
   "scripts": {
-    "start": "next start",
+    "dev": "next dev --turbo",
     "build": "next build",
-    "dev": "next dev",
-    "export": "next export",
+    "start": "next start",
     "post-update": "yarn upgrade --latest",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm run dev",
+    "clean": "rm -rf node_modules && rm -rf package-lock.json && npm install && npm run build:tailwind && npm run dev",
     "build:tailwind": "npx tailwindcss build -i globals.css -o index.css"
   },
   "dependencies": {
@@ -20,8 +19,8 @@
     "@lottiefiles/react-lottie-player": "^3.5.4",
     "@vercel/analytics": "^1.3.1",
     "@vercel/speed-insights": "^1.0.11",
-    "eslint-config-next": "^14.2.3",
-    "next": "^14.2.3",
+    "eslint-config-next": "^15.0.2",
+    "next": "^15.0.2",
     "next-themes": "^0.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

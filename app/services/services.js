@@ -10,9 +10,9 @@ export default function LemonSqueezy() {
             <h1 className="mb-5 text-5xl font-bold uppercase text-zinc-50">
               Lexington Business Management Services
             </h1>
-            <h3 className="text-xl py-4">
-              Lexington Management Consulting elevates your organization from a
-              StartUp to a thriving organization.
+            <h3 className="text-xl py-4 capitalize">
+              Elevate your organization from a StartUp to a thriving
+              organization
             </h3>
             <ul className="justify-center timeline timeline-vertical lg:timeline-horizontal mt-4">
               <li>

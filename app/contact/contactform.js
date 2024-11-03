@@ -16,12 +16,12 @@ export default function ContactForm() {
       <div className="relative mb-2 ">
         <label
           htmlFor="full-name"
-          className="block uppercase text-xs font-bold mb-2 text-primary"
+          className="block uppercase text-md font-bold mb-2 text-primary"
         >
           Full Name
         </label>
         <input
-          className="mt-2 block w-full"
+          className="mt-2 block w-full p-2"
           type="text"
           name="name"
           id="full-name"
@@ -31,12 +31,12 @@ export default function ContactForm() {
 
         <label
           htmlFor="email"
-          className="block uppercase text-xs font-bold my-2 text-primary"
+          className="block uppercase text-md font-bold my-2 text-primary"
         >
           Email address
         </label>
         <input
-          className="mt-2 block w-full"
+          className="mt-2 block w-full p-2"
           id="email"
           type="email"
           name="email"
@@ -50,7 +50,7 @@ export default function ContactForm() {
           placeholder="Email"
         />
         <fieldset id="fs-frm-selects">
-          <label className="block uppercase text-xs font-bold my-2 text-primary">
+          <label className="block uppercase text-md font-bold my-2 text-primary">
             Inquiry type
             <select
               className="block w-full mt-2 text-sm h-8 bg-neutral px-2"
@@ -76,12 +76,12 @@ export default function ContactForm() {
         </fieldset>
         <label
           htmlFor="message"
-          className="block uppercase text-xs font-bold mt-2 mb-2 text-primary"
+          className="block uppercase text-md font-bold my-2 text-primary"
         >
           Your message
         </label>
         <textarea
-          className="mt-2 mb-2 block w-full"
+          className="mt-2 mb-2 block w-full p-2"
           rows="3"
           id="message"
           name="message"

@@ -8,9 +8,8 @@ export default function Blockchain() {
             <h1 className="mb-5 text-5xl font-bold uppercase text-zinc-50">
               Blockchain Powered DA<span className="normal-case">pps</span>
             </h1>
-            <p className="my-8 text-2xl font-semibold">
-              Blockchain domains + DApps built on proprietary layer-2
-              Ethereum-based networks.
+            <p className="my-8 text-2xl font-semibold capitalize">
+              Blockchain domains + Decentralized Apps
             </p>
           </div>
         </div>
@@ -66,29 +65,24 @@ export default function Blockchain() {
         <div className="flex flex-wrap items-center bg-base-300">
           <div className="lg:7/12 mt-4 px-8 pb-4 md:w-6/12">
             <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary">
-              IPFS + Hyperledger
+              Digital Identity & Privacy
             </h3>
             <p className="mb-4 mt-4 text-lg font-light leading-relaxed">
-              IPFS (Interplantary File System) powers the Distributed Web
+              WEB3 TLDs offer personal ownership of data & replaces wallet
+              addresses with user-friendly/readable names. This utility enables
+              a user to manage their authorization, identity and data across the
+              entire internet.
             </p>
             <p className="mb-4 mt-4 text-lg font-light leading-relaxed">
-              Peer-to-peer IPFS retrieves pieces from multiple nodes at once,
-              enabling substantial bandwidth savings. With up to 60% savings for
-              video, IPFS makes it possible to efficiently distribute high
-              volumes of data without duplication
+              Digital wallets support encrypted messaging.
             </p>
-            <p className="mb-4 mt-4 text-lg font-light leading-relaxed">
-              A peer-to-peer hypermedia protocol designed to preserve and grow
-              humanity's knowledge by making the web upgradeable, resilient, and
-              more open.
-            </p>
+            <p className="mb-4 mt-4 text-lg font-light leading-relaxed"></p>
             <h3 className="text-3xl font-semibold text-primary mb-2">
               Challenges & Opportunities
             </h3>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed">
-              Blockchain adoption is a challenge & opportunity to address
-              infrastructure requirements/issues and take onwership of security,
-              compliance & the protection of data & privacy.
+              The core Web 2.0 issues are usage and security of email & phone
+              numbers that are easily hijacked/stolen.
             </p>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed">
               Learn more about our services.

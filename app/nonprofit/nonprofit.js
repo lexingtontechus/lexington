@@ -20,13 +20,16 @@ export default function nonprofit() {
         <div className="hero-overlay"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-2xl text-pretty">
-            <h1 className="mb-5 text-5xl font-bold uppercase text-zinc-50">
-              STRATEGIC ALLIANCE FOR VETERAN INTEGRATION (SAVI)
+            <h1 className="mb-5 text-6xl font-bold uppercase text-zinc-50">
+              SAVI
             </h1>
-            <p className="my-8 text-2xl font-semibold">
+            <h2 className="mb-5 text-3xl font-bold uppercase text-zinc-50">
+              STRATEGIC ALLIANCE FOR VETERAN INTEGRATION
+            </h2>
+            <p className="my-8 text-2xl font-semibold capitalize">
               “Getting Veterans The Benefits They Deserve”
             </p>
-            <h3 className="mb-5 text-2xl font-bold uppercase">
+            <h3 className="mb-5 text-2xl font-bold capitalize">
               Lexington Tech is a proud partner of SAVI.
             </h3>
           </div>
@@ -34,8 +37,8 @@ export default function nonprofit() {
       </div>
 
       <section className="container mx-auto my-8 px-8">
-        <div className="flex flex-wrap gap-10 content-center justify-center">
-          <div className="shrink card card-compact w-full md:w-4/12 bg-base-300">
+        <div className="flex flex-wrap gap-4 content-center justify-center">
+          <div className="shrink card card-compact w-full md:w-2/12 bg-base-300">
             <figure>
               <img
                 src="https://storage.fleek-internal.com/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/savi-education.jpg"
@@ -53,7 +56,7 @@ export default function nonprofit() {
               <p>Personalized career path determination assistance.</p>
             </div>
           </div>
-          <div className="shrink card card-compact w-full md:w-4/12 bg-base-300">
+          <div className="shrink card card-compact w-full md:w-2/12 bg-base-300">
             <figure>
               <img
                 src="https://storage.fleek-internal.com/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/savi-employment.jpg"
@@ -73,7 +76,7 @@ export default function nonprofit() {
               <p>Job retention & mentoring services.</p>
             </div>
           </div>
-          <div className="shrink card card-compact w-full md:w-4/12 bg-base-300">
+          <div className="shrink card card-compact w-full md:w-2/12 bg-base-300">
             <figure>
               <img
                 src="https://storage.fleek-internal.com/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/savi-entrepreneurship.jpg"
@@ -90,7 +93,7 @@ export default function nonprofit() {
               <p>Comprehensive tools for personal business success.</p>
             </div>
           </div>
-          <div className="shrink card card-compact w-full md:w-4/12 bg-base-300">
+          <div className="shrink card card-compact w-full md:w-2/12 bg-base-300">
             <figure>
               <img
                 src="https://storage.fleek-internal.com/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/savi-retirement.jpg"

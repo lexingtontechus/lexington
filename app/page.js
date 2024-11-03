@@ -45,9 +45,6 @@ const Home = () => {
                 <Link href="/web3">WEB3</Link>
               </button>
               <button className="btn btn-accent uppercase rounded-md join-item">
-                <Link href="/services">Services</Link>
-              </button>
-              <button className="btn btn-accent uppercase rounded-md join-item">
                 <Link href="/contact">Contact</Link>
               </button>
             </div>
@@ -64,10 +61,11 @@ const Home = () => {
               <h2 className="card-title font-bold text-primary">
                 B2X Marketplace
               </h2>
+              <p>WEB3 Onboarding</p>
               <p>Wholesale + Retail + Government.</p>
               <p>Multi-vendor + multi-channel distribution.</p>
               <p>Personalized buying experience.</p>
-              <p>eCommerce powered by virtual & augmented reality.</p>
+              <p>Powered by augmented reality.</p>
               <div className="card-actions justify-end">
                 <button className="hover:glass btn btn-accent uppercase font-bold">
                   <Link href="/marketplace">More</Link>
@@ -77,14 +75,18 @@ const Home = () => {
           </div>
           <div className="grow card card-compact w-full md:w-3/12 bg-base-300">
             <figure>
-              <img src="/aistack.jpg" alt="AI Stack" />
+              <img src="/aiautomation.jpg" alt="AI Automation" />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title font-bold text-primary">AI Stack</h2>
-              <p>Horizontal Applications.</p>
-              <p>Vertical Applications.</p>
-              <p>AI Infrastructure.</p>
-              <p>Foundational Models.</p>
+              <h2 className="card-title font-bold text-primary">
+                Generative PreTrained Transformer (GPT)
+              </h2>
+              <p>Computer Vision</p>
+              <p>Machine Learning</p>
+              <p>Natural Language Processing</p>
+              <p>Speech Recognition</p>
+              <p>Robotics & Optimization</p>
+              <p>Planning & Scheduling</p>
               <div className="card-actions justify-end">
                 <button className="hover:glass btn btn-accent uppercase font-bold">
                   <Link href="/ai">More</Link>
@@ -98,6 +100,7 @@ const Home = () => {
             </figure>
             <div className="card-body p-4">
               <h2 className="card-title font-bold text-primary">WEB3</h2>
+              <p>Security & Data Privacy</p>
               <p>Integrating Ethereum-compatible blockchain networks.</p>
               <p>
                 IPFS (Interplantary File System) powering the Distributed Web.
@@ -110,62 +113,6 @@ const Home = () => {
                 </button>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="my-8 p-8 container mx-auto">
-        <div className="flex flex-wrap items-center bg-base-300">
-          <div className="lg:5/12 ml-auto p-8 mr-auto w-full md:w-6/12 bg-base-300">
-            <div
-              className="grow card card-compact w-full bg-base-200 
- break-words shadow-lg"
-            >
-              <figure>
-                <img src="/aiautomation.jpg" alt="AI Automation" />
-              </figure>
-              <div className="card-body p-4">
-                <h2 className="card-title font-bold text-primary">
-                  Generative PreTrained Transformer (GPT)
-                </h2>
-                <p>
-                  ChatGPT Models - AI agent chatbot leveraging Large Language
-                  Models (LLM).
-                </p>
-                <p>
-                  AutoGPT Models - Built on GPT-4 or GPT-3.5 APIs. Autonomous AI
-                  agent breaking it into sub-tasks and using the internet or
-                  custom data tools in an automatic loop.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="lg:7/12 ml-auto mr-auto w-full px-8 md:w-6/12">
-            <h3 className="text-3xl font-semibold text-primary mb-2 uppercase">
-              AI Automation
-            </h3>
-            <ul className="list-disc list-inside text-sm ml-8">
-              <li>Computer Vision</li>
-              <li>Machine Learning</li>
-              <li>Natural Language Processing</li>
-              <li>GPT</li>
-              <li>Speech Recognition</li>
-              <li>Optimization</li>
-              <li>Robotics</li>
-              <li>Planning & Scheduling</li>
-              <li>Rules-Based Systems</li>
-            </ul>
-            <p className="my-4 text-lg font-light leading-relaxed">
-              Discover AI usecases for your industry.
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed">
-              Discover the right GPT plugin for your business.
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed">
-              Leverage LLM to customize a GPT model using your business data,
-              documents & knowledge-base.
-            </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed text-primary-content"></p>
           </div>
         </div>
       </section>
