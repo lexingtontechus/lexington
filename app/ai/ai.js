@@ -10,8 +10,8 @@ export default function AI() {
               AI Innovations
             </h1>
             <p className="mb-5 text-2xl font-semibold">
-              AI technologies are the driving force in the economy across
-              innovations & industries growth.
+              The driving force in the economy across innovation & industry
+              growth
             </p>
           </div>
         </div>

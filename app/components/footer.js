@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="footer footer-center p-4 flex-nowrap grow">
+    <div className="footer footer-center p-2 flex-nowrap grow">
       <div className="divider">
         <div className="grid grid-flow-col gap-4 text-xs">
           <Link
@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="grid grid-flow-col gap-4 text-xs">
-        Copyright © {new Date().getFullYear()}
+        Copyright © Lexington Tech LLC {new Date().getFullYear()}
       </div>
     </div>
   );

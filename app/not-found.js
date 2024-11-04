@@ -1,6 +1,5 @@
 "use client"; // Error components must be Client Components
 
-import { useEffect } from "react";
 import Link from "next/link";
 import { Player } from "@lottiefiles/react-lottie-player";
 

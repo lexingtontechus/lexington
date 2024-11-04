@@ -11,8 +11,8 @@ export default function LemonSqueezy() {
               Lexington Business Management Services
             </h1>
             <h3 className="text-xl py-4">
-              Lexington Management Consulting elevates your organization from a
-              StartUp to a thriving organization.
+              Elevate your organization from a StartUp to a thriving
+              organization
             </h3>
             <ul className="justify-center timeline timeline-vertical lg:timeline-horizontal mt-4">
               <li>

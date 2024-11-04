@@ -4,7 +4,8 @@ import "./index.css";
 import "./globals.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
-import PopUpCal from "./components/popupCal";
+//import PopUpCal from "./components/popupCal";
+//import Cal from "./components/cal";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -55,9 +56,9 @@ export default function RootLayout({
       <body>
         <Providers>
           <Navbar />
-          <div className="mb-8">{children}</div>
+          <div className="capitalize mb-4">{children}</div>
           <Footer />
-          <PopUpCal />
+
           <Analytics />
           <SpeedInsights />
         </Providers>

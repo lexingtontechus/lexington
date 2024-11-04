@@ -8,10 +8,15 @@
 "use client";
 import { getCalApi } from "@calcom/embed-react";
 import { useEffect } from "react";
+
 export default function Cal() {
   useEffect(() => {
     (async function () {
-      const cal = await getCalApi();
+      const cal = await getCalApi({ namespace: "free-consulting" });
+      cal("floatingButton", {
+        calLink: "lexington/free-consulting",
+        config: { layout: "month_view" },
+      });
       cal("ui", {
         styles: { branding: { brandColor: "#000000" } },
         hideEventTypeDetails: false,

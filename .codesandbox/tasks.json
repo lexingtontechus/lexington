@@ -21,7 +21,7 @@
     },
     "dev": {
       "name": "dev",
-      "command": "yarn dev",
+      "command": "yarn dev --turbo",
       "runAtStart": true,
       "preview": {
         "port": 3000
@@ -34,12 +34,12 @@
     },
     "install:clean": {
       "name": "install:clean",
-      "command": "yarn install:clean",
+      "command": "yarn installclean",
       "runAtStart": false
     },
     "build:tailwind": {
       "name": "build:tailwind",
-      "command": "yarn build:tailwind",
+      "command": "yarn buildtailwind",
       "runAtStart": false
     }
   }

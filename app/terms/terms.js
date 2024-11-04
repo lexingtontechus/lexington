@@ -1160,7 +1160,7 @@ export default function Terms() {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-at"></i>
-                          <span className="inline-block ml-8">
+                          <span className="inline-block ml-8 lowercase">
                             legal@lexingtontech.us
                           </span>
                         </li>

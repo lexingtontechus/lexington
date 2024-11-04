@@ -3,7 +3,7 @@ export default function Logo({ size, height, width }) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 312.5 211.83246657671296"
-      className={`bg-slate-300 size-${size} mask mask-hexagon mx-auto`}
+      className={`bg-slate-300 size-${size} mask mask-squircle mx-auto`}
     >
       <g
         transform="matrix(4.288688776400825,0,0,4.288688776400825,47.42262244719835,-5.580061746098252)"
