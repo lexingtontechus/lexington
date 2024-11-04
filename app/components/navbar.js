@@ -16,7 +16,7 @@ export default function Navbar() {
           href="/about"
           id="About"
           alt="About"
-          className="hover:text-accent text-base font-bold ml-2 p-2 whitespace-nowrap uppercase tooltip tooltip-bottom"
+          className="hover:text-accent text-2xl font-bold ml-2 p-2 whitespace-nowrap uppercase tooltip tooltip-bottom"
           data-tip="About"
         >
           Lexington

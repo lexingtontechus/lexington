@@ -9,7 +9,7 @@ export default function AI() {
             <h1 className="mb-5 text-5xl font-bold uppercase text-zinc-50">
               AI Innovations
             </h1>
-            <p className="mb-5 text-2xl font-semibold capitalize">
+            <p className="mb-5 text-2xl font-semibold">
               The driving force in the economy across innovation & industry
               growth
             </p>

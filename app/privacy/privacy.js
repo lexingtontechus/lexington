@@ -785,7 +785,11 @@ export default function Privacy() {
                     <div className="collapse-content">
                       <p className="leading-relaxed mt-1 mb-4">
                         If you have questions or comments about this notice, you
-                        may email us at legal@lexingtontech.us or by post to:
+                        may email us at{" "}
+                        <span className="lowercase">
+                          legal@lexingtontech.us
+                        </span>{" "}
+                        or by post to:
                       </p>
                       <ul className="list-none mr-auto">
                         <li className="flex items-center">
@@ -804,7 +808,7 @@ export default function Privacy() {
                         </li>
                         <li className="flex items-center">
                           <i className="fas fa-at"></i>
-                          <span className="inline-block ml-8">
+                          <span className="inline-block ml-8 lowercase">
                             legal@lexingtontech.us
                           </span>
                         </li>

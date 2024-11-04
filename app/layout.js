@@ -56,7 +56,7 @@ export default function RootLayout({
       <body>
         <Providers>
           <Navbar />
-          <div className="mb-4">{children}</div>
+          <div className="capitalize mb-4">{children}</div>
           <Footer />
 
           <Analytics />

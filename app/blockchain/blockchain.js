@@ -8,7 +8,7 @@ export default function Blockchain() {
             <h1 className="mb-5 text-5xl font-bold uppercase text-zinc-50">
               Blockchain Powered DA<span className="normal-case">pps</span>
             </h1>
-            <p className="my-8 text-2xl font-semibold capitalize">
+            <p className="my-8 text-2xl font-semibold">
               Blockchain domains + Decentralized Apps
             </p>
           </div>

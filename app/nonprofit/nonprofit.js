@@ -26,10 +26,10 @@ export default function nonprofit() {
             <h2 className="mb-5 text-3xl font-bold uppercase text-zinc-50">
               STRATEGIC ALLIANCE FOR VETERAN INTEGRATION
             </h2>
-            <p className="my-8 text-2xl font-semibold capitalize">
+            <p className="my-8 text-2xl font-semibold">
               “Getting Veterans The Benefits They Deserve”
             </p>
-            <h3 className="mb-5 text-2xl font-bold capitalize">
+            <h3 className="mb-5 text-2xl font-bold">
               Lexington Tech is a proud partner of SAVI.
             </h3>
           </div>
