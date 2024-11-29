@@ -111,8 +111,8 @@ export default function nonprofit() {
         </div>
       </section>
 
-      <section className="container mx-auto px-8">
-        <div className="flex flex-wrap items-center bg-base-300">
+      <section className="mx-auto">
+        <div className="flex flex-wrap items-center bg-base-300 px-8">
           <div className="lg:7/12 ml-auto mr-auto w-full px-8 md:w-6/12">
             <h3 className="mt-4 mb-2 text-3xl font-semibold leading-normal text-primary">
               SAVI
@@ -159,8 +159,8 @@ export default function nonprofit() {
         </div>
       </section>
 
-      <section className="my-8 px-8 container mx-auto">
-        <div className="flex flex-wrap items-center bg-base-300">
+      <section className="mx-auto">
+        <div className="flex flex-wrap items-center bg-base-300 px-8">
           <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-base-300">
             <div
               className="grow card card-compact w-full bg-base-200

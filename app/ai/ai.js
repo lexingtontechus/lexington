@@ -61,8 +61,8 @@ export default function AI() {
         </div>
       </section>
 
-      <section className="container mx-auto p-8">
-        <div className="flex flex-wrap items-center rounded-lg bg-base-300">
+      <section className="mx-auto w-full">
+        <div className="flex flex-wrap items-center rounded-lg bg-base-300 p-8">
           <div className="lg:7/12 mt-4 px-8 w-full md:w-6/12">
             <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary">
               ECOMMERCE & MARKETING
@@ -70,12 +70,9 @@ export default function AI() {
             <p className="mb-4 mt-4 text-lg font-light leading-relaxed">
               AdTech & Marketing solutions solving business problems in demand
               management, supply chain optimization, predictive maintenance, and
-              sales activation, among others. Personalized recommendation search
-              engines serving AI driven results.
+              sales activation. Personalized recommendation search engines
+              serving AI driven results.
             </p>
-            <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary">
-              INDUSTRY EXPERIENCE
-            </h3>
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed">
               Use predictive analytics, ML and computer vision technologies to
               gain actionable insights into consumer purchasing behaviors,
@@ -84,12 +81,6 @@ export default function AI() {
             <p className="mb-4 mt-0 text-lg font-light leading-relaxed">
               Future of eCommerce powered by virtual & augmented reality.
             </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed">
-              Learn more about our services.
-            </p>
-            <button className="hover:glass btn btn-accent uppercase font-bold">
-              <Link href="/services">Services</Link>
-            </button>
           </div>
 
           <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-base-300">
@@ -154,12 +145,6 @@ export default function AI() {
               Rapid AI & ML adoption through an accelerated program integrating
               matching technology to your business & industry.
             </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed">
-              Learn more about our services.
-            </p>
-            <button className="hover:glass btn btn-accent uppercase font-bold">
-              <Link href="/services">Services</Link>
-            </button>
           </div>
         </div>
       </section>

@@ -69,7 +69,7 @@ export default function Web3() {
             <figure>
               <Link href="https://unstoppabledomains.com/" target="_blank">
                 <img
-                  className="py-2 px-8 h-[100px]"
+                  className="p-8"
                   src="/logo_ud.png"
                   alt="Unstoppable Domains"
                 />

@@ -7,51 +7,24 @@ export default function Navbar() {
       <div className="flex-1">
         <Link
           href="/"
-          className="inline-flex h-content w-auto stroke-2 my-2 tooltip tooltip-bottom"
+          className="py-3 absolute top-0 h-content w-auto stroke-2 tooltip tooltip-bottom"
           data-tip="Home"
         >
           <LogoLXT size={12} height={12} width={12} />
         </Link>
-        <Link
-          href="/about"
-          id="About"
-          alt="About"
-          className="hover:text-accent text-2xl font-bold ml-2 p-2 whitespace-nowrap uppercase tooltip tooltip-bottom"
-          data-tip="About"
-        >
-          Lexington
-        </Link>
       </div>
-      <div className="flex-none">
+      <div className="flex-none p-2">
         <div className="dropdown dropdown-end">
           <label
             tabIndex={0}
-            className="btn btn-ghost hover:glass hover:fill-accent mask mask-squircle avatar tooltip-bottom"
-            data-tip="Menu"
+            className="btn btn-square hover:fill-accent shadow-md inset-shadow-sm inset-shadow-white/20 ring ring-blue-600 inset-ring inset-ring-white/15"
           >
             <Menu />
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-xl bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] shadow-xl bg-base-100 rounded-box w-52"
           >
-            <li>
-              <Link
-                href="/services"
-                className="hover:text-secondary-focus block px-4 py-2 text-sm uppercase"
-              >
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/web3"
-                className="hover:text-secondary-focus block px-4 py-2 text-sm uppercase"
-              >
-                WEB3
-              </Link>
-            </li>
-            <div className="divider divider-accent"></div>
             <li>
               <Link href="/ai" className="px-4 py-2 text-sm uppercase">
                 AI
@@ -63,6 +36,24 @@ export default function Navbar() {
                 className="hover:text-secondary-focus block px-4 py-2 text-sm uppercase"
               >
                 eCommerce
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/web3"
+                className="hover:text-secondary-focus block px-4 py-2 text-sm uppercase"
+              >
+                WEB3
+              </Link>
+            </li>
+            <div className="divider divider-accent"></div>
+
+            <li>
+              <Link
+                href="/services"
+                className="hover:text-secondary-focus block px-4 py-2 text-sm uppercase"
+              >
+                Services
               </Link>
             </li>
             <li>
@@ -135,7 +126,7 @@ function Menu() {
       xmlns="http://www.w3.org/2000/svg"
       height="1em"
       viewBox="0 0 448 512"
-      className="fill-current hover:fill-accent"
+      className="size-10 p-2 fill-primary hover:fill-accent"
     >
       <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
     </svg>

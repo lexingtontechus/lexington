@@ -21,7 +21,7 @@
     },
     "dev": {
       "name": "dev",
-      "command": "yarn dev --turbo",
+      "command": "yarn dev",
       "runAtStart": true,
       "preview": {
         "port": 3000

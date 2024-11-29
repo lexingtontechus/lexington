@@ -1,6 +1,50 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "daisyui" {
+  logs: true;
+  root: ":root";
+  /*include: button, navbar, footer, badge, input, card, hero;*/
+  themes: light --default, dark --prefersdark, cupcake;
+}
+@plugin "daisyui/theme" {
+  name: "lxt";
+  default: false;
+  prefersdark: false;
+  color-scheme: dark;
+  --color-base-100: oklch(20.77% 0.0398 265.75);
+  --color-base-200: oklch(37.17% 0.0392 257.29);
+  --color-base-300: oklch(55.44% 0.0407 257.42);
+  --color-base-content: oklch(98.51% 0 0);
+
+  --color-primary: oklch(86.9% 0.0198 252.89);
+  --color-primary-content: oklch(0.704 0.191 22.216);
+
+  --color-secondary: oklch(50% 0.1193 242.75);
+  --color-secondary-content: oklch(90.14% 0.0555 230.9);
+
+  --color-accent: oklch(39.84% 0.1773 277.37);
+  --color-accent-content: oklch(98% 0.01 160);
+
+  --color-neutral: oklch(55.44% 0.0407 257.42);
+  --color-neutral-content: oklch(98% 0.01 240);
+
+  --color-info: oklch(39.84% 0.1773 277.37);
+  --color-info-content: oklch(98% 0.01 220);
+
+  --color-success: oklch(59.6% 0.1274 163.23);
+  --color-success-content: oklch(98% 0.01 140);
+
+  --color-warning: oklch(64.61% 0.1943 41.12);
+  --color-warning-content: oklch(20% 0.05 80);
+
+  --color-error: oklch(58.58% 0.222 17.58);
+  --color-error-content: oklch(98% 0.01 30);
+
+  --radius-badge: 0.5rem;
+  --radius-btn: 0.5rem;
+  --radius-box: 0.5rem;
+  --spacing-button-border: 1px;
+  --spacing-tab-border: 1px;
+}
 
 .svg-services {
   background-color: #1c1917; /*stone900*/
