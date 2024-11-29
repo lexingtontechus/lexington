@@ -18,8 +18,8 @@ export default function About() {
         </div>
       </div>
       <section className="container mx-auto p-8">
-        <div className="text-center">
-          <LogoLXT size={48} />
+        <div className="mx-auto text-center max-w-md">
+          <LogoLXT size={48} padding={2} />
         </div>
         <div className="text-center pt-8">
           <h3 className="text-3xl font-semibold leading-normal mb-2 uppercase">
