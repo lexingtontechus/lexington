@@ -11,7 +11,8 @@ export default function eCommerce() {
               B2X eCommerce
             </h1>
             <p className="mb-5 text-2xl font-semibold italic">
-              "The nextgen eCommerce marketplace for every family in the world"
+              "The nextgen <span className="lowercase">e</span>Commerce
+              marketplace for every family in the world"
             </p>
           </div>
         </div>

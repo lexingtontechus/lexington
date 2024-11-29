@@ -10,7 +10,7 @@ export default function Navbar() {
           className="py-3 absolute top-0 h-content w-auto stroke-2 tooltip tooltip-bottom"
           data-tip="Home"
         >
-          <LogoLXT size={12} height={12} width={12} />
+          <LogoLXT size={12} padding={0} />
         </Link>
       </div>
       <div className="flex-none p-2">
