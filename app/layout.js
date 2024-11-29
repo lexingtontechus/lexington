@@ -1,7 +1,6 @@
 import { Analytics } from "@vercel/analytics/react";
 import { Providers } from "./providers";
-import "./index.css";
-import "./globals.css";
+import "./app.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 //import PopUpCal from "./components/popupCal";
@@ -54,14 +53,11 @@ export default function RootLayout({
         referrerpolicy="strict-origin-when-cross-origin"
       />
       <body>
-        <Providers>
-          <Navbar />
-          <div className="capitalize mb-4">{children}</div>
-          <Footer />
-
-          <Analytics />
-          <SpeedInsights />
-        </Providers>
+        <Navbar />
+        <div className="capitalize mb-4">{children}</div>
+        <Footer />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

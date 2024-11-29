@@ -64,11 +64,11 @@ export default function eCommerce() {
         </div>
       </section>
 
-      <section className="container mx-auto px-8">
-        <div className="flex flex-wrap items-center bg-base-300">
+      <section className="mx-auto w-full">
+        <div className="flex flex-wrap items-center bg-base-300 px-8">
           <div className="lg:7/12 mt-4 px-8 w-full md:w-6/12">
             <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary uppercase">
-              Social <span className="lowercase">e</span>Commerce & Marketing
+              Social <span className="lowercase">e</span>Commerce
             </h3>
             <p className="mb-4 mt-4 text-lg font-light leading-relaxed">
               Influential, interactive and inclusive shopping experiences.
@@ -87,12 +87,6 @@ export default function eCommerce() {
               </Link>{" "}
               eCommerce.
             </p>
-            <p className="mb-4 mt-0 text-lg font-light leading-relaxed">
-              Learn more about our services.
-            </p>
-            <button className="hover:glass btn btn-accent uppercase font-bold">
-              <Link href="/services">Services</Link>
-            </button>
           </div>
 
           <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-base-300">
