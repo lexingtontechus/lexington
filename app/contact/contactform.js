@@ -21,14 +21,19 @@ export default function ContactForm() {
           Full Name
         </label>
         <input
-          className="mt-2 block w-full p-2"
-          type="text"
+          className="input validator mt-2 block w-full p-2"
+          pattern="^[a-zA-Z0-9._%+-]+\.[a-zA-Z]{2,}$"
+          minLength="2"
+          maxLength="30"
+          type="input"
           name="name"
           id="full-name"
           placeholder="First and Last"
-          required=""
+          required
         />
-
+        <p className="validator-hint hidden">
+          Please enter your first & last name
+        </p>
         <label
           htmlFor="email"
           className="block uppercase text-md font-bold my-2 text-primary"
@@ -36,44 +41,41 @@ export default function ContactForm() {
           Email address
         </label>
         <input
-          className="mt-2 block w-full p-2"
+          className="input validator mt-2 w-full p-2"
           id="email"
           type="email"
           name="email"
           placeholder="Your email address"
+          required
+          pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
         />
-        <ValidationError
-          prefix="Email"
-          field="email"
-          errors={state.errors}
-          className="border-0 px-3 py-3 placeholder-neutral bg-secondary rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-          placeholder="Email"
-        />
-        <fieldset id="fs-frm-selects">
-          <label className="block uppercase text-md font-bold my-2 text-primary">
-            Inquiry type
-            <select
-              className="block w-full mt-2 text-sm h-8 bg-neutral px-2"
-              name="inquiry"
-              id="inquiry"
-              required=""
-            >
-              <option value="Select" defaultValue="" disabled="">
-                Select an inquiry type
-              </option>
-              <option value="AI">AI & ML</option>
-              <option value="Blockchain">Blockchain</option>
-              <option value="SmartFX">SmartFX</option>
-              <option value="Metaverse development">
-                Metaverse development
-              </option>
-              <option value="Web3IPFS">Web 3.0 + IPFS</option>
-              <option value="Working with Btab Group">
-                Working with Btab Group
-              </option>
-            </select>
-          </label>
-        </fieldset>
+        <p className="validator-hint hidden">
+          Enter valid email address,{" "}
+          <span className="lowercase">e.g. name@company.com</span>
+        </p>
+
+        <label className="block uppercase text-md font-bold my-2 text-primary">
+          Inquiry type
+          <select
+            className="select validator block w-full mt-2 text-sm h-8 bg-base-300 px-2"
+            name="inquiry"
+            id="inquiry"
+            required
+          >
+            <option disabled defaultValue="">
+              Select an inquiry type
+            </option>
+            <option value="AI">AI Applications</option>
+            <option value="Blockchain">Blockchain</option>
+            <option value="SmartFX">SmartFX</option>
+            <option value="Web3IPFS">Web 3.0 + IPFS</option>
+            <option value="Working with Btab Group">
+              Working with Btab Group
+            </option>
+          </select>
+          <p className="validator-hint">Please select an option.</p>
+        </label>
+
         <label
           htmlFor="message"
           className="block uppercase text-md font-bold my-2 text-primary"
@@ -100,7 +102,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={state.submitting}
-          className="hover:glass btn btn-accent uppercase text-sm font-bold px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-2 w-full ease-linear transition-all duration-150"
+          className="hover:bg-accent btn btn-secondary uppercase text-sm font-bold px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 my-2 w-full ease-linear transition-all duration-150"
         >
           Submit
         </button>

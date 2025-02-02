@@ -3,7 +3,7 @@ import Link from "next/link";
 import LogoLXT from "./logo";
 export default function Navbar() {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar">
       <div className="flex-1">
         <Link
           href="/"
@@ -14,6 +14,55 @@ export default function Navbar() {
         </Link>
       </div>
       <div className="flex-none p-2">
+        <div className="px-2 inline-block">
+          <label className="toggle text-base-content">
+            <input
+              type="checkbox"
+              value="crazyaurora"
+              className="theme-controller"
+            />
+
+            <svg
+              aria-label="sun"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <g
+                strokeLinejoin="round"
+                strokeLinecap="round"
+                strokeWidth="2"
+                fill="none"
+                stroke="currentColor"
+              >
+                <circle cx="12" cy="12" r="4"></circle>
+                <path d="M12 2v2"></path>
+                <path d="M12 20v2"></path>
+                <path d="m4.93 4.93 1.41 1.41"></path>
+                <path d="m17.66 17.66 1.41 1.41"></path>
+                <path d="M2 12h2"></path>
+                <path d="M20 12h2"></path>
+                <path d="m6.34 17.66-1.41 1.41"></path>
+                <path d="m19.07 4.93-1.41 1.41"></path>
+              </g>
+            </svg>
+
+            <svg
+              aria-label="moon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <g
+                strokeLinejoin="round"
+                strokeLinecap="round"
+                strokeWidth="2"
+                fill="none"
+                stroke="currentColor"
+              >
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+              </g>
+            </svg>
+          </label>
+        </div>
         <div className="dropdown dropdown-end">
           <label
             tabIndex={0}
@@ -26,14 +75,17 @@ export default function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] shadow-xl bg-base-100 rounded-box w-52"
           >
             <li>
-              <Link href="/ai" className="px-4 py-2 text-sm uppercase">
+              <Link
+                href="/ai"
+                className="hover:bg-accent hover:text-primary-content block px-4 py-2 text-sm uppercase"
+              >
                 AI
               </Link>
             </li>
             <li>
               <Link
                 href="/ecommerce"
-                className="hover:text-secondary-focus block px-4 py-2 text-sm uppercase"
+                className="hover:bg-accent hover:text-primary-content block px-4 py-2 text-sm uppercase"
               >
                 eCommerce
               </Link>
@@ -41,7 +93,7 @@ export default function Navbar() {
             <li>
               <Link
                 href="/web3"
-                className="hover:text-secondary-focus block px-4 py-2 text-sm uppercase"
+                className="hover:bg-accent hover:text-primary-content block px-4 py-2 text-sm uppercase"
               >
                 WEB3
               </Link>
@@ -51,7 +103,7 @@ export default function Navbar() {
             <li>
               <Link
                 href="/services"
-                className="hover:text-secondary-focus block px-4 py-2 text-sm uppercase"
+                className="hover:bg-accent hover:text-primary-content block px-4 py-2 text-sm uppercase"
               >
                 Services
               </Link>
@@ -59,7 +111,7 @@ export default function Navbar() {
             <li>
               <Link
                 href="/nonprofit"
-                className="hover:text-secondary-focus block px-4 py-2 text-sm uppercase"
+                className="hover:bg-accent hover:text-primary-content block px-4 py-2 text-sm uppercase"
               >
                 NonProfit
               </Link>

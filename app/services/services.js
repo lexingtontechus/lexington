@@ -5,20 +5,18 @@ export default function LemonSqueezy() {
   return (
     <main>
       <div className="hero min-h-screen svg-blockchain">
-        <div className="hero-content text-center text-neutral-content">
+        <div className="hero-content text-center">
           <div className="max-w-2xl text-pretty">
-            <h1 className="mb-5 text-5xl font-bold uppercase text-zinc-50">
+            <h1 className="mb-5 text-5xl font-semibold uppercase text-accent opacity-70">
               Lexington Business Management Services
             </h1>
-            <h3 className="text-xl py-4">
+            <h3 className="text-xl py-4 text-accent-content">
               Elevate your organization from a StartUp to a thriving
               organization
             </h3>
-            <ul className="justify-center timeline timeline-vertical lg:timeline-horizontal mt-4">
+            <ul className="justify-center timeline timeline-vertical lg:timeline-horizontal mt-4 text-white">
               <li>
-                <div className="timeline-start timeline-box">
-                  Free Consulting Session
-                </div>
+                <div className="timeline-start">Free Consulting Session</div>
                 <div className="timeline-middle">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +40,7 @@ export default function LemonSqueezy() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-5 h-5 text-primary"
+                    className="w-5 h-5 text-base-100"
                   >
                     <path
                       fillRule="evenodd"
@@ -51,22 +49,18 @@ export default function LemonSqueezy() {
                     />
                   </svg>
                 </div>
-                <div className="timeline-end timeline-box">
-                  StartUp Accelerator Program
-                </div>
+                <div className="timeline-end">StartUp Accelerator Program</div>
                 <hr className="bg-gradient-to-r from-lime-700 to-blue-500" />
               </li>
               <li>
                 <hr className="bg-gradient-to-r from-blue-500 to-blue-700" />
-                <div className="timeline-start timeline-box">
-                  Management Consulting
-                </div>
+                <div className="timeline-start">Management Consulting</div>
                 <div className="timeline-middle">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-5 h-5 text-primary"
+                    className="w-5 h-5 text-base-200"
                   >
                     <path
                       fillRule="evenodd"
@@ -84,7 +78,7 @@ export default function LemonSqueezy() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-5 h-5"
+                    className="w-5 h-5 text-base-300"
                   >
                     <path
                       fillRule="evenodd"
@@ -93,14 +87,12 @@ export default function LemonSqueezy() {
                     />
                   </svg>
                 </div>
-                <div className="timeline-end timeline-box">
-                  Project Management
-                </div>
+                <div className="timeline-end">Project Management</div>
                 <hr className="bg-gradient-to-r from-violet-700 to-amber-500" />
               </li>
               <li>
                 <hr className="bg-gradient-to-r from-amber-500 to-amber-700" />
-                <div className="timeline-start timeline-box">
+                <div className="timeline-start">
                   Business & Technology Elevation
                 </div>
                 <div className="timeline-middle">
@@ -108,7 +100,7 @@ export default function LemonSqueezy() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-5 h-5"
+                    className="w-5 h-5 text-accent"
                   >
                     <path
                       fillRule="evenodd"
@@ -126,7 +118,7 @@ export default function LemonSqueezy() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-5 h-5 text-secondary"
+                    className="w-5 h-5 text-amber-500"
                   >
                     <path
                       fillRule="evenodd"
@@ -135,7 +127,7 @@ export default function LemonSqueezy() {
                     />
                   </svg>
                 </div>
-                <div className="timeline-end timeline-box">WEB3 & AI</div>
+                <div className="timeline-end">WEB3 & AI</div>
                 <hr className="bg-gradient-to-r from-fuchsia-700 to-zinc-900" />
               </li>
             </ul>
@@ -160,7 +152,7 @@ export default function LemonSqueezy() {
               </p>
               <Script src="https://assets.lemonsqueezy.com/lemon.js" />
               <div className="card-actions justify-end">
-                <button className="hover:glass btn btn-accent uppercase">
+                <button className="hover:bg-accent btn btn-secondary uppercase">
                   <Link
                     href="https://lexington.lemonsqueezy.com/checkout/buy/fdaab53a-135b-4ecb-8db1-1810c2ae000e?embed=1"
                     className="lemonsqueezy-button"
@@ -185,7 +177,7 @@ export default function LemonSqueezy() {
               </p>
               <Script src="https://assets.lemonsqueezy.com/lemon.js" />
               <div className="card-actions justify-end">
-                <button className="hover:glass btn btn-accent uppercase">
+                <button className="hover:bg-accent btn btn-secondary uppercase">
                   <Link
                     href="https://lexington.lemonsqueezy.com/checkout/buy/30fe2f0d-5262-4c0e-ae15-baac7de9b0ec?embed=1"
                     className="lemonsqueezy-button"
@@ -208,7 +200,7 @@ export default function LemonSqueezy() {
               <p>Consulting strategy & product management services.</p>
               <Script src="https://assets.lemonsqueezy.com/lemon.js" />
               <div className="card-actions justify-end">
-                <button className="hover:glass btn btn-accent uppercase">
+                <button className="hover:bg-accent btn btn-secondary uppercase">
                   <Link
                     href="https://lexington.lemonsqueezy.com/checkout/buy/b9282da0-44db-42d8-98e4-1ce0b0934dd2?embed=1"
                     className="lemonsqueezy-button"
@@ -232,7 +224,7 @@ export default function LemonSqueezy() {
               </p>
               <Script src="https://assets.lemonsqueezy.com/lemon.js" />
               <div className="card-actions justify-end">
-                <button className="hover:glass btn btn-accent uppercase">
+                <button className="hover:bg-accent btn btn-secondary uppercase">
                   <Link
                     href="https://lexington.lemonsqueezy.com/checkout/buy/9e599f2a-4a56-4154-b267-d6e04a48e07a?embed=1"
                     className="lemonsqueezy-button"
@@ -255,7 +247,7 @@ export default function LemonSqueezy() {
               </p>
               <Script src="https://assets.lemonsqueezy.com/lemon.js" />
               <div className="card-actions justify-end">
-                <button className="hover:glass btn btn-accent uppercase">
+                <button className="hover:bg-accent btn btn-secondary uppercase">
                   <Link
                     href="https://lexington.lemonsqueezy.com/checkout/buy/53cae681-adf9-4165-af48-4bc219bf4653?embed=1"
                     className="lemonsqueezy-button"
@@ -275,7 +267,7 @@ export default function LemonSqueezy() {
               <p>Upgrade your web technologies & presence to WEB3 standards.</p>
               <Script src="https://assets.lemonsqueezy.com/lemon.js" />
               <div className="card-actions justify-end">
-                <button className="hover:glass btn btn-accent uppercase">
+                <button className="hover:bg-accent btn btn-secondary uppercase">
                   <Link
                     href="https://lexington.lemonsqueezy.com/checkout/buy/71e5a43d-2da4-4aba-b74b-9ecadf9dd9e8?embed=1"
                     className="lemonsqueezy-button"
