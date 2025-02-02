@@ -1,5 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
-import { Providers } from "./providers";
+//import { Providers } from "./providers";
 import "./app.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
@@ -52,7 +52,7 @@ export default function RootLayout({
         src="https://tag.clearbitscripts.com/v1/pk_126795802f07040d1691ded088ce171b/tags.js"
         referrerpolicy="strict-origin-when-cross-origin"
       />
-      <body>
+      <body className="bg-base-200">
         <Navbar />
         <div className="capitalize mb-4">{children}</div>
         <Footer />

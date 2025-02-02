@@ -6,10 +6,10 @@ export default function AI() {
       <div className="hero min-h-screen svg-ai">
         <div className="hero-content text-center">
           <div className="max-w-lg">
-            <h1 className="mb-5 text-5xl font-bold uppercase text-zinc-50">
+            <h1 className="mb-5 text-5xl font-bold uppercase text-accent">
               AI Innovations
             </h1>
-            <p className="mb-5 text-2xl font-semibold">
+            <p className="mb-5 text-2xl font-semibold text-accent-content opacity-70">
               The driving force in the economy across innovation & industry
               growth
             </p>
@@ -17,17 +17,31 @@ export default function AI() {
         </div>
       </div>
 
-      <section className="container mx-auto p-8">
-        <div className="flex flex-wrap gap-4 content-center justify-center">
+      <section className="mx-auto w-full my-4">
+        <div className="flex flex-wrap gap-4 content-center justify-center px-4">
           <div className="grow card card-compact w-full md:w-3/12 bg-base-300">
             <figure>
               <img src="/our-mission.jpg" alt="Our Mission" />
             </figure>
             <div className="card-body p-4">
               <h2 className="card-title font-bold text-primary">Our Mission</h2>
-              <p>Rapid AI SaaS solutions deployment.</p>
-              <p>Scaling AI technologies for industry applications.</p>
-              <p>AI models focused on service delivery & manufacturing.</p>
+              <ul className="list rounded-box shadow-md">
+                <li className="p-4 pb-2 text-xs opacity-60 tracking-wide">
+                  Identify Business Usecases & Applications.
+                </li>
+                <li className="list-row">
+                  <div className="font-thin opacity-70 tabular-nums">01</div>
+                  <div>SaaS Proof of Concept.</div>
+                </li>
+                <li className="list-row">
+                  <div className="font-thin opacity-70 tabular-nums">02</div>
+                  <div>Scale for enterprise.</div>
+                </li>
+                <li className="list-row">
+                  <div className="font-thin opacity-70 tabular-nums">03</div>
+                  <div>Service delivery & customer adoption.</div>
+                </li>
+              </ul>
             </div>
           </div>
           <div className="grow card card-compact w-full md:w-3/12 bg-base-300">
@@ -38,11 +52,23 @@ export default function AI() {
               <h2 className="card-title font-bold text-primary">
                 Our Technologies
               </h2>
-              <p>Leverage industry leading solutions for your business.</p>
-              <p>Computer vision</p>
-              <p>GPT & Custom LLM</p>
-              <p>Predictive analytics</p>
-              <p>Platform Starter Kits</p>
+              <ul className="list rounded-box shadow-md">
+                <li className="p-4 pb-2 text-xs opacity-60 tracking-wide">
+                  Leverage industry leading solutions.
+                </li>
+                <li className="list-row">
+                  <div className="font-thin opacity-70 tabular-nums">01</div>
+                  <div>Computer vision</div>
+                </li>
+                <li className="list-row">
+                  <div className="font-thin opacity-70 tabular-nums">02</div>
+                  <div>GenAI GPT & Custom LLM</div>
+                </li>
+                <li className="list-row">
+                  <div className="font-thin opacity-70 tabular-nums">03</div>
+                  <div>Predictive modelling.</div>
+                </li>
+              </ul>
             </div>
           </div>
           <div className="grow card card-compact w-full md:w-3/12 bg-base-300">
@@ -53,17 +79,31 @@ export default function AI() {
               <h2 className="card-title font-bold text-primary">
                 Our Approach
               </h2>
-              <p>Accelerate adoption of AI innovation.</p>
-              <p>Automation to power sustainable transformation.</p>
-              <p>Embracing technology, leveraging AI and Machine Learning.</p>
+              <ul className="list rounded-box shadow-md">
+                <li className="p-4 pb-2 text-xs opacity-60 tracking-wide">
+                  Rapid Deployment & Growth.
+                </li>
+                <li className="list-row">
+                  <div className="font-thin opacity-70 tabular-nums">01</div>
+                  <div>Accelerate innovation.</div>
+                </li>
+                <li className="list-row">
+                  <div className="font-thin opacity-70 tabular-nums">02</div>
+                  <div>Automation & transformation.</div>
+                </li>
+                <li className="list-row">
+                  <div className="font-thin opacity-70 tabular-nums">03</div>
+                  <div>Technology scaling.</div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto w-full">
-        <div className="flex flex-wrap items-center rounded-lg bg-base-300 p-8">
-          <div className="lg:7/12 mt-4 px-8 w-full md:w-6/12">
+      <section className="mx-auto w-full my-2">
+        <div className="flex flex-wrap items-center rounded-lg bg-base-300 px-4">
+          <div className="lg:7/12 w-full md:w-6/12 p-8">
             <h3 className="mb-2 text-3xl font-semibold leading-normal text-primary">
               ECOMMERCE & MARKETING
             </h3>
@@ -83,7 +123,7 @@ export default function AI() {
             </p>
           </div>
 
-          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-base-300">
+          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12">
             <div className="grow card card-compact w-full bg-base-200 break-words shadow-lg">
               <figure>
                 <img
@@ -92,7 +132,7 @@ export default function AI() {
                   className="w-full"
                 />
               </figure>
-              <div className="card-body p-4">
+              <div className="card-body p-4 bg-base-200">
                 <h2 className="card-title font-bold text-primary uppercase">
                   Artificial Intelligence
                 </h2>
@@ -107,14 +147,18 @@ export default function AI() {
         </div>
       </section>
 
-      <section className="container mx-auto p-8">
-        <div className="flex flex-wrap items-center rounded-none bg-base-300">
-          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 bg-base-300">
-            <div className="grow card card-compact w-full bg-base-200 break-words shadow-lg">
+      <section className="x-auto w-full my-4">
+        <div className="flex flex-wrap items-center rounded-none bg-base-200">
+          <div className="lg:5/12 ml-auto mr-auto w-full p-8 md:w-6/12 max-h-full">
+            <div className="grow card card-compact w-full bg-base-300 break-words shadow-lg">
               <figure>
-                <img src="/ai_solutions.png" alt="AI Powered Solutions" />
+                <img
+                  src="/ai_solutions.png"
+                  className="w-full"
+                  alt="AI Powered Solutions"
+                />
               </figure>
-              <div className="card-body p-4">
+              <div className="card-body p-4 bg-base-300">
                 <h2 className="card-title font-bold text-primary uppercase">
                   AI Solutions
                 </h2>

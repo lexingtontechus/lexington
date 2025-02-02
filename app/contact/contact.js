@@ -7,11 +7,11 @@ export default function Contact() {
         <div className="hero-overlay"></div>
         <div className="hero-content text-center">
           <div className="max-w-2xl">
-            <h1 className="mb-5 text-5xl font-bold text-zinc-50 uppercase">
+            <h1 className="mb-5 text-5xl font-bold text-accent uppercase">
               Contact Us
             </h1>
-            <p className="mb-5 text-3xl font-semibold uppercase">
-              Technology transformation for business sustainability
+            <p className="mb-5 text-3xl font-semibold uppercase text-accent-content opacity-70">
+              Technology transformation for business sustainability.
             </p>
           </div>
         </div>

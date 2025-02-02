@@ -8,10 +8,10 @@ export default function Privacy() {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center">
           <div className="max-w-2xl text-pretty">
-            <h1 className="mb-5 text-5xl font-bold text-zinc-50 uppercase">
+            <h1 className="mb-5 text-5xl font-bold text-accent uppercase">
               Privacy Policy
             </h1>
-            <p className="py-6 font-semibold text-2xl">
+            <p className="py-6 font-semibold text-2xl text-accent-content">
               This policy outlines how Lexington Tech LLC stores and uses user
               data that is collected in the course of them visiting your website
               in accordance with General Data Protection Regulation (GDPR) and
