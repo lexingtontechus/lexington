@@ -1,5 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
-//import { Providers } from "./providers";
+import { PostHogProvider } from "./providers";
 import "./app.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
@@ -48,16 +48,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Script
-        src="https://tag.clearbitscripts.com/v1/pk_126795802f07040d1691ded088ce171b/tags.js"
-        referrerpolicy="strict-origin-when-cross-origin"
-      />
       <body className="bg-base-200">
-        <Navbar />
-        <div className="capitalize mb-4">{children}</div>
-        <Footer />
-        <Analytics />
-        <SpeedInsights />
+        <PostHogProvider>
+          <Navbar />
+          <div className="capitalize mb-4">{children}</div>
+          <Footer />
+          <Analytics />
+          <SpeedInsights />
+        </PostHogProvider>
       </body>
     </html>
   );
