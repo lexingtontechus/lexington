@@ -1,123 +1,233 @@
 "use client";
 import Link from "next/link";
-
-const loader = ({ src, width, quality }) => {
-  return `https://storage.fleek-internal.com/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/${src}?w=${width}&q=${
-    quality || 75
-  }`;
-};
-const Home = () => {
+import { unstable_ViewTransition as ViewTransition } from "react";
+import LogoLXT from "./components/logo";
+import { OVERVIEW } from "./overview/data";
+import Image from "next/image";
+import About from "./about";
+import Contact from "./contact";
+import NonProfit from "./nonprofit";
+import Terms from "./terms";
+import Privacy from "./privacy";
+//import { DynamicBackground } from "../components/background";
+import Theme from "./components/theme";
+function HomeLeft() {
   return (
-    <main className="mb-8">
-      <div className="hero min-h-screen svg-home">
-        <div className="hero-content text-center">
-          <div className="max-w-lg">
-            <h1 className="text-5xl font-bold text-primary uppercase">
-              Lexington Tech
-            </h1>
-            <h2 className="text-3xl font-bold uppercase my-8 text-primary opacity-70">
-              Business & Technology Management Consulting
-            </h2>
+    <div className="w-full m-h-screen md:w-1/2 bg-base-200 overflow-hidden relative justify-between mx-auto svg-about">
+      <div className="top-0 left-0 bottom-0 p-8 flex flex-col">
+        <div className="flex items-center gap-2 mb-4 z-10">
+          <Theme />
+        </div>
+
+        <div className="mx-auto">
+          <LogoLXT size={48} padding={0} />
+        </div>
+        <h1 className="text-3xl font-bold text-primary uppercase mt-8 text-center">
+          <ViewTransition name="hero-intro">Lexington Tech</ViewTransition>
+        </h1>
+
+        <div className="flex items-center gap-2 my-4 z-10 mx-auto text-center">
+          <ViewTransition name="sticker-icon">
+            <Link href="/overview">
+              <span className="btn btn-ghost text-2xl font-bold uppercase">
+                Overview
+              </span>
+            </Link>
+          </ViewTransition>
+        </div>
+        <div className="flex flex-col px-4">
+          <div className="grid grid-flow-col gap-4 text-xs">
+            {/*ABOUT*/}
+            <MODALABOUT />
+            {/*CONTACT*/}
+            <MODALCONTACT />
+          </div>
+        </div>
+        <div className="flex flex-col px-4">
+          <div className="divider divider-secondary">
+            <div className="grid grid-flow-col gap-4 text-xs">
+              {/*NONPROFIT*/}
+              <MODALNONPROFIT />
+              {/*TERMS*/}
+              <MODALTERMS />
+              {/*PRIVACY*/}
+              <MODALPRIVACY />
+            </div>
+          </div>
+
+          <div className="footer footer-center p-2 flex-nowrap grow">
+            <div className="font-semibold px-4">
+              © LEXINGTON TECH LLC {new Date().getFullYear()}
+            </div>
           </div>
         </div>
       </div>
-      <section className="mx-auto w-full my-8 px-8">
-        <div className="text-center max-w-xl mx-auto mb-8">
-          <h2 className="text-2xl py-2 italic font-bold">
-            WEB3 shopping experience.
-          </h2>
-          <p className="text-xl py-2">
-            Modern <span className="lowercase">e</span>Commerce marketplace
-            built with composable components, WEB3 identity management &
-            messaging protocols, AI product & search management and optimized
-            provisioning.
-          </p>
-        </div>
-        <div className="flex flex-wrap gap-4 content-center justify-center">
-          <div className="grow card card-compact w-full md:w-4/12 bg-base-300">
-            <figure>
-              <img
-                src="/b2xecommerce.jpg"
-                className="w-full"
-                alt="B2X Marketplace"
-              />
-            </figure>
-            <div className="card-body p-4">
-              <h2 className="card-title font-bold text-primary">
-                B2X Marketplace
-              </h2>
-              <ul className="list rounded-box shadow-md">
-                <li className="list-row">
-                  <div className="font-thin opacity-70 tabular-nums">01</div>
-                  <div>WEB3 Onboarding</div>
-                </li>
-                <li className="list-row">
-                  <div className="font-thin opacity-70 tabular-nums">02</div>
-                  <div>Wholesale + Retail + Government.</div>
-                </li>
-                <li className="list-row">
-                  <div className="font-thin opacity-70 tabular-nums">03</div>
-                  <div>Multi-vendor + multi-channel distribution.</div>
-                </li>
-                <li className="list-row">
-                  <div className="font-thin opacity-70 tabular-nums">04</div>
-                  <div>Personalized buying experience.</div>
-                </li>
-                <li className="list-row">
-                  <div className="font-thin opacity-70 tabular-nums">05</div>
-                  <div>Powered by augmented reality.</div>
-                </li>
-              </ul>
-              <div className="card-actions justify-end">
-                <button className="hover:bg-accent btn btn-secondary uppercase font-bold">
-                  <Link href="/ecommerce">More</Link>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div className="grow card card-compact w-full md:w-4/12 bg-base-300">
-            <figure>
-              <img src="/web3.jpg" className="w-full" alt="WEB3" />
-            </figure>
-            <div className="card-body p-4">
-              <h2 className="card-title font-bold text-primary">WEB3</h2>
-              <ul className="list rounded-box shadow-md">
-                <li className="list-row">
-                  <div className="font-thin opacity-70 tabular-nums">01</div>
-                  <div>Security & data privacy</div>
-                </li>
-                <li className="list-row">
-                  <div className="font-thin opacity-70 tabular-nums">02</div>
-                  <div>Encrypted messaging</div>
-                </li>
-                <li className="list-row">
-                  <div className="font-thin opacity-70 tabular-nums">03</div>
-                  <div>
-                    IPFS (Interplantary File System) powering the distributed
-                    web.
-                  </div>
-                </li>
-                <li className="list-row">
-                  <div className="font-thin opacity-70 tabular-nums">04</div>
-                  <div>Digital ID for privacy & data protection.</div>
-                </li>
-                <li className="list-row">
-                  <div className="font-thin opacity-70 tabular-nums">05</div>
-                  <div>Defi payments.</div>
-                </li>
-              </ul>
-              <div className="card-actions justify-end">
-                <button className="hover:bg-accent btn btn-secondary uppercase font-bold">
-                  <Link href="/web3">More</Link>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+    </div>
   );
-};
+}
+export default function Home() {
+  return (
+    <div className="flex flex-col md:flex-row min-h-screen">
+      <ViewTransition name="home-left">
+        <HomeLeft />
+      </ViewTransition>
 
-export default Home;
+      <ViewTransition name="home-right">
+        <div className="w-full md:w-1/2 p-2 md:p-8 bg-secondary">
+          <h2 className="text-2xl font-bold uppercase text-base-100 p-2 text-pretty">
+            Business & Technology Management Consulting
+          </h2>
+          <div className="space-y-4 flex gap-8 p-2 flex-wrap">
+            {OVERVIEW.map((overview) => (
+              <Link
+                key={overview.id}
+                href={`/overview/${overview.slug}`}
+                className="transition-colors w-full md:w-[300px] h-[300px] items-stretch"
+              >
+                <div className="relative w-full h-full flex-shrink-0 overflow-clip rounded-lg group">
+                  <ViewTransition name={`overview-image-${overview.slug}`}>
+                    <Image
+                      loading="eager"
+                      decoding="sync"
+                      src={overview.image || ""}
+                      alt={overview.name}
+                      fill
+                      className="object-cover flex-1 transition-transform overflow-clip rounded-lg group-hover:scale-110"
+                    />
+                  </ViewTransition>
+                  {/* name label */}
+                  <ViewTransition name={`overview-name-${overview.slug}`}>
+                    <div className="uppercase absolute bottom-4 right-4 text-secondary bg-opacity-50 rounded-xl text-2xl font-bold filter [text-shadow:0px_0px_8px_#111]">
+                      {overview.name}
+                    </div>
+                  </ViewTransition>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </ViewTransition>
+    </div>
+  );
+}
+
+function MODALABOUT() {
+  return (
+    <>
+      <button
+        className="btn btn-ghost hover:none"
+        onClick={() => document.getElementById("modal_about").showModal()}
+      >
+        ABOUT
+      </button>
+      <dialog id="modal_about" className="modal">
+        <div className="modal-box w-11/12 max-w-4xl">
+          <About />
+          <div className="modal-action">
+            <form method="dialog">
+              <button className="btn btn-sm btn-circle btn-secondary absolute right-2 top-2">
+                ✕
+              </button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+    </>
+  );
+}
+function MODALCONTACT() {
+  return (
+    <>
+      <button
+        className="btn btn-ghost"
+        onClick={() => document.getElementById("modal_contact").showModal()}
+      >
+        CONTACT
+      </button>
+      <dialog id="modal_contact" className="modal">
+        <div className="modal-box w-11/12 max-w-4xl">
+          <Contact />
+          <div className="modal-action">
+            <form method="dialog">
+              <button className="btn btn-sm btn-circle btn-secondary absolute right-2 top-2">
+                ✕
+              </button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+    </>
+  );
+}
+function MODALNONPROFIT() {
+  return (
+    <>
+      <button
+        className="btn btn-ghost"
+        onClick={() => document.getElementById("modal_nonprofit").showModal()}
+      >
+        NONPROFIT
+      </button>
+      <dialog id="modal_nonprofit" className="modal">
+        <div className="modal-box w-11/12 max-w-4xl">
+          <NonProfit />
+          <div className="modal-action">
+            <form method="dialog">
+              <button className="btn btn-sm btn-circle btn-secondary absolute right-2 top-2">
+                ✕
+              </button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+    </>
+  );
+}
+function MODALTERMS() {
+  return (
+    <>
+      <button
+        className="btn btn-ghost"
+        onClick={() => document.getElementById("modal_terms").showModal()}
+      >
+        TERMS
+      </button>
+      <dialog id="modal_terms" className="modal">
+        <div className="modal-box w-11/12 max-w-4xl">
+          <Terms />
+          <div className="modal-action">
+            <form method="dialog">
+              <button className="btn btn-sm btn-circle btn-secondary absolute right-2 top-2">
+                ✕
+              </button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+    </>
+  );
+}
+function MODALPRIVACY() {
+  return (
+    <>
+      <button
+        className="btn btn-ghost"
+        onClick={() => document.getElementById("modal_privacy").showModal()}
+      >
+        PRIVACY
+      </button>
+      <dialog id="modal_privacy" className="modal">
+        <div className="modal-box w-11/12 max-w-4xl">
+          <Privacy />
+          <div className="modal-action">
+            <form method="dialog">
+              <button className="btn btn-sm btn-circle btn-secondary absolute right-2 top-2">
+                ✕
+              </button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+    </>
+  );
+}

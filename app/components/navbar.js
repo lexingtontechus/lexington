@@ -66,7 +66,7 @@ export default function Navbar() {
         <div className="dropdown dropdown-end">
           <label
             tabIndex={0}
-            className="btn btn-square hover:fill-accent shadow-md inset-shadow-sm inset-shadow-white/20 ring ring-blue-600 inset-ring inset-ring-white/15"
+            className="btn btn-square hover:fill-accent shadow-md inset-shadow-sm inset-shadow-white/20 ring ring-accent inset-ring inset-ring-white/15"
           >
             <Menu />
           </label>

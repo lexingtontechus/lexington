@@ -1,7 +1,7 @@
 {
   "name": "lexington",
   "homepage": "https://lexingtontech.us",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "",
   "repository": "https://github.com/lexingtontechus/",
   "license": "MIT",
@@ -14,22 +14,22 @@
     "build:tailwind": "npx @tailwindcss/cli -i input.css -o output.css"
   },
   "dependencies": {
-    "@formspree/react": "^2.4.4",
+    "@formspree/react": "^3.0.0",
     "@lottiefiles/react-lottie-player": "^3.6.0",
-    "@tailwindcss/postcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.1.5",
     "@vercel/analytics": "^1.4.1",
     "@vercel/speed-insights": "^1.1.0",
-    "daisyui": "^5.0.0-beta.2",
-    "eslint-config-next": "^15.1.6",
-    "next": "^15.1.6",
-    "next-themes": "^0.4.4",
-    "posthog-js": "^1.225.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "tailwindcss": "^4.0.0"
+    "eslint-config-next": "^15.3.1",
+    "next": "^15.3.1",
+    "next-themes": "^0.4.6",
+    "posthog-js": "^1.239.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.5"
   },
   "devDependencies": {
-    "eslint-config-prettier": "^10.0.1"
+    "daisyui": "^5.0.35",
+    "eslint-config-prettier": "^10.1.2"
   },
   "keywords": [
     "nextjs",
