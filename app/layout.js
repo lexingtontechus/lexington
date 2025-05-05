@@ -1,8 +1,8 @@
 import { Analytics } from "@vercel/analytics/react";
 import { PostHogProvider } from "./providers";
 import "./app.css";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
+//import Navbar from "./components/navbar";
+//import Footer from "./components/footer";
 //import PopUpCal from "./components/popupCal";
 //import Cal from "./components/cal";
 import Script from "next/script";
@@ -50,9 +50,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className="bg-base-200">
         <PostHogProvider>
-          <Navbar />
-          <div className="capitalize mb-4">{children}</div>
-          <Footer />
+        {/*  <Navbar />*/}
+          <div className="capitalize">{children}</div>
+          {/* <Footer />*/}
           <Analytics />
           <SpeedInsights />
         </PostHogProvider>

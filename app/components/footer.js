@@ -33,8 +33,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer footer-center p-2 flex-nowrap grow">
-        <div className="font-semibold px-4">
-          Copyright © Lexington Tech LLC {new Date().getFullYear()}
+        <div className="font-semibold px-4 tx-sm">
+          © Lexington Tech LLC {new Date().getFullYear()}
         </div>
       </div>
     </div>
