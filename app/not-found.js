@@ -9,7 +9,7 @@ export default function NotFound() {
         <div className="max-w-md">
           <LogoLXT size="64" padding="2" className="mx-auto" />
           <h1 className="m-4 text-5xl font-bold uppercase">
-            WEB3 NODE STATION
+            WEB3 NODE NOT FOUND
           </h1>
 
           <button className="btn btn-error uppercase font-bold">
