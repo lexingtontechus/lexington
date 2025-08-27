@@ -1,5 +1,5 @@
 import Link from "next/link";
-import LogoLXT from "./components/logo";
+import LogoLXT from "./logo";
 
 export default function About() {
   return (

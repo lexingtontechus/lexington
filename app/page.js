@@ -4,13 +4,14 @@ import { unstable_ViewTransition as ViewTransition } from "react";
 import LogoLXT from "./components/logo";
 import { OVERVIEW } from "./overview/data";
 import Image from "next/image";
-import About from "./about";
-import Contact from "./contact";
-import NonProfit from "./nonprofit";
-import Terms from "./terms";
-import Privacy from "./privacy";
+import About from "./components/about";
+import Contact from "./components/contact";
+import NonProfit from "./components/nonprofit";
+import Terms from "./components/terms";
+import Privacy from "./components/privacy";
 //import { DynamicBackground } from "../components/background";
 import Theme from "./components/theme";
+
 function HomeLeft() {
   return (
     <div className="w-full m-h-screen md:w-1/2 bg-base-200 overflow-hidden relative justify-between mx-auto svg-about">
@@ -22,7 +23,7 @@ function HomeLeft() {
         <div className="mx-auto">
           <LogoLXT size={48} padding={0} />
         </div>
-        <h1 className="text-3xl font-bold text-primary uppercase mt-8 text-center">
+        <h1 className="text-3xl font-bold uppercase mt-8 text-center">
           <ViewTransition name="hero-intro">Lexington Tech</ViewTransition>
         </h1>
 
@@ -36,7 +37,7 @@ function HomeLeft() {
           </ViewTransition>
         </div>
         <div className="flex flex-col px-4">
-          <div className="grid grid-flow-col gap-4 text-xs">
+          <div className="grid grid-flow-col gap-4">
             {/*ABOUT*/}
             <MODALABOUT />
             {/*CONTACT*/}
@@ -45,7 +46,7 @@ function HomeLeft() {
         </div>
         <div className="flex flex-col px-4">
           <div className="divider divider-secondary">
-            <div className="grid grid-flow-col gap-4 text-xs">
+            <div className="grid grid-flow-col gap-4">
               {/*NONPROFIT*/}
               <MODALNONPROFIT />
               {/*TERMS*/}
@@ -65,6 +66,7 @@ function HomeLeft() {
     </div>
   );
 }
+
 export default function Home() {
   return (
     <div className="flex flex-col md:flex-row min-h-screen">
@@ -97,7 +99,7 @@ export default function Home() {
                   </ViewTransition>
                   {/* name label */}
                   <ViewTransition name={`overview-name-${overview.slug}`}>
-                    <div className="uppercase absolute bottom-4 right-4 text-secondary bg-opacity-50 rounded-xl text-2xl font-bold filter [text-shadow:0px_0px_8px_#111]">
+                    <div className="uppercase absolute bottom-4 right-4 bg-opacity-50 rounded-xl text-3xl font-bold filter [text-shadow:0px_0px_8px_#111]">
                       {overview.name}
                     </div>
                   </ViewTransition>
@@ -115,7 +117,7 @@ function MODALABOUT() {
   return (
     <>
       <button
-        className="btn btn-ghost hover:none"
+        className="btn btn-ghost hover:none font-bold"
         onClick={() => document.getElementById("modal_about").showModal()}
       >
         ABOUT
@@ -139,7 +141,7 @@ function MODALCONTACT() {
   return (
     <>
       <button
-        className="btn btn-ghost"
+        className="btn btn-ghost font-bold"
         onClick={() => document.getElementById("modal_contact").showModal()}
       >
         CONTACT
@@ -163,7 +165,7 @@ function MODALNONPROFIT() {
   return (
     <>
       <button
-        className="btn btn-ghost"
+        className="btn btn-ghost font-bold"
         onClick={() => document.getElementById("modal_nonprofit").showModal()}
       >
         NONPROFIT
@@ -187,7 +189,7 @@ function MODALTERMS() {
   return (
     <>
       <button
-        className="btn btn-ghost"
+        className="btn btn-ghost font-bold"
         onClick={() => document.getElementById("modal_terms").showModal()}
       >
         TERMS
@@ -211,7 +213,7 @@ function MODALPRIVACY() {
   return (
     <>
       <button
-        className="btn btn-ghost"
+        className="btn btn-ghost font-bold"
         onClick={() => document.getElementById("modal_privacy").showModal()}
       >
         PRIVACY

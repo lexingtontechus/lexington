@@ -1,6 +1,6 @@
 "use client";
 
-export default function PrivacCCPA() {
+export default function PrivacyCCPA() {
   return (
     <>
       <table className="items-center w-full bg-transparent border-collapse">
