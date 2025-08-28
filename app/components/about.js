@@ -9,11 +9,11 @@ export default function About() {
           <LogoLXT size={24} padding={2} />
         </div>
         <div className="text-center py-2">
-          <h3 className="text-3xl font-semibold leading-normal mb-2 uppercase">
+          <h3 className="text-3xl font-thin leading-normal mb-2 uppercase font-stretch-ultra-expanded">
             Lexington Tech LLC
           </h3>
-          <div className="text-sm leading-normal mt-0 mb-2 font-bold">
-            <i className="fas fa-map-marker-alt mr-2 text-lg"></i>
+          <div className="text-sm leading-normal mt-0 mb-2 font-thin">
+            <i className="mr-2 text-lg"></i>
             Los Angeles, California
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function About() {
         </ul>
       </section>
       <section className="container mx-auto text-center p-4">
-        <div className="text-xl leading-normal font-bold my-4">
+        <div className="text-xl leading-normal my-4">
           Subsidiary of{" "}
           <span>
             <Link
@@ -94,7 +94,7 @@ export default function About() {
             Btab Ecommerce Group, Inc. (OTC:BBTT)
           </Link>
         </div>
-        <div className="mt-2 mb-2 text-md font-semibold">
+        <div className="mt-2 mb-2 text-md">
           Powering a new social <span className="lowercase">e</span>Commerce
           business.
           <p className="mt-2 ">
