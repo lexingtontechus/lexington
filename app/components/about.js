@@ -3,12 +3,12 @@ import LogoLXT from "./logo";
 
 export default function About() {
   return (
-    <main className="text-wrap text-primary">
-      <section className="container mx-auto p-8">
+    <main className="text-wrap">
+      <section className="container mx-auto">
         <div className="mx-auto text-center max-w-md">
-          <LogoLXT size={48} padding={2} />
+          <LogoLXT size={24} padding={2} />
         </div>
-        <div className="text-center pt-8">
+        <div className="text-center py-2">
           <h3 className="text-3xl font-semibold leading-normal mb-2 uppercase">
             Lexington Tech LLC
           </h3>
@@ -18,7 +18,7 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="container text-center mx-auto p-4">
+      <section className="container text-center mx-auto py-2">
         <ul className="max-w-lg mx-auto text-center menu menu-horizontal bg-base-300 rounded-box">
           <li>
             <Link
@@ -73,10 +73,6 @@ export default function About() {
         </ul>
       </section>
       <section className="container mx-auto text-center p-4">
-        <div className="mt-2 mb-2 leading-relaxed ">
-          Part of the publicly accessible IPFS network on the Ethereum
-          blockchain.
-        </div>
         <div className="text-xl leading-normal font-bold my-4">
           Subsidiary of{" "}
           <span>
@@ -98,33 +94,20 @@ export default function About() {
             Btab Ecommerce Group, Inc. (OTC:BBTT)
           </Link>
         </div>
-        <div className="mt-2 mb-2 text-md">
+        <div className="mt-2 mb-2 text-md font-semibold">
           Powering a new social <span className="lowercase">e</span>Commerce
           business.
           <p className="mt-2 ">
             Empowering social influence & eCommerce through Btab's marketplace
             platform.
           </p>
-          <p className="italic mt-2 ">
+          <p className="italic mt-2">
             "The next generation <span className="lowercase">e</span>Commerce
             company for every family in the world".
           </p>
         </div>
 
         <div className="my-8 border-t border-accent text-center"></div>
-        <div className="text-center">
-          <h3 className="text-3xl font-semibold leading-normal mb-2">
-            Building WEB3 Marketplaces.
-          </h3>
-          <ul className="mb-4 text-md leading-relaxed">
-            <li>
-              Composable <span className="lowercase">e</span>Commerce
-            </li>
-            <li>WEB3 Identity & Data Privacy</li>
-            <li>AI Product Catalog Management</li>
-            <li>AI Product Search & Recommendations</li>
-          </ul>
-        </div>
       </section>
     </main>
   );

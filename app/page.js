@@ -19,15 +19,8 @@ function HomeLeft() {
         <div className="flex items-center gap-2 mb-4 z-10">
           <Theme />
         </div>
-
-        <div className="mx-auto">
-          <LogoLXT size={48} padding={0} />
-        </div>
-        <h1 className="text-3xl font-bold uppercase mt-8 text-center">
-          <ViewTransition name="hero-intro">Lexington Tech</ViewTransition>
-        </h1>
-
-        <div className="flex items-center gap-2 my-4 z-10 mx-auto text-center">
+        <About />
+        <div className="flex items-center gap-2 z-10 mx-auto text-center">
           <ViewTransition name="sticker-icon">
             <Link href="/overview">
               <span className="btn btn-ghost text-2xl font-bold uppercase">
@@ -38,17 +31,15 @@ function HomeLeft() {
         </div>
         <div className="flex flex-col px-4">
           <div className="grid grid-flow-col gap-4">
-            {/*ABOUT*/}
-            <MODALABOUT />
             {/*CONTACT*/}
             <MODALCONTACT />
+            {/*NONPROFIT*/}
+            <MODALNONPROFIT />
           </div>
         </div>
         <div className="flex flex-col px-4">
           <div className="divider divider-secondary">
             <div className="grid grid-flow-col gap-4">
-              {/*NONPROFIT*/}
-              <MODALNONPROFIT />
               {/*TERMS*/}
               <MODALTERMS />
               {/*PRIVACY*/}
@@ -117,7 +108,7 @@ function MODALABOUT() {
   return (
     <>
       <button
-        className="btn btn-ghost hover:none font-bold"
+        className="btn btn-ghost hover:none font-bold md:text-xs"
         onClick={() => document.getElementById("modal_about").showModal()}
       >
         ABOUT
