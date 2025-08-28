@@ -67,7 +67,7 @@ export default function Home() {
 
       <ViewTransition name="home-right">
         <div className="w-full md:w-1/2 p-2 md:p-8 bg-secondary">
-          <h2 className="text-2xl font-bold uppercase text-base-100 p-2 text-pretty">
+          <h2 className="text-2xl font-light uppercase py-4 text-primary-content text-pretty">
             Business & Technology Management Consulting
           </h2>
           <div className="space-y-4 flex gap-8 p-2 flex-wrap">

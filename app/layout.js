@@ -5,7 +5,6 @@ import "./app.css";
 //import Footer from "./components/footer";
 //import PopUpCal from "./components/popupCal";
 //import Cal from "./components/cal";
-import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
@@ -21,8 +20,6 @@ export const metadata = {
     "Blockchain",
     "IPFS",
     "Interplantary File System",
-    "Fleek",
-    "Storj",
     "Quantum Management",
     "Management Consulting",
     "FoodTech",
@@ -36,9 +33,7 @@ export const metadata = {
   ],
 };
 export const openGraphImage = {
-  images: [
-    "https://storage.fleek-internal.com/a2d41cff-44ad-49e9-a80a-2d1aafc21231-bucket/lxt-images/ai_background.webp",
-  ],
+  images: ["/our-technologies.jpg"],
 };
 
 export default function RootLayout({
@@ -50,7 +45,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className="bg-base-200">
         <PostHogProvider>
-        {/*  <Navbar />*/}
+          {/*  <Navbar />*/}
           <div className="capitalize">{children}</div>
           {/* <Footer />*/}
           <Analytics />
