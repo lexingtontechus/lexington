@@ -33,28 +33,28 @@ export default function overview({ overview, overviews }) {
           </ViewTransition>
 
           <ViewTransition name={`overview-image-main`}>
-            <div className="relative md:rounded-lg overflow-clip transition-all duration-300 ease-in-out cursor-pointer w-full y-full md:w-[70vw] h-[70vh]">
+            <div className="relative md:rounded-lg overflow-clip transition-all duration-300 ease-in-out cursor-pointer w-full y-full md:w-[60vw] h-[70vh]">
               <Image
                 loading="eager"
                 decoding="sync"
                 src={overview.image}
                 alt={overview.name}
                 fill
-                className="object-cover overflow-clip md:rounded-lg transition-all duration-300 ease-in-out group-hover:scale-105 opacity-50"
+                className="object-cover overflow-clip md:rounded-lg transition-all duration-300 ease-in-out group-hover:scale-105 opacity-20"
               />
             </div>
           </ViewTransition>
 
           <ViewTransition name="overview-name">
             <div className="absolute w-full h-full inset-0 md:rounded-lg overflow-clip transition-all duration-300 ease-out filter drop-shadow-[2px_2px_12px_#333]">
-              <div className="absolute bottom-4 left-4 text-accent-content bg-opacity-20 rounded-xl text-3xl drop-shadow-xs p-4">
-                <h1 className="mb-5 text-3xl font-bold uppercase text-accent">
+              <div className="absolute bottom-4 left-4 bg-opacity-20 rounded-xl text-3xl drop-shadow-xs p-4">
+                <h1 className="mb-5 text-3xl font-bold uppercase text-secondary">
                   {overview.name} - {overview.header}
                 </h1>
-                <p className="mb-5 text-xl font-semibold text-primary">
+                <p className="mb-5 text-xl font-semibold text-info">
                   {overview.subheader}
                 </p>
-                <p className="mb-5 text-sm font-semibold text-primary">
+                <p className="mb-5 text-sm font-semibold text-info">
                   {overview.description}
                 </p>
                 {/* {overview.content.map((content) => (

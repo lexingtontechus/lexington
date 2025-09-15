@@ -6,6 +6,7 @@ import "./app.css";
 //import PopUpCal from "./components/popupCal";
 //import Cal from "./components/cal";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Speeddial from "./components/speeddial";
 
 export const metadata = {
   title: "LEXINGTON TECH LLC",
@@ -48,6 +49,7 @@ export default function RootLayout({
           {/*  <Navbar />*/}
           <div className="capitalize">{children}</div>
           {/* <Footer />*/}
+          <Speeddial />
           <Analytics />
           <SpeedInsights />
         </PostHogProvider>

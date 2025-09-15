@@ -18,7 +18,7 @@ export default function Navbar() {
           <label className="toggle text-base-content">
             <input
               type="checkbox"
-              value="crazyaurora"
+              value="tokyonight"
               className="theme-controller"
             />
 

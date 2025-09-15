@@ -10,7 +10,7 @@ export const OVERVIEW = [
     slug: `ai`,
     header: `Digital Innovations`,
     subheader: `Drivers of innovation & industry growth.`,
-    description: `Predictive models, social influence, and consumer behaviors to gain actionable insights into purchasing trends, product placement/assortment, and ecommerce recommendations.`,
+    description: `Predictive models, social influence, and consumer behaviors to gain actionable insights into purchasing trends, product placement/assortment, and product recommendations.`,
 
     mission: [
       {
