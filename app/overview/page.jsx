@@ -43,7 +43,7 @@ function HomeLeft() {
 
 export default function Page() {
   return (
-    <div className="flex flex-col md:flex-row md:min-h-screen">
+    <div className="flex flex-col md:flex-row md:min-h-screen svg-about">
       {/* Left Section */}
       <ViewTransition name="home-left">
         <HomeLeft />
@@ -78,7 +78,9 @@ export default function Page() {
                   </div>
                 </ViewTransition>
                 <div className="max-w-4xl">
-                  <h3 className="font-bold text-xl">{overview.name}</h3>
+                  <h3 className="font-bold text-xl text-secondary">
+                    {overview.name}
+                  </h3>
                   {overview.mission.map((mission) => (
                     <div key={overview.id} className="my-2">
                       <p className="text-md font-semibold text-primary">

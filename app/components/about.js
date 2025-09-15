@@ -3,7 +3,7 @@ import LogoLXT from "./logo";
 
 export default function About() {
   return (
-    <main className="text-wrap">
+    <main>
       <section className="container mx-auto">
         <div className="mx-auto text-center max-w-md">
           <LogoLXT size={24} padding={2} />
@@ -12,13 +12,13 @@ export default function About() {
           <h3 className="text-3xl font-thin leading-normal mb-2 uppercase font-stretch-ultra-expanded">
             Lexington Tech LLC
           </h3>
-          <div className="text-sm leading-normal mt-0 mb-2 font-thin">
+          <div className="text-sm leading-normal font-thin">
             <i className="mr-2 text-lg"></i>
             Los Angeles, California
           </div>
         </div>
       </section>
-      <section className="container text-center mx-auto py-2">
+      {/*  <section className="container text-center mx-auto py-2">
         <ul className="max-w-lg mx-auto text-center menu menu-horizontal bg-base-300 rounded-box">
           <li>
             <Link
@@ -71,8 +71,8 @@ export default function About() {
             </Link>
           </li>
         </ul>
-      </section>
-      <section className="container mx-auto text-center p-4">
+  </section>*/}
+      <section className="container mx-auto text-center">
         <div className="text-xl leading-normal my-4">
           Subsidiary of{" "}
           <span>

@@ -14,16 +14,14 @@ import Theme from "./components/theme";
 
 function HomeLeft() {
   return (
-    <div className="w-full m-h-screen md:w-1/2 bg-base-200 overflow-hidden relative justify-between mx-auto svg-about">
-      <div className="top-0 left-0 bottom-0 p-8 flex flex-col">
-        <div className="flex items-center gap-2 mb-4 z-10">
-          <Theme />
-        </div>
+    <div className="w-full m-h-screen bg-base-200 overflow-hidden relative justify-between mx-auto svg-about">
+      <div className="pt-24 p-8 flex flex-col">
         <About />
-        <div className="flex items-center gap-2 z-10 mx-auto text-center">
+
+        <div className="flex items-center gap-2 z-10 mx-auto text-center pb-4">
           <ViewTransition name="sticker-icon">
             <Link href="/overview">
-              <span className="btn btn-ghost text-2xl font-bold uppercase">
+              <span className="btn btn-ghost btn-neutral text-2xl font-bold uppercase">
                 Overview
               </span>
             </Link>
@@ -64,42 +62,6 @@ export default function Home() {
       <ViewTransition name="home-left">
         <HomeLeft />
       </ViewTransition>
-
-      <ViewTransition name="home-right">
-        <div className="w-full md:w-1/2 p-2 md:p-8 bg-secondary">
-          <h2 className="text-2xl font-light uppercase py-4 text-primary-content text-pretty">
-            Business & Technology Management Consulting
-          </h2>
-          <div className="space-y-4 flex gap-8 p-2 flex-wrap">
-            {OVERVIEW.map((overview) => (
-              <Link
-                key={overview.id}
-                href={`/overview/${overview.slug}`}
-                className="transition-colors w-full md:w-[300px] h-[300px] items-stretch"
-              >
-                <div className="relative w-full h-full flex-shrink-0 overflow-clip rounded-lg group">
-                  <ViewTransition name={`overview-image-${overview.slug}`}>
-                    <Image
-                      loading="eager"
-                      decoding="sync"
-                      src={overview.image || ""}
-                      alt={overview.name}
-                      fill
-                      className="object-cover flex-1 transition-transform overflow-clip rounded-lg group-hover:scale-110"
-                    />
-                  </ViewTransition>
-                  {/* name label */}
-                  <ViewTransition name={`overview-name-${overview.slug}`}>
-                    <div className="uppercase absolute bottom-4 right-4 bg-opacity-50 rounded-xl text-3xl font-bold filter [text-shadow:0px_0px_8px_#111]">
-                      {overview.name}
-                    </div>
-                  </ViewTransition>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </ViewTransition>
     </div>
   );
 }
@@ -131,12 +93,12 @@ function MODALABOUT() {
 function MODALCONTACT() {
   return (
     <>
-      <button
-        className="btn btn-ghost font-bold"
+      <div
+        className="btn btn-ghost btn-neutral hover:none font-bold"
         onClick={() => document.getElementById("modal_contact").showModal()}
       >
         CONTACT
-      </button>
+      </div>
       <dialog id="modal_contact" className="modal">
         <div className="modal-box w-11/12 max-w-4xl">
           <Contact />
@@ -156,7 +118,7 @@ function MODALNONPROFIT() {
   return (
     <>
       <button
-        className="btn btn-ghost font-bold"
+        className="btn btn-ghost btn-neutral font-bold"
         onClick={() => document.getElementById("modal_nonprofit").showModal()}
       >
         NONPROFIT
@@ -180,7 +142,7 @@ function MODALTERMS() {
   return (
     <>
       <button
-        className="btn btn-ghost font-bold"
+        className="btn btn-ghost btn-neutral font-bold"
         onClick={() => document.getElementById("modal_terms").showModal()}
       >
         TERMS
@@ -204,7 +166,7 @@ function MODALPRIVACY() {
   return (
     <>
       <button
-        className="btn btn-ghost font-bold"
+        className="btn btn-ghost btn-neutral font-bold"
         onClick={() => document.getElementById("modal_privacy").showModal()}
       >
         PRIVACY
