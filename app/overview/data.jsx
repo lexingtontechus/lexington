@@ -29,6 +29,30 @@ Use predictive analytics, ML and computer vision technologies to gain actionable
   },
   {
     id: 2,
+    name: `FINTECH`,
+    image: `/lxt_fintech.png`,
+    slug: `payments`,
+    header: `Crypto, Fiat & Headless Payments Solutions`,
+    subheader: `MoonPay Commerce Merchant - A New Era of Digital Payments`,
+    description: `Fast, low-fee payments for commerce. Headless Payments with custom flows with server-side control. Accept & swap crypto `,
+
+    mission: [
+      {
+        title: `MoonPay Commerce Merchant.`,
+        description: `integrating secure crypto, fiat & headless payments solutions.`,
+      },
+    ],
+
+    content: [
+      {
+        title: `MoonPay Commerce Merchant`,
+        description: `integrating secure crypto & fiat & headless payments.`,
+      },
+    ],
+  },
+
+  {
+    id: 3,
     name: `WEB3`,
     image: `/lxt_web3.png`,
     slug: `web3`,
@@ -51,7 +75,7 @@ Use predictive analytics, ML and computer vision technologies to gain actionable
     ],
   },
   {
-    id: 3,
+    id: 4,
     name: `0xecommerce`,
     image: `/lxt_marketplace.png`,
     slug: `0xecommerce`,
@@ -74,7 +98,7 @@ Use predictive analytics, ML and computer vision technologies to gain actionable
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: `Services`,
     image: `/lxt_services.png`,
     slug: `services`,

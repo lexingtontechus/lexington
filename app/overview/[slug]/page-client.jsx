@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { unstable_ViewTransition as ViewTransition } from "react";
+import { ViewTransition } from "react";
 //import { type overview } from '@/app/utils/constants'
 
 export default function overview({ overview, overviews }) {

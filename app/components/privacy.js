@@ -5,7 +5,7 @@ export default function Privacy() {
   return (
     <div className="w-full">
       <div className="hero min-h-[300px]">
-        <div className="hero-overlay svg-privacy"></div>
+        <div className="hero-overlay"></div>
         <div className="hero-content text-center">
           <div className="max-w-2xl text-pretty">
             <h1 className="mb-5 text-5xl font-bold text-accent uppercase">
