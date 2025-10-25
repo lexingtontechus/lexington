@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { unstable_ViewTransition as ViewTransition } from "react";
+import { ViewTransition } from "react";
 import LogoLXT from "./components/logo";
 import { OVERVIEW } from "./overview/data";
 import Image from "next/image";
@@ -11,6 +11,16 @@ import Terms from "./components/terms";
 import Privacy from "./components/privacy";
 //import { DynamicBackground } from "../components/background";
 import Theme from "./components/theme";
+
+export default function Home() {
+  return (
+    <div className="flex flex-col md:flex-row min-h-screen">
+      <ViewTransition name="home-left">
+        <HomeLeft />
+      </ViewTransition>
+    </div>
+  );
+}
 
 function HomeLeft() {
   return (
@@ -56,16 +66,6 @@ function HomeLeft() {
   );
 }
 
-export default function Home() {
-  return (
-    <div className="flex flex-col md:flex-row min-h-screen">
-      <ViewTransition name="home-left">
-        <HomeLeft />
-      </ViewTransition>
-    </div>
-  );
-}
-
 function MODALABOUT() {
   return (
     <>
@@ -100,7 +100,7 @@ function MODALCONTACT() {
         CONTACT
       </div>
       <dialog id="modal_contact" className="modal">
-        <div className="modal-box w-11/12 max-w-4xl">
+        <div className="modal-box w-11/12 max-w-4xl svg-contact">
           <Contact />
           <div className="modal-action">
             <form method="dialog">
@@ -124,7 +124,7 @@ function MODALNONPROFIT() {
         NONPROFIT
       </button>
       <dialog id="modal_nonprofit" className="modal">
-        <div className="modal-box w-11/12 max-w-4xl">
+        <div className="modal-box w-11/12 max-w-4xl bg-white">
           <NonProfit />
           <div className="modal-action">
             <form method="dialog">
@@ -148,7 +148,7 @@ function MODALTERMS() {
         TERMS
       </button>
       <dialog id="modal_terms" className="modal">
-        <div className="modal-box w-11/12 max-w-4xl">
+        <div className="modal-box w-11/12 max-w-4xl svg-terms">
           <Terms />
           <div className="modal-action">
             <form method="dialog">
@@ -172,7 +172,7 @@ function MODALPRIVACY() {
         PRIVACY
       </button>
       <dialog id="modal_privacy" className="modal">
-        <div className="modal-box w-11/12 max-w-4xl">
+        <div className="modal-box w-11/12 max-w-4xl svg-privacy">
           <Privacy />
           <div className="modal-action">
             <form method="dialog">

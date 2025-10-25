@@ -2,11 +2,12 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { unstable_ViewTransition as ViewTransition } from "react";
+import { ViewTransition } from "react";
 import { OVERVIEW } from "./data";
 //import { DynamicBackground } from "@/components/ui/dynamic-background"
 import LogoLXT from "../components/logo";
 import { BKGAI } from "./assets";
+
 function HomeLeft() {
   return (
     <div className="w-full m-h-screen md:w-[120px] relative overflow-hidden">
@@ -52,11 +53,11 @@ export default function Page() {
       {/* Right Section */}
       <ViewTransition name="home-right">
         <div className="w-full p-2 md:w-4/5 md:p-8">
-          <h2 className="text-xl font-bold mx-2 my-4 uppercase">
+          <h2 className="text-3xl font-thin leading-normal mb-2 uppercase font-stretch-ultra-expanded">
             Lexington Overview
           </h2>
           <h3 className="text-xl font-medium mx-2 my-4">
-            Digital Transformation Through WEB3 Technology Adoption.
+            WEB3 Digital Innovation
           </h3>
           <div className="space-y-4">
             {OVERVIEW.map((overview) => (
@@ -66,7 +67,7 @@ export default function Page() {
                 className="flex gap-4 p-2 transition-colors"
               >
                 <ViewTransition name={`overview-image-${overview.slug}`}>
-                  <div className="relative min-h-[96px] min-w-[96px] overflow-hidden rounded-lg flex-shrink-0`)">
+                  <div className="relative min-h-[128px] min-w-[128px] overflow-hidden rounded-lg flex-shrink-0`)">
                     <Image
                       loading="eager"
                       decoding="sync"
@@ -78,15 +79,15 @@ export default function Page() {
                   </div>
                 </ViewTransition>
                 <div className="max-w-4xl">
-                  <h3 className="font-bold text-xl text-secondary">
+                  <h3 className="font-bold text-2xl text-secondary">
                     {overview.name}
                   </h3>
                   {overview.mission.map((mission) => (
                     <div key={overview.id} className="my-2">
-                      <p className="text-md font-semibold text-primary">
+                      <p className="text-lg font-semibold text-primary">
                         {mission.title}
                       </p>
-                      <p className="text-sm text-primary">
+                      <p className="text-md text-primary">
                         {mission.description}
                       </p>
                     </div>

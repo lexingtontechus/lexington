@@ -96,10 +96,9 @@ export default function About() {
         </div>
         <div className="mt-2 mb-2 text-md">
           Powering a new social <span className="lowercase">e</span>Commerce
-          business.
+          business model - 0<span className="lowercase">xe</span>commerce.
           <p className="mt-2 ">
-            Empowering social influence & eCommerce through Btab's marketplace
-            platform.
+            Fintech Merchant Services via MoonPay Commerce.
           </p>
           <p className="italic mt-2">
             "The next generation <span className="lowercase">e</span>Commerce

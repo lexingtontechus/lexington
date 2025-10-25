@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { unstable_ViewTransition as ViewTransition } from "react";
+import { ViewTransition } from "react";
 import { OVERVIEW } from "./data";
 //import { DynamicBackground } from "@/components/ui/dynamic-background"
 import LogoLXT from "../components/logo";

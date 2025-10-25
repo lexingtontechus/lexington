@@ -4,7 +4,7 @@ export default function Terms() {
   return (
     <main>
       <div className="hero max-h-[300px]">
-        <div className="hero-overlay svg-terms"></div>
+        <div className="hero-overlay"></div>
         <div className="hero-content text-center text-accent">
           <div className="max-w-2xl text-pretty">
             <h1 className="mb-5 text-5xl font-bold text-accent uppercase">

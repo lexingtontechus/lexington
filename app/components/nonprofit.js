@@ -17,15 +17,12 @@ export default function nonprofit() {
         <div className="hero-overlay"></div>
         <div className="hero-content text-center">
           <div className="text-pretty">
-            <h1 className="mb-5 text-5xl font-bold uppercase text-accent">
-              SAVI
+            <h1 className="mb-5 text-5xl font-bold uppercase text-blue-900">
+              STRATEGIC ALLIANCE FOR VETERAN INTEGRATION
             </h1>
             <h2 className="mb-5 text-3xl font-bold uppercase text-accent-content opacity-70">
-              STRATEGIC ALLIANCE FOR VETERAN INTEGRATION
-            </h2>
-            <p className="my-8 text-2xl font-semibold text-primary-content">
               “Getting Veterans The Benefits They Deserve”
-            </p>
+            </h2>
             <h3 className="mb-5 text-2xl font-semibold text-primary-content">
               Lexington Tech is a proud partner of SAVI.
             </h3>
@@ -33,13 +30,13 @@ export default function nonprofit() {
         </div>
       </div>
 
-      <section className="container mx-auto my-4">
+      <section className="container mx-auto my-4 bg-base-300">
         <div className="flex flex-wrap gap-2 content-center justify-center">
           <div className="card card-lg md:w-5/12 shadow-md p-4">
             <figure>
               <img src="/logo_savi.png" className="h-24" />
             </figure>
-            <h2 className="text-2xl font-bold uppercase mt-4">
+            <h2 className="text-2xl font-bold uppercase mt-4 text-white">
               SAVI
             </h2>
             <p className="font-light leading-relaxed">
@@ -74,7 +71,7 @@ export default function nonprofit() {
                 alt="SAVI Premier Partner"
               />
             </figure>
-            <h2 className="text-2xl font-bold text-primary uppercase mt-4">
+            <h2 className="text-2xl font-bold text-white uppercase mt-4">
               PARTNERS
             </h2>
             <p className="mb-2 mt-0 font-light leading-relaxed">
@@ -95,7 +92,7 @@ export default function nonprofit() {
             <div className="card-actions justify-end">
               <button className="hover:bg-accent btn btn-secondary uppercase font-bold">
                 <Link
-                  href="https://www.savivets.org/our-partners"
+                  href="https://www.savivets.org/get-involved"
                   target="_blank"
                 >
                   Learn More
@@ -107,7 +104,7 @@ export default function nonprofit() {
       </section>
 
       <section className="container mx-auto my-4">
-        <div className="flex flex-wrap gap-2 content-center justify-center">
+        <div className="flex flex-wrap gap-4 content-center justify-center">
           <div className="shrink card w-full md:w-5/12 bg-base-300">
             <figure>
               <img
@@ -117,7 +114,7 @@ export default function nonprofit() {
               />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title font-bold text-primary">Education</h2>
+              <h2 className="card-title font-bold text-white">Education</h2>
               <p>
                 SAVI Student Transition Incubator℠, Student Track Transition
                 Program℠
@@ -135,7 +132,7 @@ export default function nonprofit() {
               />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title font-bold text-primary">Employment</h2>
+              <h2 className="card-title font-bold text-white">Employment</h2>
               <p>
                 Start-to-finish support to help Veterans navigate a new career.
               </p>
@@ -160,7 +157,7 @@ export default function nonprofit() {
               />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title font-bold text-primary">
+              <h2 className="card-title font-bold text-white">
                 Entrepreneurship
               </h2>
               <p>SAVI Entrepreneur Transition Incubator℠.</p>
@@ -177,7 +174,7 @@ export default function nonprofit() {
               />
             </figure>
             <div className="card-body p-4">
-              <h2 className="card-title font-bold text-primary">Retirement</h2>
+              <h2 className="card-title font-bold text-white">Retirement</h2>
               <p>Comprehensive tools for a successful retirement.</p>
               <p>One-on-one ongoing assistance and assessment services.</p>
               <p>Financial & healthcare support.</p>
