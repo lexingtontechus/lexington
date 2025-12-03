@@ -31,9 +31,9 @@ function HomeLeft() {
         <div className="flex items-center gap-2 z-10 mx-auto text-center pb-4">
           <ViewTransition name="sticker-icon">
             <Link href="/overview">
-              <span className="btn btn-ghost btn-neutral text-2xl font-bold uppercase">
+              <div className="btn btn-ghost btn-neutral text-primary text-2xl font-bold uppercase">
                 Overview
-              </span>
+              </div>
             </Link>
           </ViewTransition>
         </div>
@@ -70,7 +70,7 @@ function MODALABOUT() {
   return (
     <>
       <button
-        className="btn btn-ghost hover:none font-bold md:text-xs"
+        className="btn btn-ghost btn-neutral text-primary hover:none font-bold md:text-xs"
         onClick={() => document.getElementById("modal_about").showModal()}
       >
         ABOUT
@@ -94,7 +94,7 @@ function MODALCONTACT() {
   return (
     <>
       <div
-        className="btn btn-ghost btn-neutral hover:none font-bold"
+        className="btn btn-ghost btn-neutral text-primary hover:none font-bold"
         onClick={() => document.getElementById("modal_contact").showModal()}
       >
         CONTACT
@@ -104,7 +104,7 @@ function MODALCONTACT() {
           <Contact />
           <div className="modal-action">
             <form method="dialog">
-              <button className="btn btn-sm btn-circle btn-secondary absolute right-2 top-2">
+              <button className="btn btn-sm btn-circle text-primary absolute right-2 top-2">
                 ✕
               </button>
             </form>
@@ -118,7 +118,7 @@ function MODALNONPROFIT() {
   return (
     <>
       <button
-        className="btn btn-ghost btn-neutral font-bold"
+        className="btn btn-ghost btn-neutral text-primary text-primary font-bold"
         onClick={() => document.getElementById("modal_nonprofit").showModal()}
       >
         NONPROFIT
@@ -142,7 +142,7 @@ function MODALTERMS() {
   return (
     <>
       <button
-        className="btn btn-ghost btn-neutral font-bold"
+        className="btn btn-ghost btn-neutral text-primary font-bold"
         onClick={() => document.getElementById("modal_terms").showModal()}
       >
         TERMS
@@ -166,7 +166,7 @@ function MODALPRIVACY() {
   return (
     <>
       <button
-        className="btn btn-ghost btn-neutral font-bold"
+        className="btn btn-ghost btn-neutral text-primary font-bold"
         onClick={() => document.getElementById("modal_privacy").showModal()}
       >
         PRIVACY
