@@ -31,14 +31,14 @@ function HomeLeft() {
         <div className="flex items-center gap-2 z-10 mx-auto text-center pb-4">
           <ViewTransition name="sticker-icon">
             <Link href="/overview">
-              <div className="btn btn-ghost btn-neutral text-primary text-2xl font-bold uppercase">
+              <button className="btn btn-ghost hover:text-accent text-primary text-2xl font-bold uppercase">
                 Overview
-              </div>
+              </button>
             </Link>
           </ViewTransition>
         </div>
         <div className="flex flex-col px-4">
-          <div className="grid grid-flow-col gap-4">
+          <div className="p-8 justify-between mx-auto">
             {/*CONTACT*/}
             <MODALCONTACT />
             {/*NONPROFIT*/}
@@ -70,7 +70,7 @@ function MODALABOUT() {
   return (
     <>
       <button
-        className="btn btn-ghost btn-neutral text-primary hover:none font-bold md:text-xs"
+        className="btn btn-ghost hover:text-accent text-primary hover:none font-bold md:text-xs"
         onClick={() => document.getElementById("modal_about").showModal()}
       >
         ABOUT
@@ -93,12 +93,12 @@ function MODALABOUT() {
 function MODALCONTACT() {
   return (
     <>
-      <div
-        className="btn btn-ghost btn-neutral text-primary hover:none font-bold"
+      <button
+        className="btn btn-ghost hover:text-accent text-primary hover:none font-bold"
         onClick={() => document.getElementById("modal_contact").showModal()}
       >
         CONTACT
-      </div>
+      </button>
       <dialog id="modal_contact" className="modal">
         <div className="modal-box w-11/12 max-w-4xl svg-contact">
           <Contact />
@@ -118,7 +118,7 @@ function MODALNONPROFIT() {
   return (
     <>
       <button
-        className="btn btn-ghost btn-neutral text-primary text-primary font-bold"
+        className="btn btn-ghost hover:text-accent text-primary text-primary font-bold"
         onClick={() => document.getElementById("modal_nonprofit").showModal()}
       >
         NONPROFIT
@@ -142,7 +142,7 @@ function MODALTERMS() {
   return (
     <>
       <button
-        className="btn btn-ghost btn-neutral text-primary font-bold"
+        className="btn btn-ghost hover:text-accent text-primary font-bold"
         onClick={() => document.getElementById("modal_terms").showModal()}
       >
         TERMS
@@ -166,7 +166,7 @@ function MODALPRIVACY() {
   return (
     <>
       <button
-        className="btn btn-ghost btn-neutral text-primary font-bold"
+        className="btn btn-ghost hover:text-accent text-primary font-bold"
         onClick={() => document.getElementById("modal_privacy").showModal()}
       >
         PRIVACY

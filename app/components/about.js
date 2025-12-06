@@ -5,7 +5,7 @@ export default function About() {
   return (
     <main>
       <section className="container mx-auto">
-        <div className="mx-auto text-center max-w-md">
+        <div className="mx-auto text-center max-w-2xl">
           <LogoLXT size={24} padding={2} />
         </div>
         <div className="text-center py-2">
