@@ -36,11 +36,6 @@
       "name": "install:clean",
       "command": "yarn installclean",
       "runAtStart": false
-    },
-    "build:tailwind": {
-      "name": "build:tailwind",
-      "command": "yarn buildtailwind",
-      "runAtStart": false
     }
-  }
+    }
 }
